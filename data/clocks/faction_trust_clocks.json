@@ -78,9 +78,9 @@
       },
       "stormcloak_rebellion_trust": {
         "faction": "Stormcloak Rebellion",
-        "current_trust": 6,
+        "current_trust": 0,
         "max_trust": 10,
-        "trust_level": "Champion",
+        "trust_level": "Stranger",
         "advancement_triggers": {
           "join_stormcloaks": "+3 (Joining the Stormcloaks quest)",
           "major_battle_victory": "+2 per victory",
@@ -218,7 +218,7 @@
           "skeleton_key": "Keeping Skeleton Key blocks max trust with Nocturnal/Guild",
           "merchant_connections": "High trust enables special trade deals across Skyrim"
         },
-        "notes": "Continuity correction (2026-02-01): Aldrin-era Thieves Guild progress removed; Khagar Yal has no TG affiliation."
+        "notes": "Reset to Session 0 - no previous PC history."
       },
       "college_of_winterhold_trust": {
         "faction": "College of Winterhold",
