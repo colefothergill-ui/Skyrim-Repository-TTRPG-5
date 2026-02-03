@@ -103,3 +103,35 @@ the Battle of Whiterun will shape Skyrim's future.
 
 **Session End Time**: Campaign start (pre-adventure)
 **Real World Duration**: Session Zero setup
+
+---
+
+## Mid-Session Checkpoint (2026-02-03)
+
+**Act / Scene:** Act 1 — A1-S1 (Whiterun, Battle-Born Manor — Study)  
+**Objective:** Delivered Brynjolf's missive, secured Olfrid's sealed reply, established Battle-Born Arcana (magic shop front + safehouse).
+
+### Fate Snapshot
+- FP: 3
+- Gold: 1,700 (includes 1,600 retainer)
+- Highborn (racial power): spent this session
+- Blessing of the Thief Stone: spent this session
+
+### Trust
+- Thieves Guild trust: 4/10
+- Brynjolf trust: 4/8
+
+### Clock Snapshot
+- Battle of Whiterun Countdown: 8/8 (battle phase active)
+- Thalmor Intelligence Network: 7/8
+- Dream Catcher Identity/Location Uncovered: 1/8
+- Guild Foothold in Whiterun: 1/5 (active; capped at 3 until Ralof/Stormcloak condition)
+- Battle-Born Quiet Inquiry: 2/4
+
+### Major Choices / Consequences
+- Established a sanctioned Whiterun front: Battle-Born Arcana (Thieves Guild safehouse).
+- Accepted Battle-Born evacuation contract to Temple of Kynareth if Whiterun is breached.
+- Forged evidence trail pointing suspicion toward Gray-Mane interests for the manor intrusion.
+
+### Dragonbreak Pre-check
+Major clock resolution is live (Battle of Whiterun). Option 6 (Dragonbreak) is now prepped and available with explicit cost.

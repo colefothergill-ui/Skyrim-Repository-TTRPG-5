@@ -36,10 +36,10 @@
   },
   "refresh": 3,
   "armor": 0,
-  "notes": "Brynjolf is the second-in-command of the Thieves Guild, a charismatic Nord with a silver tongue and keen eye for talent. He operates openly in Riften's marketplace, recruiting promising thieves while maintaining the guild's operations. Despite the guild's decline, he remains fiercely loyal and works tirelessly to restore its former glory. He has a natural ability to read people and often sees potential in unlikely candidates.",
+  "notes": "Brynjolf is the second-in-command of the Thieves Guild, a charismatic Nord with a silver tongue and keen eye for talent. He operates openly in Riften's marketplace, recruiting promising thieves while maintaining the guild's operations. Despite the guild's decline, he remains fiercely loyal and works tirelessly to restore its former glory. He has a natural ability to read people and often sees potential in unlikely candidates.\n\n[Update] Insaerndel secured Battle-Born Arcana as a sanctioned Whiterun front/safehouse; Brynjolf receives Olfrid's sealed reply tonight.",
   "trust_clock": {
     "enabled": true,
-    "current": 3,
+    "current": 4,
     "max": 8,
     "description": "Brynjolf's personal trust in Insaerndel (separate from overall guild standing).",
     "gain_triggers": [
@@ -85,7 +85,8 @@
     "character_growth": "Eventually discovers Mercer's betrayal, must reconcile faith with reality, learns to trust his own judgment over authority"
   },
   "whiterun_mission": {
-    "context": "During neutral faction starts, Brynjolf sends PC to Whiterun to deliver a message to Olfrid Battle-Born regarding guild business during the civil war tensions",
+    "status": "completed",
+    "context": "During neutral faction starts, Brynjolf sends PC to Whiterun to deliver a message to Olfrid Battle-Born regarding guild business during the civil war tensions (COMPLETED: Whiterun safehouse secured; reply obtained).",
     "objective": "Establish guild presence in Whiterun, gather intelligence on civil war situation",
     "complications": "Battle of Whiterun erupts during mission, forcing PC to choose sides",
     "connection_to_main_plot": "This mission puts the PC in position for Hadvar/Ralof encounter"

@@ -1,0 +1,71 @@
+{
+  "name": "Olfrid Battle-Born",
+  "id": "olfrid_battle_born",
+  "type": "NPC",
+  "category": "Noble",
+  "location": "Whiterun (Wind District)",
+  "faction": "Battle-Born Clan",
+  "aspects": {
+    "high_concept": "Battle-Born Patriarch and Wartime Powerbroker",
+    "trouble": "Family First, Reputation Always",
+    "other": [
+      "Coin Talks Louder Than Loyalty",
+      "Knows Which Doors Stay Locked"
+    ]
+  },
+  "skills": {
+    "Great": [
+      "Rapport"
+    ],
+    "Good": [
+      "Deceive",
+      "Will"
+    ],
+    "Fair": [
+      "Contacts",
+      "Resources",
+      "Notice"
+    ],
+    "Average": [
+      "Provoke",
+      "Empathy"
+    ]
+  },
+  "stunts": [
+    {
+      "name": "Due Diligence",
+      "description": "Once per scene, when Olfrid is offered a deal by a stranger, he may create the situational aspect 'Quiet Inquiry' with 1 free invoke (represents servants, records, and political channels verifying details)."
+    },
+    {
+      "name": "Battle-Born Influence",
+      "description": "Because Olfrid is a Whiterun powerbroker, he gains +2 to Create Advantage with Contacts when leveraging guards, merchants, or household staff in Whiterun."
+    }
+  ],
+  "stress": {
+    "physical": 2,
+    "mental": 3
+  },
+  "consequences": {
+    "mild": "",
+    "moderate": "",
+    "severe": ""
+  },
+  "refresh": 1,
+  "armor": 0,
+  "notes": "Olfrid is pragmatic and transactional. He will pay for results, but he expects deniability. During the Battle of Whiterun, his priority is preserving his family and his political capital.",
+  "combat_tactics": "Avoids direct combat; uses guards, mercenaries, and social pressure. If cornered, he retreats behind allies and calls for help.",
+  "scene_triggers": {
+    "first_meeting": "Reads the PC's appearance and weapon vibe; attempts to establish dominance through pointed questions unless outmaneuvered.",
+    "battle_of_whiterun": "Will push for evacuation contingency and leverage any deal for future political cover."
+  },
+  "relationships": {
+    "Gray-Mane Clan": "Rival family; political hostility.",
+    "Whiterun Guard": "Influence via donations, favors, and pressure.",
+    "Thieves Guild": "Useful tool if kept deniable; dangerous if sloppy."
+  },
+  "dialogue_samples": [
+    "If my name burns, your name becomes a bounty.",
+    "I don't pay for heroics. I pay for results.",
+    "You want my signature? Then you keep it clean."
+  ]
+}
