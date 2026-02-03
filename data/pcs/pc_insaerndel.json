@@ -3,7 +3,7 @@
   "id": "pc_insaerndel",
   "player": "Cole",
   "race": "High Elf (Altmer)",
-  "standing_stone": "The Thief Stone",
+  "standing_stone": "The Steed Stone",
   "level": 1,
   "aspects": {
     "high_concept": "EX Vaermina Cultist - Turned Daedrologist, Illusionist Extraordinaire, and Cunning Thief (Identity).",
@@ -142,8 +142,8 @@
     ]
   },
   "standing_stone_benefit": {
-    "name": "Blessing of the Thief Stone",
-    "effect": "Once per session, gain +2 to Stealth, Deceive, or Notice for a single roll (declare before rolling)."
+    "name": "Blessing of the Steed Stone",
+    "effect": "+1 Athletics, ignore armor stealth penalties."
   },
   "stress": {
     "physical": [
