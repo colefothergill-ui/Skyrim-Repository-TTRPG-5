@@ -13,7 +13,7 @@
         "stunts: replace 'Spell of Muffle' with 'Spell of Shadow Ward'",
         "stunts: add 'Spell of Clairvoyance'",
         "refresh: 2 -> 1",
-        "fate_points: 2 -> 1 (align starting FP to refresh for Session 0)"
+        "fate_points: kept at 3 (unchanged)"
       ]
     },
     {
