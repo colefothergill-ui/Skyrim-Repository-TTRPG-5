@@ -1,91 +1,15 @@
 {
-  "patch_id": "2026-02-03_mid_session_whiterun_arcana",
   "date": "2026-02-03",
-  "type": "mid_session_update",
-  "summary": "Insaerndel infiltrated Battle-Born Manor, delivered Brynjolf's missive, secured a sealed reply and established the Battle-Born Arcana safehouse front. Thalmor search pressure begins to rise; Battle-Born initiates quiet inquiry.",
   "changes": [
-    {
-      "path": "data/pcs/pc_insaerndel.json",
-      "type": "modify",
-      "notes": [
-        "FP->3",
-        "Gold +1600 retainer (1700 total)",
-        "Add items: reply, ledger pages, keys, countermark",
-        "Add relationship: Olfrid",
-        "Add notes about contract & safehouse"
-      ]
-    },
-    {
-      "path": "data/pcs/appearances/insaerndel_appearance.json",
-      "type": "modify",
-      "notes": [
-        "Update eyes to ember; refresh recognition tags and first impression lines"
-      ]
-    },
-    {
-      "path": "data/clocks/pc_extras_clocks.json",
-      "type": "modify",
-      "notes": [
-        "Dream Catcher Thalmor search clock 0/8 -> 1/8"
-      ]
-    },
-    {
-      "path": "data/clocks/whiterun_jobs.json",
-      "type": "modify",
-      "notes": [
-        "Activate/tick Guild Foothold in Whiterun 0/5 -> 1/5 (safehouse secured)",
-        "Add Battle-Born Quiet Inquiry clock 2/4"
-      ]
-    },
-    {
-      "path": "data/clocks/faction_trust_clocks.json",
-      "type": "modify",
-      "notes": [
-        "Thieves Guild trust 3/10 -> 4/10 (Whiterun influence established)"
-      ]
-    },
-    {
-      "path": "data/npc_stat_sheets/brynjolf.json",
-      "type": "modify",
-      "notes": [
-        "Trust clock 3/8 -> 4/8",
-        "Mark Whiterun mission completed note"
-      ]
-    },
-    {
-      "path": "data/npc_stat_sheets/olfrid_battle_born.json",
-      "type": "add",
-      "notes": [
-        "New NPC stat sheet for Whiterun negotiation scenes"
-      ]
-    },
-    {
-      "path": "data/npc_stat_sheets/thalmor_ledger_clerk_handler.json",
-      "type": "add",
-      "notes": [
-        "New antagonist stat sheet for Thalmor paper-trail handler"
-      ]
-    },
-    {
-      "path": "data/holds/whiterun.json",
-      "type": "modify",
-      "notes": [
-        "Add Thieves Guild presence (Battle-Born Arcana) to factions_present and notes"
-      ]
-    },
-    {
-      "path": "state/campaign_state.json",
-      "type": "modify",
-      "notes": [
-        "Set Act 1 scene snapshot; add scene flags; add NPC first impressions; record major choices"
-      ]
-    },
-    {
-      "path": "logs/2026-02-02_session-00_Session-Zero.md",
-      "type": "append",
-      "notes": [
-        "Add Mid-Session Checkpoint block for 2026-02-03"
-      ]
-    }
+    "Updated Insaerndel PC sheet: FP 2→3, gold 100→1700 (1600 retainer), added 5 mission items, added Olfrid relationship, contract/safehouse notes",
+    "Updated appearance: eyes amber-gold→ember across visual_summary, recognition_tags, and first_impression_lines",
+    "Updated PC extras clocks: Thalmor search 0/8→1/8, last_updated to 2026-02-03",
+    "Updated Whiterun jobs: Guild Foothold activated 0/5→1/5, added Battle-Born Quiet Inquiry clock 2/4",
+    "Updated faction trust: Thieves Guild 3/10→4/10",
+    "Updated Brynjolf: trust 3/8→4/8, Whiterun mission marked completed",
+    "Added Thalmor ledger-clerk handler NPC stat sheet",
+    "Updated Whiterun hold: added Thieves Guild (Battle-Born Arcana) to factions_present and notes",
+    "Updated campaign_state: set Act 1 scene A1-S1, location Battle-Born Manor, added 5 scene flags, 3 major choices, 4 NPC first impressions",
+    "Appended mid-session checkpoint to session log with FP/gold/trust/clock snapshot"
   ]
 }
