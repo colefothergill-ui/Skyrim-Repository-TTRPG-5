@@ -18,4 +18,4 @@
 - **Erich Stormblade** (Nord Warrior)
   High Concept: Nord Warrior Seeking Redemption
 - **Insaerndel** (High Elf (Altmer) Unknown)
-  High Concept: EX Vaermina Cultist - Turned Daedrologist, Illunisonist Extraordinaire, and Cunning Thief (Identity).
+  High Concept: EX Vaermina Cultist - Turned Daedrologist, Illusionist Extraordinaire, and Cunning Thief (Identity).
