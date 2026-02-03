@@ -144,3 +144,10 @@ Major clock resolution is live (Battle of Whiterun). Option 6 (Dragonbreak) is n
 - Stunts: Spell of Muffle replaced with Spell of Shadow Ward
 - Added stunt: Spell of Clairvoyance (spent 1 Refresh)
 - Refresh: now 1 (FP remains at 3)
+
+---
+
+## Tiny Patch (2026-02-03)
+
+- Standing Stone Swap: The Thief Stone -> The Steed Stone
+- Standing Stone Benefit updated: Blessing of the Steed Stone (+1 to Athletics, ignore armor penalties to Stealth)
