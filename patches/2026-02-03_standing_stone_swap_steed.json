@@ -11,7 +11,7 @@
       "edits": [
         "standing_stone: The Thief Stone -> The Steed Stone",
         "standing_stone_benefit.name -> Blessing of the Steed Stone",
-        "standing_stone_benefit.effect -> +1 Athletics, ignore armor stealth penalties"
+        "standing_stone_benefit.effect -> +1 to Athletics, ignore armor penalties to Stealth"
       ]
     },
     {

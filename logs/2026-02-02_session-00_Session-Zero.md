@@ -150,4 +150,4 @@ Major clock resolution is live (Battle of Whiterun). Option 6 (Dragonbreak) is n
 ## Tiny Patch (2026-02-03)
 
 - Standing Stone Swap: The Thief Stone -> The Steed Stone
-- Standing Stone Benefit updated: Blessing of the Steed Stone (+1 Athletics, ignore armor stealth penalties)
+- Standing Stone Benefit updated: Blessing of the Steed Stone (+1 to Athletics, ignore armor penalties to Stealth)
