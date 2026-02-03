@@ -37,6 +37,29 @@
   "refresh": 3,
   "armor": 0,
   "notes": "Brynjolf is the second-in-command of the Thieves Guild, a charismatic Nord with a silver tongue and keen eye for talent. He operates openly in Riften's marketplace, recruiting promising thieves while maintaining the guild's operations. Despite the guild's decline, he remains fiercely loyal and works tirelessly to restore its former glory. He has a natural ability to read people and often sees potential in unlikely candidates.",
+  "trust_clock": {
+    "enabled": true,
+    "current": 3,
+    "max": 8,
+    "description": "Brynjolf's personal trust in Insaerndel (separate from overall guild standing).",
+    "gain_triggers": [
+      "+1: clean heist with no collateral fallout",
+      "+1: protecting guild secrecy under pressure",
+      "+2: major score that strengthens Riften operations",
+      "+1: taking heat off the guild (without dragging innocents into it)"
+    ],
+    "loss_triggers": [
+      "-1: sloppy job that brings guard attention",
+      "-2: betraying a guild secret",
+      "-2: letting a witness identify the guild",
+      "-3: cooperating with authorities against guild interests"
+    ],
+    "milestones": {
+      "4": "Brynjolf treats PC as reliable inner-circle muscle/brain",
+      "6": "Brynjolf shares sensitive guild intel without hesitation",
+      "8": "Brynjolf is ride-or-die: major favors, personal risks taken"
+    }
+  },
   "combat_tactics": "Brynjolf avoids direct combat when possible, preferring stealth and misdirection. When forced to fight, he uses hit-and-run tactics, exploiting environmental advantages and his Shadow Step ability to stay mobile. He'll talk his way out of situations before resorting to violence.",
   "scene_triggers": ["Riften marketplace", "Thieves Guild recruitment", "Whiterun mission", "Guild questline"],
   "act_context": ["Act 1", "Act 2", "Act 3"],
