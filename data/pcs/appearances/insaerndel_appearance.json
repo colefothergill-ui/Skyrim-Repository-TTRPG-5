@@ -1,0 +1,41 @@
+{
+  "pc_id": "pc_insaerndel",
+  "character_name": "Insaerndel",
+  "race": "High Elf (Altmer)",
+  "recognition_tags": [
+    "High Elf",
+    "Altmer",
+    "golden skin",
+    "tall",
+    "elegant bearing",
+    "scholar's demeanor",
+    "dark robes",
+    "well-spoken",
+    "refined accent",
+    "calculating eyes"
+  ],
+  "first_impression_lines": {
+    "neutral": [
+      "A High Elf. Tall, refined features, moves with the careful precision of someone who's spent years studying—or perhaps watching their back. There's an intelligence in those eyes, sharp and assessing.",
+      "An Altmer with an aristocratic bearing, though the worn travel gear and concealed weapons suggest this one's no pampered courtier. Speaks with measured words, choosing each one deliberately.",
+      "Golden-skinned, elegant as all their kind, but there's something else—a wariness in the way they scan the room, the subtle tension in their posture. This one's seen trouble, or is expecting it.",
+      "A High Elf, clearly educated if that confident manner's anything to go by. Dark robes, quality but not ostentatious. Could be a mage, could be a merchant. Hard to say, and they seem to prefer it that way.",
+      "Altmer features, unmistakable—the height, the bearing, that particular way they hold themselves. But there's a shadow in their expression, like someone carrying secrets they'd rather not."
+    ],
+    "positive": [
+      "Now here's someone interesting—a High Elf with the look of a scholar but the hands of someone who knows their way around a blade. Smart eyes, respectful manner. Could be useful to know.",
+      "An Altmer, and a sharp one at that. Well-spoken, well-dressed, moves with confidence but not arrogance. The kind who might actually listen before judging. Rare quality, especially from one of their kind.",
+      "A High Elf, but not the usual Thalmor type, thank the Divines. There's genuine curiosity in those eyes, intelligence without the usual condescension. This one might actually be worth talking to.",
+      "Interesting—Altmer features but without that insufferable superiority. Carries themselves with quiet competence, the kind that comes from real experience, not just privilege. Could prove valuable.",
+      "A golden-skinned scholar-type, but there's more going on beneath that surface. Sharp, observant, and from the look of it, no stranger to working in shadows. The Guild could use someone like that."
+    ],
+    "negative": [
+      "Another High Elf. Great. Just what we need—more of them poking around. This one's trying to blend in, but you can't hide that Altmer arrogance, no matter how they dress it up.",
+      "Altmer. Of course. Probably another Thalmor spy pretending to be something they're not. Watch your words around this one—and your coin purse.",
+      "A High Elf with that calculating look. They all have it, thinking they're so much better than everyone else. This one's dressed down, playing at being common folk, but you can see the disdain in their eyes.",
+      "Golden-skinned trouble, that's what that is. Another Altmer far from their precious Summerset, probably on some scheme or mission for their Thalmor masters. Best to keep your distance.",
+      "High Elf, and you can bet they're looking down on everyone here even while they're smiling. That refined accent, those careful words—it's all an act. They're probably cataloging everything for some report back to the Dominion."
+    ]
+  },
+  "notes": "Insaerndel presents as a scholar-consultant and wizard, which is partly true—but conceals a complex history as an ex-Vaermina cultist, former Aldmeri double agent who defected to the Empire during the Great War, and current Thieves Guild nightblade. The fugitive status ('Dream Catcher of Dusk') creates tension: appearing too refined draws Thalmor attention, but crude disguises don't suit the wizard consultant cover identity. Most first impressions will be neutral unless the NPC has strong pro/anti-Thalmor leanings or criminal connections that recognize guild affiliation."
+}
