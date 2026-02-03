@@ -1,7 +1,7 @@
 {
   "pc_extras_clocks": {
     "description": "Clocks tied to PC extras, artifact awakening, and persistent consequences created mid-session.",
-    "last_updated": "Reset to Session 0",
+    "last_updated": "2026-02-03",
     "clocks": {
       "insaerndel_search_for_arisann": {
         "name": "Search for Arisann (Sister)",
@@ -43,7 +43,7 @@
       "insaerndel_thalmor_search_clock": {
         "name": "Dream Catcher's Identity & Location Uncovered",
         "description": "The Thalmor tighten the net around the Dream Catcher of Dusk.",
-        "current_progress": 0,
+        "current_progress": 1,
         "total_segments": 8,
         "completion_effect": "The Thalmor confirm your identity and location—launching an overwhelming response and long-term consequences.",
         "advancement_triggers": [

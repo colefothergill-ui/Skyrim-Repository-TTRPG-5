@@ -2,14 +2,13 @@
   "pc_id": "pc_insaerndel",
   "name": "Insaerndel",
   "race": "High Elf (Altmer)",
-  "visual_summary": "A tall, lean Altmer with sharp features and amber-gold eyes. Long black hair frames his face beneath a deep violet hood. He wears a purple cloak/robe with ornate gold trim, leather bracers, a satchel, and a heavy keyring at his belt—like a scholar who moonlights as a professional thief.",
+  "visual_summary": "A tall, lean Altmer with sharp features and ember-colored eyes. Long black hair frames his face beneath a deep violet hood. He wears a purple cloak/robe with ornate gold trim, leather bracers, a satchel, and a heavy keyring at his belt—like a scholar who moonlights as a professional thief.",
   "recognition_tags": [
     "altmer",
     "tall",
     "lean",
     "sharp features",
-    "amber eyes",
-    "golden eyes",
+    "ember eyes",
     "long black hair",
     "hooded",
     "violet hood",
@@ -28,7 +27,7 @@
   ],
   "first_impression_lines": {
     "neutral": [
-      "That hooded Altmer in violet—gold eyes like coin in torchlight. Doesn't look lost, just… calculating.",
+      "That hooded Altmer in violet—ember eyes like coin in torchlight. Doesn't look lost, just… calculating.",
       "A scholar's posture, a thief's belt. Those keys aren't for show.",
       "He reads like he owns the room, even when he's pretending not to."
     ],

@@ -1,12 +1,12 @@
 {
   "whiterun_jobs": {
     "description": "Track Thieves Guild operations and jobs in Whiterun",
-    "last_updated": "Reset to Session 0",
+    "last_updated": "2026-02-03",
     "clocks": {
       "guild_foothold_whiterun": {
         "name": "Guild Foothold in Whiterun",
         "description": "Establishing a permanent Thieves Guild presence in Whiterun",
-        "current": 0,
+        "current": 1,
         "max": 5,
         "completion_effect": "Permanent Thieves Guild operations established in Whiterun with local fence and safe house access",
         "advancement_triggers": [
@@ -27,8 +27,26 @@
           "condition": "state.branching_decisions.civil_war_entry_contact == 'Ralof' || state.civil_war_state.player_alliance == 'stormcloak'",
           "note": "Olfrid will not fully open the Whiterun door until you prove your alignment during the Battle of Whiterun—specifically by fighting alongside Ralof (or formally allying with the Stormcloaks)."
         },
-        "status": "inactive",
+        "status": "active",
         "continuity_note": "This clock is for Thieves Guild story and can be activated when a PC pursues that path."
+      },
+      "battleborn_quiet_inquiry": {
+        "name": "Battle-Born Quiet Inquiry",
+        "description": "Olfrid quietly verifies the hooded Altmer and traces the new Arcana front; internal investigation before outsiders.",
+        "current": 2,
+        "max": 4,
+        "completion_effect": "Battle-Born channels produce a usable description/route-of-travel trail; risk of sale/leak to guards or Dominion contacts.",
+        "advancement_triggers": [
+          "Any staff member is left frightened/angry and talks (+1)",
+          "You are seen entering/leaving Battle-Born Arcana (+1)",
+          "Olfrid catches a lie or inconsistency (+2)"
+        ],
+        "setback_triggers": [
+          "Provide a clean, verifiable cover identity (-1)",
+          "Plant convincing counter-inquiry paperwork (-1)",
+          "Deliver on a high-value promise to Olfrid (-1)"
+        ],
+        "status": "active"
       },
       "battleborn_strongbox": {
         "name": "Battle-Born Strongbox Job",
