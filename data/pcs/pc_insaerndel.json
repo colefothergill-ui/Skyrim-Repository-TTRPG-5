@@ -6,7 +6,7 @@
   "standing_stone": "The Thief Stone",
   "level": 1,
   "aspects": {
-    "high_concept": "EX Vaermina Cultist - Turned Daedrologist, Illunisonist Extraordinaire, and Cunning Thief (Identity).",
+    "high_concept": "EX Vaermina Cultist - Turned Daedrologist, Illusionist Extraordinaire, and Cunning Thief (Identity).",
     "trouble": "WANTED: DEAD OR ALIVE - The Dream Catcher of Dusk (Traitor of the Aldmeri Dominion).",
     "other_aspects": [
       "Wizard Consultant of Mistveil Keep (Job/Title).",
@@ -48,6 +48,10 @@
       "Notice (+1)"
     ]
   },
+  "standing_stone_benefit": {
+    "name": "Blessing of the Thief Stone",
+    "effect": "Once per session, gain +2 to Stealth, Deceive, or Notice for a single roll (declare before rolling)."
+  },
   "stress": {
     "physical": [
       false,
@@ -64,9 +68,9 @@
     "severe": null
   },
   "stunts": [
-    "Spell of Muffle: Because Insaerndel is a skilled Illusionist, Former Imperial Spy, and Thieves Guild member. Once Per Scene he can channel his Magicka using Lore to Create Advantage with a +2 Bonus to his 4dF Roll. On a Success, he is granted a +2 Bonus to all Stealth 4dF rolls related to remaining unseen and unheard for the duration of the Scene. On SWS he creates the effect Aspect: 'Phantom Step' (1 free Invoke).",
-    "Eloquent Scholar: Because Insaerndel has spent years amid the Summerset Isle's honing his Scholarly poise, Spycraft and the art of Speech from his former Aldmeri Sophisticates. Prefering to think everyword through carefully, and apply his intellect in personable moments of persuasion. Isaerndel may use Lore to Overcome in place of Rapport or Deceive 4dF rolls when addressing Courts, Fellow Wizards, Respectable Merchants, and the Aristocracy. If the 4dF results in SWS he gains a free Boost: 'Charming Intellectual' that he may use through the duration of the scene (Can only benefit from this Boost Once Per Scene).",
-    "Nightblade Training: Because Isaerndel was trained in the art of the Nightblade, he has honed the art of quick getaway's and agile movement. Allowing him to add a bonus +2 to Athletics 4dF rolls he makes when scaling buildings,vaulting from rooftops, or mitigating falls. If the Athletics roll results in a SWS, via utilizing this stunt to one of the aforementioned items formerly mentioned. Insaerndel may immediately choose whether or not to move one additional zone on that turn."
+    "Spell of Muffle: Because Insaerndel is a skilled Illusionist, former Imperial spy, and Thieves Guild operative, once per scene he may channel Magicka and use Lore to Create an Advantage with +2, creating the aspect 'Phantom Step (Muffled by Illusion)'. On success, it gains 1 free invoke; on success with style, it gains 2 free invokes.",
+    "Eloquent Scholar: Because Insaerndel has spent years amid the Summerset Isles honing his Scholarly poise, Spycraft and the art of Speech from his former Aldmeri Sophisticates. Preferring to think every word through carefully, and apply his intellect in personable moments of persuasion. Insaerndel may use Lore to Overcome in place of Rapport or Deceive 4dF rolls when addressing Courts, Fellow Wizards, Respectable Merchants, and the Aristocracy. If the 4dF results in SWS he gains a free Boost: 'Charming Intellectual' that he may use through the duration of the scene (Can only benefit from this Boost Once Per Scene).",
+    "Nightblade Training: Because Insaerndel was trained in the art of the Nightblade, he has honed the art of quick getaways and agile movement. Allowing him to add a bonus +2 to Athletics 4dF rolls he makes when scaling buildings, vaulting from rooftops, or mitigating falls. If the Athletics roll results in a SWS, via utilizing this stunt to one of the aforementioned items formerly mentioned. Insaerndel may immediately choose whether or not to move one additional zone on that turn."
   ],
   "refresh": 3,
   "fate_points": 3,
