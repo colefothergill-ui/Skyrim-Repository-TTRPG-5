@@ -1,0 +1,24 @@
+{
+  "patch_type": "scene_update",
+  "scene_id": "A1-S1",
+  "timestamp": "2026-02-03",
+  "changes": {
+    "pc": {
+      "pc_insaerndel": {
+        "fate_points": { "from": 3, "to": 4 }
+      }
+    },
+    "clocks": {
+      "whiterun_jobs.battleborn_quiet_inquiry.current": { "from": 2, "to": 3 },
+      "pc_extras_clocks.insaerndel_thalmor_search_clock.current_progress": { "from": 1, "to": 2 }
+    },
+    "scene_aspects_added": [
+      { "name": "Someone Talks", "free_invokes": 0 },
+      { "name": "One Step Ahead", "free_invokes": 2 }
+    ],
+    "notes": [
+      "Accepted trouble compel: informants and whispers escalate.",
+      "Used Spell of Clairvoyance (SWS). Divination confirms handler dead-drop at Bannered Mare cellar; Irileth requires ledger + seal-impression to apply pressure; Hadvar at risk on Western Gate line."
+    ]
+  }
+}
