@@ -6,7 +6,8 @@
     "Civil war between Imperials and Stormcloaks intensifies",
     "High King Torygg was killed by Ulfric Stormcloak",
     "Thalmor influence in Skyrim grows stronger",
-    "Battle of Whiterun approaches"
+    "Battle of Whiterun underway (West Wall breach attempt repelled)",
+    "Galmar Stone-Fist slain during the Battle of Whiterun (witnessed)"
   ],
   "political_situation": {
     "skyrim_status": "Civil War in progress",
@@ -51,6 +52,9 @@
   },
   "weather_and_season": "Late summer, generally pleasant weather",
   "rumors_and_news": [
+    "Word spreads: Galmar Stone-Fist fell in the west-wall fog—some claim an 'Altmer witch' struck him down.",
+    "Stormcloaks retreat from the west approach after chain-of-command collapse.",
+    "Battle-Born whispers intensify about the hooded Altmer tied to the Arcana front.",
     "Civil war tensions rise as both sides prepare for battle",
     "Jarl Balgruuf refuses to take sides in the civil war",
     "Thalmor Justiciars are becoming more aggressive",
@@ -58,6 +62,7 @@
     "Strange reports of dragon sightings in distant lands"
   ],
   "active_threats": [
+    "Thalmor net tightening around the 'Dream Catcher of Dusk'",
     "Civil war escalation",
     "Thalmor interference and manipulation",
     "Bandit activity on trade routes",

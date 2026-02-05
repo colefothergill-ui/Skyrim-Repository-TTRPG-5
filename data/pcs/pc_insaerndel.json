@@ -167,7 +167,7 @@
     "Spell of Clairvoyance: Because of Insaerndel's tie to Quagmire and study of Vaermina's Mirrors of Memory, once per scene he may Create an Advantage with Lore at +2 by briefly tethering his mind to Oblivion. On success, he receives a clear divination and may state one plausible, narrow claim that becomes true in the narrative (it must not contradict established canon, and should create advantage rather than instantly resolve a major arc). On Success with Style, he also creates the aspect 'One Step Ahead' with 2 free invokes."
   ],
   "refresh": 1,
-  "fate_points": 4,
+  "fate_points": 1,
   "equipment": {
     "weapons": [],
     "armor": [],
@@ -182,7 +182,10 @@
       "Silver Ring of Authority (Thalmor handler token)",
       "Seal kit (wax + stamp plates)",
       "Torn routing slip (single lead fragment)",
-      "Contract: Olfrid Battle-Born — 3,000g total promised; payment pending delivery after battle stabilization."
+      "Contract: Olfrid Battle-Born — 3,000g total promised; payment pending delivery after battle stabilization.",
+      "Galmar war-knot haft wrap (authority signet) — blooded leather with Stormcloak command knot",
+      "Wax strip (field authority mark) — Galmar's command wax, cracked",
+      "Vellum scrap (battle map fragment) — west approach notations"
     ]
   },
   "extras": [
@@ -266,7 +269,7 @@
   },
   "quests": [],
   "session_history": [],
-  "notes": "Created during Session Zero\n- Contract: Escort Battle-Born family to Temple of Kynareth if Whiterun is breached. Retainer 1600 septims now; 1600 on completion/next day if no breach.\n- Foothold: 'Battle-Born Arcana' magic shop front with backroom safehouse; Olfrid receives 20% of clean shop revenue.\n- Heat: Thalmor search clock +1 from document/magic signature trail; Battle-Born Quiet Inquiry clock started.\n[Session 0 sheet readjustment] Skills swapped: Survival->Burglary, Empathy->Resources, Crafts->Contacts. Stunt swap: Spell of Muffle removed; Spell of Shadow Ward added. New stunt added: Spell of Clairvoyance (Refresh spent).",
+  "notes": "Created during Session Zero\n- Contract: Escort Battle-Born family to Temple of Kynareth if Whiterun is breached. Retainer 1600 septims now; 1600 on completion/next day if no breach.\n- Foothold: 'Battle-Born Arcana' magic shop front with backroom safehouse; Olfrid receives 20% of clean shop revenue.\n- Heat: Thalmor search clock +1 from document/magic signature trail; Battle-Born Quiet Inquiry clock started.\n[Session 0 sheet readjustment] Skills swapped: Survival->Burglary, Empathy->Resources, Crafts->Contacts. Stunt swap: Spell of Muffle removed; Spell of Shadow Ward added. New stunt added: Spell of Clairvoyance (Refresh spent).\nMid-session: Slew Galmar Stone-Fist in west-wall fog; recovered his war-knot signet wrap and field marks; Stormcloak line routed.",
   "faction_alignment": "neutral",
   "additional_faction_interests": "Thieves Guild, College of Winterhold, The Imperial Legion."
 }
