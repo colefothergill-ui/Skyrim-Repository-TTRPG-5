@@ -186,3 +186,40 @@ The party successfully navigated from securing the Battle-Born deal to active co
 - Received **Charter of Residency: Battle-Born Arcana** (front sanctioned; backroom safehouse protected).
 
 ---
+
+## MID-SESSION CHECKPOINT — 2026-02-05 (A1-S5–A1-S6)
+
+### Scene Progression
+- **A1-S5 | Combat → Aftermath | Whiterun — Western Barricade Parapet / Hadvar's Nook**
+  - Insaerndel intercepted a Stormcloak operative moving to finish Hadvar.
+  - Enemy ice-mage suppressed via Illusion compulsion; follow-up lethal strike ended the caster.
+  - **Hadvar stabilized** via Restoration (Temple of Kynareth priestesses summoned/escorted in).
+  - Insaerndel revealed his alias to Hadvar: **"Orinthelo" (Penitus Oculatus asset)**; requested discretion in reports.
+
+- **A1-S6 | Social / Fallout | Whiterun — Plains District (Battle-Born Balcony)**
+  - Insaerndel returned to Olfrid Battle-Born: contract fulfilled; Greymane framejob active; Whiterun foothold secured.
+  - Olfrid's quiet inquiry cooled significantly due to delivery + scapegoat pressure shifting elsewhere.
+  - Imperial lines rallied; Stormcloak retreat/surrender cascade followed the fall of command.
+
+### Major Outcomes
+- **Galmar Stone-Fist taken out** → Stormcloak command structure fractured.
+- **Battle of Whiterun resolved: Imperial victory.**
+- **Whiterun Thalmor node remains neutralized; false leads planted.**
+
+### Clock Updates
+- Imperial Military Dominance **2 → 5**
+- Stormcloak Momentum **5 → 3**
+- Thalmor Civil War Manipulation **2 → 1**
+- Civilian War Weariness **5 → 7**
+- Thalmor Intelligence Network **7/8 → 5/8**
+- Insaerndel Thalmor Search Clock **1/8 → 0/8**
+- Guild Foothold (Whiterun) **4/5 → 5/5 (COMPLETED)**
+- Battle-Born Quiet Inquiry **3/4 → 1/4**
+
+### Rewards / Evidence
+- Gold **+3,500** (contract 3,000 + bonus 500)
+- Evidence added: Galmar's signet, battleaxe, battle-plan scrap, payment receipt
+
+### Fate & Milestones
+- Fate Points reconciled to **0**
+- Milestones earned (banked): **1× Minor**, **1× Significant**

@@ -10,16 +10,18 @@
   "last_updated": "2026-02-05",
   "starting_location": "Whiterun",
   "current_scene_id": "A1-S6",
-  "current_location": "Whiterun — Plains District (Battle-Born Balcony / Arcana Front)",
+  "current_location": "Whiterun — Plains District (Battle-Born Balcony)",
   "active_hold": "Whiterun",
-  "current_objective": "Secure Whiterun foothold, manage heat, and depart for Riften meeting.",
+  "current_objective": "Collect Olfrid's payment; lock in Battle-Born Arcana foothold; manage Greymane fallout; exfiltrate to Riften.",
   "current_npcs": [],
   "scene_flags": {
-    "battle_of_whiterun_active": true,
+    "battle_of_whiterun_active": false,
+    "battle_of_whiterun_resolved": true,
     "brynjolf_missive_delivered": true,
     "battleborn_arcana_established": true,
     "highborn_power_spent_this_session": true,
-    "thief_stone_blessing_spent_this_session": true,
+    "steed_stone_blessing_active": true,
+    "thief_stone_blessing_spent_this_session": false,
     "battleborn_arcana_deal_signed": true,
     "battleborn_writ_of_privilege_received": true,
     "contract_olfrid_3000g_active": true,
@@ -47,15 +49,21 @@
     "imperial_checkpoints_established": true,
     "west_wall_secured": true,
     "compel_famous_wrong_circles_accepted": true,
-    "battleborn_quiet_inquiry_completed": true
+    "battleborn_quiet_inquiry_completed": true,
+    "guild_foothold_whiterun_completed": true,
+    "olfrid_contract_paid": true,
+    "greymane_arrest_in_motion": true,
+    "insaerndel_alias_orinthelo_shared_with_hadvar": true
   },
   "civil_war_state": {
-    "player_alliance": "neutral",
+    "player_alliance": "imperial",
     "whiterun_control": "imperial",
-    "battle_of_whiterun_status": "imperial_breakthrough_west_wall_secured",
+    "battle_of_whiterun_status": "imperial_victory",
     "imperial_victories": 1,
     "stormcloak_victories": 0,
-    "key_battles_completed": [],
+    "key_battles_completed": [
+      "battle_of_whiterun"
+    ],
     "faction_relationship": {
       "imperial_legion": 5,
       "stormcloaks": 0
@@ -94,12 +102,12 @@
     ]
   },
   "branching_decisions": {
-    "civil_war_stance": "neutral_publicly_imperial_operational",
+    "civil_war_stance": "imperial (covert)",
     "jarl_balgruuf_support": null,
     "thalmor_embassy_approach": null,
     "talos_worship_stance": null,
-    "civil_war_entry_contact": "undecided",
-    "battle_of_whiterun_choice": "imperial_support_covert"
+    "civil_war_entry_contact": "Hadvar",
+    "battle_of_whiterun_choice": "defend_whiterun_for_empire"
   },
   "world_consequences": {
     "towns_affected": [],
@@ -112,6 +120,10 @@
       "stormcloak_west_parapet_sergeant",
       "stormcloak_assassin_parapet",
       "stormcloak_ice_mage_parapet",
+      "stormcloak_assassin_operative",
+      "stormcloak_ice_mage",
+      "stormcloak_huscarl_1",
+      "stormcloak_huscarl_2",
       "galmar_stonefist"
     ],
     "npcs_befriended": [],
@@ -122,7 +134,11 @@
       "Sealed the stairwell with a keyed ward to protect Hadvar during the west-wall fight.",
       "Used Quagmire clairvoyance and phantom weaponry to assassinate Galmar Stone-Fist on the west wall.",
       "Chose rout-control over slaughter: issued battlefield command orders and forced Stormcloak retreat with proof of Galmar's death.",
-      "Accepted the 'Famous in the Wrong Circles' exposure cost; Thalmor net tightens (Dream Catcher Search +1)."
+      "Accepted the 'Famous in the Wrong Circles' exposure cost; Thalmor net tightens (Dream Catcher Search +1).",
+      "Used dream-magic + battlefield deception to break Stormcloak cohesion; forced a retreat/surrender cascade.",
+      "Assassinated Galmar Stone-Fist during the Battle of Whiterun, crippling Stormcloak command.",
+      "Revealed the alias 'Orinthelo' (Penitus Oculatus) to Hadvar and secured his discretion.",
+      "Collected battlefield evidence (Galmar's signet/weapon, maps) to leverage future Imperial/Thalmor moves."
     ]
   },
   "active_story_arcs": [
