@@ -1,7 +1,7 @@
 {
   "faction_trust_clocks": {
     "description": "Track party standing and trust with all major factions in Skyrim",
-    "last_updated": "2026-02-01",
+    "last_updated": "2026-02-04",
     "trust_scale": {
       "0-2": {
         "level": "Stranger",
@@ -31,7 +31,7 @@
     "clocks": {
       "imperial_legion_trust": {
         "faction": "Imperial Legion",
-        "current_trust": 0,
+        "current_trust": 2,
         "max_trust": 10,
         "trust_level": "Stranger",
         "advancement_triggers": {

@@ -1,12 +1,12 @@
 {
   "whiterun_jobs": {
     "description": "Track Thieves Guild operations and jobs in Whiterun",
-    "last_updated": "2026-02-03",
+    "last_updated": "2026-02-04",
     "clocks": {
       "guild_foothold_whiterun": {
         "name": "Guild Foothold in Whiterun",
         "description": "Establishing a permanent Thieves Guild presence in Whiterun",
-        "current": 1,
+        "current": 4,
         "max": 5,
         "completion_effect": "Permanent Thieves Guild operations established in Whiterun with local fence and safe house access",
         "advancement_triggers": [
@@ -33,7 +33,7 @@
       "battleborn_quiet_inquiry": {
         "name": "Battle-Born Quiet Inquiry",
         "description": "Olfrid quietly verifies the hooded Altmer and traces the new Arcana front; internal investigation before outsiders.",
-        "current": 2,
+        "current": 3,
         "max": 4,
         "completion_effect": "Battle-Born channels produce a usable description/route-of-travel trail; risk of sale/leak to guards or Dominion contacts.",
         "advancement_triggers": [

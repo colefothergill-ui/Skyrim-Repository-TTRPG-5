@@ -1,7 +1,7 @@
 {
   "pc_extras_clocks": {
     "description": "Clocks tied to PC extras, artifact awakening, and persistent consequences created mid-session.",
-    "last_updated": "2026-02-03",
+    "last_updated": "2026-02-04",
     "clocks": {
       "insaerndel_search_for_arisann": {
         "name": "Search for Arisann (Sister)",
@@ -78,6 +78,24 @@
         "setback_triggers": [
           "Fail a mirror trial catastrophically (-1)",
           "A rival or Thalmor agent interferes with your sleep ritual (-1 to -2)"
+        ]
+      },
+      "whiterun_alley_bodies_discovered": {
+        "name": "Whiterun Alley Bodies Discovered",
+        "description": "How fast bodies behind the Bannered Mare are discovered and correctly attributed.",
+        "current_progress": 0,
+        "total_segments": 4,
+        "completion_effect": "Bodies discovered and investigation launched; attribution may lead to heat or complications.",
+        "advancement_triggers": [
+          "Someone stumbles upon the scene (+2)",
+          "Guards do routine patrol of alley (+1)",
+          "Smell or other evidence draws attention (+1)",
+          "Witness comes forward (+2)"
+        ],
+        "setback_triggers": [
+          "Bodies moved or hidden further (-2)",
+          "False trail planted successfully (-1)",
+          "Weather or animals obscure evidence (-1)"
         ]
       }
     }
