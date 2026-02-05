@@ -141,3 +141,37 @@ The party successfully navigated from securing the Battle-Born deal to active co
 
 ## Addendum (Player-Confirmed Canon)
 - Hadvar was stabilized by Insaerndel's Restoration magic during the battle (no longer bleeding out; still severely injured).
+
+---
+
+## MID-SESSION CHECKPOINT — 2026-02-05 (A1-S4 → A1-S5)
+
+### Where we are
+- **Act/Scene:** Act 1 — **A1-S5**
+- **Location:** Whiterun — **West Wall Checkpoints (Fog Line)**
+- **Objective:** Exploit Stormcloak rout; lock Imperial checkpoints; keep Hadvar alive; manage Battle-Born inquiry fallout.
+
+### What just happened (high impact)
+- **Hadvar stabilized** (Restoration) and secured behind a keyed ward: **Sigil-Sealed Stairwell**.
+- **Quagmire clairvoyance** revealed Galmar's approach through the fog; Insaerndel executed a clean ambush and **slew Galmar Stone-Fist**.
+- Stormcloak huscarls attempted retaliation/recovery; the immediate melee ended with Stormcloaks **conceding the west wall** and falling back.
+- Insaerndel seized **battlefield-proof** (Galmar's war-knot haft-wrap authority signet + field marks) and used **Scholar's Eloquence** to announce Galmar's fall, shattering enemy morale.
+- Insaerndel issued rapid tactical orders, turning the rout into a controlled retreat: **Imperial checkpoints established** and rally nodes crushed.
+
+### Major choices (player-driven)
+- Chose **rout-control over massacre**: forced retreat/surrender cascade rather than chasing kills.
+- Accepted exposure cost: **Compel — "Famous in the Wrong Circles"** (public Altmer mage presence + battlefield speech).
+
+### Mechanical & state changes (applied)
+- **Insaerndel Fate Points:** **4 → 1**
+- **Imperial Legion Trust:** **2/10 → 5/10**
+- **Dream Catcher Search (Thalmor):** **1/8 → 2/8**
+- **Battle-Born Quiet Inquiry:** **3/4 → 4/4 (COMPLETED)**
+- **Civil War clocks:** Imperial dominance **2/10 → 3/10**, Stormcloak momentum **5/10 → 4/10**
+
+### Inventory additions (Insaerndel)
+- Galmar war-knot haft wrap (authority signet)
+- Wax strip (field authority mark)
+- Vellum scrap (battle map fragment)
+
+---

@@ -33,7 +33,7 @@
       "battleborn_quiet_inquiry": {
         "name": "Battle-Born Quiet Inquiry",
         "description": "Olfrid quietly verifies the hooded Altmer and traces the new Arcana front; internal investigation before outsiders.",
-        "current": 3,
+        "current": 4,
         "max": 4,
         "completion_effect": "Battle-Born channels produce a usable description/route-of-travel trail; risk of sale/leak to guards or Dominion contacts.",
         "advancement_triggers": [
@@ -46,7 +46,7 @@
           "Plant convincing counter-inquiry paperwork (-1)",
           "Deliver on a high-value promise to Olfrid (-1)"
         ],
-        "status": "active"
+        "status": "completed"
       },
       "battleborn_strongbox": {
         "name": "Battle-Born Strongbox Job",
