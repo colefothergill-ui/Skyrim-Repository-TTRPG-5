@@ -6,9 +6,9 @@
       "guild_foothold_whiterun": {
         "name": "Guild Foothold in Whiterun",
         "description": "Establishing a permanent Thieves Guild presence in Whiterun",
-        "current": 4,
+        "current": 5,
         "max": 5,
-        "completion_effect": "Permanent Thieves Guild operations established in Whiterun with local fence and safe house access",
+        "completion_effect": "Permanent Thieves Guild operations established in Whiterun with local fence and safe house access. Arcana front officially sanctioned via Battle-Born charter; backroom safehouse protected.",
         "advancement_triggers": [
           "Build relationships with corrupt guards (+1)",
           "Complete jobs for Battle-Born contacts (+1)",
@@ -27,7 +27,7 @@
           "condition": "state.civil_war_state.whiterun_control == 'imperial' && state.scene_flags.western_gate_stabilized == true",
           "note": "Olfrid fully opens the Whiterun door once you prove the Arcana front can survive the battle—specifically by stabilizing the western gate under Imperial control (or equivalent decisive proof)."
         },
-        "status": "active",
+        "status": "completed",
         "continuity_note": "This clock is for Thieves Guild story and can be activated when a PC pursues that path."
       },
       "battleborn_quiet_inquiry": {

@@ -9,10 +9,10 @@
   "session_count": 1,
   "last_updated": "2026-02-05",
   "starting_location": "Whiterun",
-  "current_scene_id": "A1-S5",
-  "current_location": "Whiterun — West Wall Checkpoints (Fog Line)",
+  "current_scene_id": "A1-S6",
+  "current_location": "Whiterun — Plains District (Battle-Born Balcony / Arcana Front)",
   "active_hold": "Whiterun",
-  "current_objective": "Exploit Stormcloak rout; lock Imperial checkpoints; keep Hadvar alive; manage Battle-Born inquiry fallout.",
+  "current_objective": "Secure Whiterun foothold, manage heat, and depart for Riften meeting.",
   "current_npcs": [],
   "scene_flags": {
     "battle_of_whiterun_active": true,

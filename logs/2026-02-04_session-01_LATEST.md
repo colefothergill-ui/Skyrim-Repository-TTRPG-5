@@ -175,3 +175,14 @@ The party successfully navigated from securing the Battle-Born deal to active co
 - Vellum scrap (battle map fragment)
 
 ---
+
+## SCENE CHECKPOINT — 2026-02-05 (A1-S6)
+
+### Olfrid payout & foothold
+- Met Olfrid Battle-Born post-battle at the Plains District balcony / Arcana front.
+- **Contract paid**: remainder **1,400g** + **600g bonus** (Greymane pressure / initiative).  
+- **Gold:** 1,700g → 3,700g
+- **Guild Foothold (Whiterun):** 4/5 → **5/5 (COMPLETED)**
+- Received **Charter of Residency: Battle-Born Arcana** (front sanctioned; backroom safehouse protected).
+
+---
