@@ -33,7 +33,8 @@
     "for_greymane_illusion_witnessed": true,
     "parapet_flank_climbers_neutralized": true,
     "stormcloak_sergeant_taken_out": true,
-    "compel_no_witnesses_accepted": true
+    "compel_no_witnesses_accepted": true,
+    "hadvar_stabilized_by_restoration": true
   },
   "civil_war_state": {
     "player_alliance": "neutral",

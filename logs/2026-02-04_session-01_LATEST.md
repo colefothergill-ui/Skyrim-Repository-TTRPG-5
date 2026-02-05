@@ -138,3 +138,6 @@ The party successfully navigated from securing the Battle-Born deal to active co
 - Greymane frame job will escalate political tensions
 - Battle-Born Quiet Inquiry at 3/4; contract delivery may reduce by -1
 - Western gate held; Imperial momentum strong
+
+## Addendum (Player-Confirmed Canon)
+- Hadvar was stabilized by Insaerndel's Restoration magic during the battle (no longer bleeding out; still severely injured).
