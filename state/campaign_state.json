@@ -57,7 +57,7 @@
     "stormcloak_victories": 0,
     "key_battles_completed": [],
     "faction_relationship": {
-      "imperial_legion": 0,
+      "imperial_legion": 5,
       "stormcloaks": 0
     },
     "battle_of_whiterun_modifiers": [

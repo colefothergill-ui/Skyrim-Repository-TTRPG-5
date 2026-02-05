@@ -41,7 +41,6 @@
         "battle_of_whiterun_choice": "imperial_support_covert"
       },
       "scene_flags_added": {
-        "hadvar_stabilized_by_restoration": true,
         "stormcloak_infiltrator_neutralized": true,
         "stormcloak_mage_possessed_and_killed": true,
         "ice_hazard_dissipated": true,
