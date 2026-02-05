@@ -82,7 +82,7 @@ The party successfully navigated from securing the Battle-Born deal to active co
   - Hadvar protection objective ongoing
 
 ### World State — Thalmor Manipulation
-- **Thalmor Manipulation (Whiterun)**: 0/8 segments (NEUTRALIZED)
+- **Thalmor Manipulation (Whiterun)**: 0/10 segments (NEUTRALIZED)
   - Whiterun node eliminated via handler takedown + evidence destruction
   - Local Thalmor operations crippled
 
