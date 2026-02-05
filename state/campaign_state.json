@@ -6,24 +6,39 @@
   "active_pc": "pc_insaerndel",
   "active_pc_id": "pc_insaerndel",
   "session_zero_completed": true,
-  "session_count": 0,
-  "last_updated": "2026-02-03",
+  "session_count": 1,
+  "last_updated": "2026-02-04",
   "starting_location": "Whiterun",
-  "current_scene_id": "A1-S1",
-  "current_location": "Whiterun — Battle-Born Manor (Study)",
+  "current_scene_id": "A1-S4",
+  "current_location": "Whiterun — Western Barricade Parapet",
   "active_hold": "Whiterun",
-  "current_objective": "Return Brynjolf's reply; secure Battle-Born Arcana safehouse; prepare for Battle of Whiterun.",
+  "current_objective": "Secure Imperial win in Battle of Whiterun; ensure Hadvar survives; trigger Greymane investigation fallout; protect Battle-Born Arcana foothold.",
   "current_npcs": [],
   "scene_flags": {
     "battle_of_whiterun_active": true,
     "brynjolf_missive_delivered": true,
     "battleborn_arcana_established": true,
     "highborn_power_spent_this_session": true,
-    "thief_stone_blessing_spent_this_session": true
+    "thief_stone_blessing_spent_this_session": true,
+    "battleborn_arcana_deal_signed": true,
+    "battleborn_writ_of_privilege_received": true,
+    "contract_olfrid_3000g_active": true,
+    "battleborn_evac_route_temple_of_kynareth_secured": true,
+    "ledger_routed_to_irileth_via_guard_chain": true,
+    "western_gate_stabilized": true,
+    "stormcloak_survivor_arrow_to_knee": true,
+    "bannered_mare_handler_eliminated": true,
+    "thalmor_whiterun_node_neutralized": true,
+    "greymane_framejob_active": true,
+    "for_greymane_illusion_witnessed": true,
+    "parapet_flank_climbers_neutralized": true,
+    "stormcloak_sergeant_taken_out": true,
+    "compel_no_witnesses_accepted": true
   },
   "civil_war_state": {
     "player_alliance": "neutral",
-    "battle_of_whiterun_status": "approaching",
+    "whiterun_control": "imperial",
+    "battle_of_whiterun_status": "imperial_advantage",
     "imperial_victories": 0,
     "stormcloak_victories": 0,
     "key_battles_completed": [],
@@ -70,7 +85,14 @@
   },
   "world_consequences": {
     "towns_affected": [],
-    "npcs_killed": [],
+    "npcs_killed": [
+      "thalmor_ledger_clerk_handler",
+      "thalmor_escort_1",
+      "thalmor_escort_2",
+      "stormcloak_west_gate_spearman",
+      "stormcloak_west_gate_charger",
+      "stormcloak_west_parapet_sergeant"
+    ],
     "npcs_befriended": [],
     "major_choices": [
       "Forged evidence trail framing Gray-Mane interests (and Companions tie-in) for the Silver Ring Ledger intrusion.",
@@ -211,6 +233,24 @@
           "keyring",
           "bookish",
           "calculating"
+        ]
+      }
+    },
+    "commander_caius_whiterun_guard": {
+      "pc_insaerndel": {
+        "timestamp": "2026-02-04T14:30:00",
+        "disposition": "positive",
+        "line": "That hooded Altmer who moves like a shadow—recognized him from the manor grounds. Took the ledger through proper channels even under siege. Professional.",
+        "recognition_tags": [
+          "altmer",
+          "tall",
+          "lean",
+          "hooded",
+          "violet hood",
+          "purple cloak",
+          "professional",
+          "chain-of-command respect",
+          "under siege composure"
         ]
       }
     }

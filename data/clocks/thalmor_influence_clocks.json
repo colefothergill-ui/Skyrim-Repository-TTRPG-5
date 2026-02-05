@@ -1,7 +1,7 @@
 {
   "thalmor_influence_clocks": {
     "description": "Track Thalmor schemes and influence operations across Skyrim",
-    "last_updated": "2026-02-01",
+    "last_updated": "2026-02-04",
     "clocks": {
       "thalmor_influence_skyrim": {
         "name": "Thalmor Influence in Skyrim",
@@ -355,21 +355,22 @@
       "whiterun_hold": {
         "hold_name": "Whiterun Hold",
         "capital": "Whiterun",
-        "influence_level": 3,
+        "influence_level": 0,
         "max_influence": 10,
-        "status": "Low Influence",
+        "status": "Neutralized",
         "imperial_alliance": false,
         "neutral_status": true,
         "key_factors": [
           "Balgruuf tries to stay neutral",
           "Strategic central location",
           "Dragon crisis creates opportunities",
-          "Mixed population (Imperial and Nord)"
+          "Mixed population (Imperial and Nord)",
+          "Thalmor handler eliminated; node destroyed"
         ],
         "thalmor_assets": [
-          "Intelligence gathering in cosmopolitan city",
-          "Monitoring dragon crisis",
-          "Pressure on Balgruuf's neutrality"
+          "Intelligence gathering in cosmopolitan city (NEUTRALIZED)",
+          "Monitoring dragon crisis (DISRUPTED)",
+          "Pressure on Balgruuf's neutrality (COMPROMISED)"
         ],
         "advancement_triggers": [
           "Balgruuf forced to choose Empire (+2)",
@@ -379,13 +380,15 @@
         "setback_triggers": [
           "Balgruuf resists Thalmor pressure (-1)",
           "Stormcloaks take Whiterun (-3)",
-          "Party becomes Thane and opposes Thalmor (-2)"
+          "Party becomes Thane and opposes Thalmor (-2)",
+          "Handler eliminated and evidence destroyed (-3)"
         ],
         "player_neglect_consequences": [
           "At influence 6+: Thalmor agents embedded in Whiterun guard",
           "At influence 8+: Balgruuf pressured into Thalmor cooperation",
           "At influence 10: Whiterun becomes surveillance state under Thalmor watch"
-        ]
+        ],
+        "notes": "Whiterun node neutralized via handler elimination + evidence burn during Battle of Whiterun (2026-02-04). Local operations crippled."
       },
       "falkreath_hold": {
         "hold_name": "Falkreath Hold",
