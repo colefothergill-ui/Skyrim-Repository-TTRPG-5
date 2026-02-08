@@ -164,10 +164,11 @@
     "Spell of Shadow Ward: Because Insaerndel's career has put him in constant danger from pursuers (Thalmor, guards, and worse), once per scene, when an enemy Attack would inflict Physical stress or a Physical consequence on him, he may instead negate the attack entirely and take no Physical stress or Physical consequences by expending his Shadow Ward to teleport up to two zones. After reappearing, he gains a Boost 'Shadow Step' usable on his next Stealth or Lore roll this scene to hide, escape, or strike from concealment.",
     "Eloquent Scholar: Because Insaerndel has spent years amid the Summerset Isles honing his Scholarly poise, Spycraft and the art of Speech from his former Aldmeri Sophisticates. Preferring to think every word through carefully, and apply his intellect in personable moments of persuasion. Insaerndel may use Lore to Overcome in place of Rapport or Deceive 4dF rolls when addressing Courts, Fellow Wizards, Respectable Merchants, and the Aristocracy. If the 4dF results in SWS he gains a free Boost: 'Charming Intellectual' that he may use through the duration of the scene (Can only benefit from this Boost Once Per Scene).",
     "Nightblade Training: Because Insaerndel was trained in the art of the Nightblade, he has honed the art of quick getaways and agile movement. Allowing him to add a bonus +2 to Athletics 4dF rolls he makes when scaling buildings, vaulting from rooftops, or mitigating falls. If the Athletics roll results in a SWS, via utilizing this stunt to one of the aforementioned items formerly mentioned. Insaerndel may immediately choose whether or not to move one additional zone on that turn.",
-    "Spell of Clairvoyance: Because of Insaerndel's tie to Quagmire and study of Vaermina's Mirrors of Memory, once per scene he may Create an Advantage with Lore at +2 by briefly tethering his mind to Oblivion. On success, he receives a clear divination and may state one plausible, narrow claim that becomes true in the narrative (it must not contradict established canon, and should create advantage rather than instantly resolve a major arc). On Success with Style, he also creates the aspect 'One Step Ahead' with 2 free invokes."
+    "Spell of Clairvoyance: Because of Insaerndel's tie to Quagmire and study of Vaermina's Mirrors of Memory, once per scene he may Create an Advantage with Lore at +2 by briefly tethering his mind to Oblivion. On success, he receives a clear divination and may state one plausible, narrow claim that becomes true in the narrative (it must not contradict established canon, and should create advantage rather than instantly resolve a major arc). On Success with Style, he also creates the aspect 'One Step Ahead' with 2 free invokes.",
+    "Spell of Veils: Because Insaerndel completed the Quagmire Mirror Trial 'Veils' and learned to wear illusion like a second skin, once per scene he may Create an Advantage with Lore to project a mundane disguise (face, voice, and clothing) that holds up under casual scrutiny. On success, place the situational aspect 'Veiled Identity' with 1 free invoke; on Success with Style, gain 2 free invokes. Anyone actively trying to pierce the Veil must Overcome with Notice or Will against your Lore result. If you take Physical stress or a consequence while Veiled, the disguise flickers and you lose the remaining free invokes (the aspect may remain, but without free invokes)."
   ],
   "refresh": 1,
-  "fate_points": 1,
+  "fate_points": 5,
   "equipment": {
     "weapons": [],
     "armor": [],
@@ -220,8 +221,8 @@
           "reward": "On completing the Mirror Trial, you unlock a spell from the tome and tick the tome clock."
         },
         "mirror_trials": {
-          "completed": ["Phantoms"],
-          "available": ["Veils", "Dread", "Glass"],
+          "completed": ["Phantoms", "Veils"],
+          "available": ["Dread", "Glass"],
           "gm_note": "Unlocks should feel like dream logic: symbolic locations, warped NPC reflections, and moral pressure."
         },
         "trial_resolution": {
@@ -239,15 +240,18 @@
           "type": "stunt",
           "frequency": "once per scene",
           "mechanics": "Once per scene, conjure an illusionary weapon of any form for the scene's duration. While it persists, you may use Lore to Attack or Defend in place of Fight or Shoot with that weapon. Phantom Weapon attacks are Weapon:1. If a target takes a Mild Physical Consequence due to stress from your Phantom Weapon attack, immediately create a Boost on them: 'Waking Nightmare' (1 free invoke). While that Boost exists, your Phantom Weapon attacks against that target are Weapon:2."
+        },
+        {
+          "spell_id": "spell_of_veils",
+          "name": "Spell of Veils",
+          "status": "unlocked",
+          "type": "stunt",
+          "frequency": "once per scene",
+          "mechanics": "Once per scene, Create an Advantage with Lore to project a mundane disguise (face, voice, and clothing) that holds up under casual scrutiny. On success, place the situational aspect 'Veiled Identity' with 1 free invoke; on Success with Style, gain 2 free invokes. Anyone actively trying to pierce the Veil must Overcome with Notice or Will against your Lore result. If you take Physical stress or a consequence while Veiled, the disguise flickers and you lose the remaining free invokes (the aspect may remain, but without free invokes)."
         }
       ],
 
       "locked_spells": [
-        {
-          "spell_id": "mirror_trial_veils",
-          "name": "Mirror Trial: Veils (Locked)",
-          "unlock_condition": "Complete a Quagmire Mirror Trial focused on concealment, masks, and false identities."
-        },
         {
           "spell_id": "mirror_trial_dread",
           "name": "Mirror Trial: Dread (Locked)",

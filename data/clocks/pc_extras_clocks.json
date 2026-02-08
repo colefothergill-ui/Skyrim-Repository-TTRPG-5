@@ -6,7 +6,7 @@
       "insaerndel_search_for_arisann": {
         "name": "Search for Arisann (Sister)",
         "description": "Tracking Arisann's trail through rumors, dream-signs, and the Rift wilds.",
-        "current_progress": 0,
+        "current_progress": 2,
         "total_segments": 8,
         "completion_effect": "You locate Arisann (or her confirmed trail) and trigger the next arc step.",
         "advancement_triggers": [
