@@ -1,7 +1,7 @@
 {
   "whiterun_jobs": {
     "description": "Track Thieves Guild operations and jobs in Whiterun",
-    "last_updated": "2026-02-04",
+    "last_updated": "2026-02-05",
     "clocks": {
       "guild_foothold_whiterun": {
         "name": "Guild Foothold in Whiterun",
@@ -23,9 +23,9 @@
         ],
         "gate": {
           "type": "conditional_progress_cap",
-          "cap_until_condition_met": 3,
-          "condition": "state.civil_war_state.whiterun_control == 'imperial' && state.scene_flags.western_gate_stabilized == true",
-          "note": "Olfrid fully opens the Whiterun door once you prove the Arcana front can survive the battle—specifically by stabilizing the western gate under Imperial control (or equivalent decisive proof)."
+          "cap_until_condition_met": 4,
+          "condition": "state.branching_decisions.civil_war_entry_contact in ['Ralof','Hadvar'] || state.civil_war_state.player_alliance in ['stormcloak','imperial']",
+          "note": "Olfrid fully opens the Whiterun door once you prove your value during the Battle of Whiterun—on either side—so long as he benefits and your cover holds."
         },
         "status": "completed",
         "continuity_note": "This clock is for Thieves Guild story and can be activated when a PC pursues that path."
@@ -33,7 +33,7 @@
       "battleborn_quiet_inquiry": {
         "name": "Battle-Born Quiet Inquiry",
         "description": "Olfrid quietly verifies the hooded Altmer and traces the new Arcana front; internal investigation before outsiders.",
-        "current": 4,
+        "current": 1,
         "max": 4,
         "completion_effect": "Battle-Born channels produce a usable description/route-of-travel trail; risk of sale/leak to guards or Dominion contacts.",
         "advancement_triggers": [

@@ -1,7 +1,7 @@
 {
   "civil_war_clocks": {
     "description": "Track the progression of the civil war between Imperials and Stormcloaks",
-    "last_updated": "4E 201, 17th of Last Seed",
+    "last_updated": "2026-02-05",
     "clocks": {
       "imperial_military_dominance": {
         "name": "Imperial Military Dominance",

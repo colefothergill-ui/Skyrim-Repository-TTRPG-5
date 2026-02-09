@@ -15,11 +15,13 @@
   "current_objective": "Thieves Guild: 'Loud and Clear' — plan and execute the Goldenglow Estate job; keep your Veils disguise ready; keep pressure on Arisann lead.",
   "current_npcs": ["brynjolf", "mercer_frey", "vex", "delvin_mallory"],
   "scene_flags": {
-    "battle_of_whiterun_active": true,
+    "battle_of_whiterun_active": false,
+    "battle_of_whiterun_resolved": true,
     "brynjolf_missive_delivered": true,
     "battleborn_arcana_established": true,
     "highborn_power_spent_this_session": true,
-    "thief_stone_blessing_spent_this_session": true,
+    "steed_stone_blessing_active": true,
+    "thief_stone_blessing_spent_this_session": false,
     "battleborn_arcana_deal_signed": true,
     "battleborn_writ_of_privilege_received": true,
     "contract_olfrid_3000g_active": true,
@@ -56,12 +58,14 @@
     "scene_last_major_update": "2026-02-08"
   },
   "civil_war_state": {
-    "player_alliance": "neutral",
+    "player_alliance": "imperial",
     "whiterun_control": "imperial",
     "battle_of_whiterun_status": "completed_imperial_victory",
     "imperial_victories": 1,
     "stormcloak_victories": 0,
-    "key_battles_completed": [],
+    "key_battles_completed": [
+      "battle_of_whiterun"
+    ],
     "faction_relationship": {
       "imperial_legion": 5,
       "stormcloaks": 0
@@ -100,12 +104,12 @@
     ]
   },
   "branching_decisions": {
-    "civil_war_stance": "neutral_publicly_imperial_operational",
+    "civil_war_stance": "imperial (covert)",
     "jarl_balgruuf_support": null,
     "thalmor_embassy_approach": null,
     "talos_worship_stance": null,
-    "civil_war_entry_contact": "undecided",
-    "battle_of_whiterun_choice": "imperial_support_covert"
+    "civil_war_entry_contact": "Hadvar",
+    "battle_of_whiterun_choice": "defend_whiterun_for_empire"
   },
   "world_consequences": {
     "towns_affected": [],
@@ -118,6 +122,10 @@
       "stormcloak_west_parapet_sergeant",
       "stormcloak_assassin_parapet",
       "stormcloak_ice_mage_parapet",
+      "stormcloak_assassin_operative",
+      "stormcloak_ice_mage",
+      "stormcloak_huscarl_1",
+      "stormcloak_huscarl_2",
       "galmar_stonefist"
     ],
     "npcs_befriended": [],
@@ -128,7 +136,11 @@
       "Sealed the stairwell with a keyed ward to protect Hadvar during the west-wall fight.",
       "Used Quagmire clairvoyance and phantom weaponry to assassinate Galmar Stone-Fist on the west wall.",
       "Chose rout-control over slaughter: issued battlefield command orders and forced Stormcloak retreat with proof of Galmar's death.",
-      "Accepted the 'Famous in the Wrong Circles' exposure cost; Thalmor net tightens (Dream Catcher Search +1)."
+      "Accepted the 'Famous in the Wrong Circles' exposure cost; Thalmor net tightens (Dream Catcher Search +1).",
+      "Used dream-magic + battlefield deception to break Stormcloak cohesion; forced a retreat/surrender cascade.",
+      "Assassinated Galmar Stone-Fist during the Battle of Whiterun, crippling Stormcloak command.",
+      "Revealed the alias 'Orinthelo' (Penitus Oculatus) to Hadvar and secured his discretion.",
+      "Collected battlefield evidence (Galmar's signet/weapon, maps) to leverage future Imperial/Thalmor moves."
     ]
   },
   "active_story_arcs": [
