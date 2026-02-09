@@ -170,4 +170,8 @@ Upon waking, Insaerndel found Delvin Mallory waiting with a new opportunity:
 
 ---
 
+- A1-S11: Insaerndel (Veiled as Whiterun Guard) used protocol pressure to force the Thalmor Justiciar to observe from above. Success with style; basement secured for private talk with Mallus. New complication: "Justiciar's Paper Trail" (Thalmor begins documenting the inspector).
+
+---
+
 **End of Session 03**
