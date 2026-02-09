@@ -1,0 +1,78 @@
+{
+  "name": "Mercer Frey",
+  "id": "npc_stat_mercer_frey",
+  "type": "Breton Thief",
+  "category": "Faction Leader",
+  "location": "Riften (Ragged Flagon)",
+  "faction": "Thieves Guild",
+  "aspects": {
+    "high_concept": "Guild Master of the Thieves Guild (Secret Traitor)",
+    "trouble": "Corrupted by the Skeleton Key's Power",
+    "other_aspects": [
+      "Cold, Calculating, and Ruthless",
+      "Master of Deception and Infiltration",
+      "Betrayed Gallus and Karliah"
+    ]
+  },
+  "skills": {
+    "Superb": ["Burglary"],
+    "Great": ["Stealth", "Deceive"],
+    "Good": ["Notice", "Fight", "Will"],
+    "Fair": ["Athletics", "Resources", "Contacts"],
+    "Average": ["Lore", "Shoot"]
+  },
+  "stunts": [
+    "Skeleton Key Mastery: +2 to Burglary when opening any lock (bypasses magical locks)",
+    "Master Infiltrator: Once per scene, automatically succeed at a Stealth roll to enter a location undetected",
+    "Betrayer's Strike: +2 to Attack when target is unaware or trusts Mercer"
+  ],
+  "stress": {
+    "physical": [false, false, false, false],
+    "mental": [false, false, false, false]
+  },
+  "consequences": {
+    "mild": null,
+    "moderate": null,
+    "severe": null
+  },
+  "refresh": 3,
+  "armor": 1,
+  "notes": "Mercer Frey is the current Guild Master of the Thieves Guild, a Breton master thief with unparalleled skill. Unknown to the guild, he murdered his predecessor Gallus and framed Karliah, stealing the Skeleton Key from the Twilight Sepulcher. He has been embezzling from the guild's treasury for years, using the Skeleton Key to rob the guild blind. His betrayal has caused the guild's decline and the loss of Nocturnal's favor. He is cunning, ruthless, and will stop at nothing to protect his secrets.",
+  "combat_tactics": "Mercer fights dirty, using ambush tactics, poison, and the environment to his advantage. He prefers to strike from shadows and retreat when outmatched. In his final confrontation, he uses the Skeleton Key's power to manipulate locks and traps.",
+  "scene_triggers": ["Thieves Guild questline", "Karliah investigation", "Snow Veil Sanctum", "Irkngthand"],
+  "act_context": ["Act 1", "Act 2"],
+  "starting_equipment": {
+    "armor": "Guild Master's Armor (Armor:1, +1 to Stealth)",
+    "weapon": "Chillrend (Weapon:3, frost damage)",
+    "other": ["Skeleton Key (bypasses all locks)", "Poison vials x3", "Smoke bombs x2", "100 gold"]
+  },
+  "social_interaction": "Mercer is cold, professional, and maintains strict control over guild operations. He speaks with authority and expects immediate obedience. While outwardly loyal to the guild, he subtly manipulates members and information to serve his own interests. He is suspicious of outsiders and watches new recruits closely.",
+  "relationships": {
+    "Brynjolf": "Trusted lieutenant (unaware of betrayal)",
+    "Karliah": "Framed for murder, hunted as traitor",
+    "Gallus": "Former Guild Master (murdered by Mercer)",
+    "Vex": "Guild member, professional respect",
+    "Delvin Mallory": "Longtime colleague",
+    "Maven Black-Briar": "Business arrangement, mutual respect"
+  },
+  "personality_notes": {
+    "speaking_style": "Clipped, authoritative, businesslike. No warmth or humor.",
+    "motivations": ["Maintain power and wealth", "Protect his betrayal secret", "Exploit Skeleton Key's power", "Control guild operations"],
+    "fears": ["Discovery of his betrayal", "Nocturnal's wrath", "Loss of the Skeleton Key", "Karliah's evidence"],
+    "quirks": ["Always watching exits", "Suspicious of everyone", "Obsessed with control"],
+    "character_growth": "N/A - Mercer is committed to his betrayal and cannot be redeemed"
+  },
+  "story_hooks": [
+    "Assigns major heists to prove loyalty and test capabilities",
+    "Secretly investigates anyone who questions him",
+    "Eventually sends party into trap at Snow Veil Sanctum",
+    "Final confrontation at Irkngthand as truth is revealed",
+    "Possesses Skeleton Key - ultimate guild betrayal"
+  ],
+  "dialogue_samples": {
+    "greeting": "You must be the new recruit Brynjolf mentioned. We'll see if you're worth the trouble.",
+    "assignment": "I need this handled quietly and professionally. No mistakes, no witnesses, no questions.",
+    "suspicion": "I don't trust easily, and I don't tolerate failure. Remember that.",
+    "final_confrontation": "You should have stayed out of this. The guild was mine to control, and now you've ruined everything!"
+  }
+}

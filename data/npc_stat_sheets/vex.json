@@ -1,0 +1,74 @@
+{
+  "name": "Vex",
+  "id": "npc_stat_vex",
+  "type": "Imperial Thief",
+  "category": "Guild Member",
+  "location": "Riften (Ragged Flagon)",
+  "faction": "Thieves Guild",
+  "aspects": {
+    "high_concept": "Master Thief and Guild Planner",
+    "trouble": "Bitter About the Guild's Decline",
+    "other_aspects": [
+      "Sharp-Tongued and Sarcastic",
+      "Expert in Heists and Planning",
+      "Loyal to the Guild (Not Mercer)"
+    ]
+  },
+  "skills": {
+    "Great": ["Burglary", "Stealth"],
+    "Good": ["Notice", "Deceive"],
+    "Fair": ["Athletics", "Lore", "Contacts"],
+    "Average": ["Fight", "Will", "Resources"]
+  },
+  "stunts": [
+    "Master Planner: +2 to Create Advantage when planning a heist or casing a location",
+    "Quickfingers: +2 to Burglary when picking pockets or lifting small items",
+    "Urban Acrobat: +2 to Athletics when moving through city environments"
+  ],
+  "stress": {
+    "physical": [false, false, false],
+    "mental": [false, false, false]
+  },
+  "consequences": {
+    "mild": null,
+    "moderate": null,
+    "severe": null
+  },
+  "refresh": 3,
+  "armor": 0,
+  "notes": "Vex is a veteran member of the Thieves Guild, an Imperial woman with exceptional skill in planning and executing heists. She's frustrated by the guild's recent string of bad luck but remains fiercely loyal to the organization. She handles jobs in the major cities and works as a fence for stolen goods. Vex is abrasive and sarcastic, especially to new recruits, but respects competence and skill. She eventually becomes a key ally in exposing Mercer's betrayal.",
+  "combat_tactics": "Vex avoids direct combat, preferring to use stealth and misdirection. If cornered, she uses hit-and-run tactics and environmental advantages. She always has an escape plan.",
+  "scene_triggers": ["Thieves Guild questline", "City influence jobs", "Ragged Flagon"],
+  "act_context": ["Act 1", "Act 2", "Act 3"],
+  "starting_equipment": {
+    "armor": "Thieves Guild Armor (Armor:0, +1 to Stealth)",
+    "weapon": "Guild Dagger (Weapon:1, concealable)",
+    "other": ["Lockpicks x10", "Fence access", "City contacts list", "40 gold"]
+  },
+  "social_interaction": "Vex is sharp-tongued, sarcastic, and doesn't suffer fools. She's dismissive of new recruits until they prove themselves. Despite her abrasive exterior, she cares deeply about the guild and respects those who show skill and dedication. She's practical and focused on results.",
+  "relationships": {
+    "Brynjolf": "Professional respect, fellow veteran",
+    "Mercer Frey": "Guild Master, professional relationship (unaware of betrayal)",
+    "Delvin Mallory": "Close friend and colleague",
+    "Karliah": "Former guild member (believes traitor story initially)"
+  },
+  "personality_notes": {
+    "speaking_style": "Sarcastic, direct, uses slang. Often dismissive of incompetence.",
+    "motivations": ["Restore guild to former glory", "Execute perfect heists", "Protect guild operations", "Prove her worth"],
+    "fears": ["Guild's complete collapse", "Losing more members", "Becoming obsolete"],
+    "quirks": ["Always sizing up marks", "Complains about 'bad luck'", "Takes pride in her planning"],
+    "character_growth": "Learns to trust new recruits and eventually helps expose Mercer's betrayal"
+  },
+  "story_hooks": [
+    "Assigns city influence jobs to expand guild operations",
+    "Provides intel and planning for major heists",
+    "Eventually helps investigate Mercer's activities",
+    "Becomes key ally in guild's restoration"
+  ],
+  "dialogue_samples": {
+    "greeting": "What do you want? I'm busy.",
+    "job_assignment": "I've got work if you're not too green to handle it. Don't screw it up.",
+    "respect_earned": "Not bad. Maybe you're not completely useless after all.",
+    "guild_loyalty": "This guild is my life. I'll do whatever it takes to see it restored."
+  }
+}

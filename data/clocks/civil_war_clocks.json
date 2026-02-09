@@ -81,7 +81,7 @@
       "civilian_war_weariness": {
         "name": "Civilian War Weariness",
         "description": "The toll of civil war on Skyrim's common people",
-        "current_progress": 7,
+        "current_progress": 6,
         "total_segments": 10,
         "completion_effect": "Mass civilian unrest, refugees flood major cities, economy collapses",
         "advancement_triggers": [
@@ -106,9 +106,9 @@
     "major_battles": {
       "battle_of_whiterun": {
         "status": "completed_imperial_victory",
-        "description": "The pivotal battle that will determine Whiterun's allegiance",
-        "importance": "Critical - Forces neutral parties to choose sides",
-        "outcome_note": "Galmar Stone-Fist taken out; Stormcloak lines broke; Whiterun held for the Empire.",
+        "description": "The pivotal battle that determined Whiterun's allegiance",
+        "importance": "Critical - Forced neutral parties to choose sides",
+        "outcome": "Imperial victory; Stormcloak chain-of-command broken (Galmar killed) and Whiterun Thalmor node neutralized.",
         "possible_outcomes": [
           "Imperial victory - Whiterun remains neutral/Imperial",
           "Stormcloak victory - Whiterun falls to Stormcloaks",

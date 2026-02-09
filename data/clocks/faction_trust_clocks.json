@@ -31,9 +31,9 @@
     "clocks": {
       "imperial_legion_trust": {
         "faction": "Imperial Legion",
-        "current_trust": 5,
+        "current_trust": 6,
         "max_trust": 10,
-        "trust_level": "Ally",
+        "trust_level": "Champion",
         "advancement_triggers": {
           "join_legion": "+3 (Joining the Legion quest)",
           "major_battle_victory": "+2 per victory",
@@ -173,9 +173,9 @@
       },
       "thieves_guild_trust": {
         "faction": "Thieves Guild",
-        "current_trust": 4,
+        "current_trust": 6,
         "max_trust": 10,
-        "trust_level": "Ally",
+        "trust_level": "Champion",
         "advancement_triggers": {
           "join_guild": "+2",
           "complete_major_heist": "+2",
