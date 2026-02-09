@@ -176,7 +176,6 @@
         "current_trust": 7,
         "max_trust": 10,
         "trust_level": "Champion",
-        "current": 7,
         "advancement_triggers": {
           "join_guild": "+2",
           "complete_major_heist": "+2",
