@@ -168,7 +168,7 @@
     "Spell of Veils: Because Insaerndel completed the Quagmire Mirror Trial 'Veils' and learned to wear illusion like a second skin, once per scene he may Create an Advantage with Lore to project a mundane disguise (face, voice, and clothing) that holds up under casual scrutiny. On success, place the situational aspect 'Veiled Identity' with 1 free invoke; on Success with Style, gain 2 free invokes. Anyone actively trying to pierce the Veil must Overcome with Notice or Will against your Lore result. If you take Physical stress or a consequence while Veiled, the disguise flickers and you lose the remaining free invokes (the aspect may remain, but without free invokes)."
   ],
   "refresh": 1,
-  "fate_points": 5,
+  "fate_points": 7,
   "equipment": {
     "weapons": [],
     "armor": [],
@@ -226,8 +226,8 @@
           "reward": "On completing the Mirror Trial, you unlock a spell from the tome and tick the tome clock."
         },
         "mirror_trials": {
-          "completed": ["Phantoms", "Veils"],
-          "available": ["Dread", "Glass"],
+          "completed": ["Phantoms", "Veils", "Glass"],
+          "available": ["Dread"],
           "gm_note": "Unlocks should feel like dream logic: symbolic locations, warped NPC reflections, and moral pressure."
         },
         "trial_resolution": {
@@ -253,6 +253,14 @@
           "type": "stunt",
           "frequency": "once per scene",
           "mechanics": "Once per scene, Create an Advantage with Lore to project a mundane disguise (face, voice, and clothing) that holds up under casual scrutiny. On success, place the situational aspect 'Veiled Identity' with 1 free invoke; on Success with Style, gain 2 free invokes. Anyone actively trying to pierce the Veil must Overcome with Notice or Will against your Lore result. If you take Physical stress or a consequence while Veiled, the disguise flickers and you lose the remaining free invokes (the aspect may remain, but without free invokes)."
+        },
+        {
+          "spell_id": "spell_of_glass",
+          "name": "Spell of Glass",
+          "status": "unlocked",
+          "type": "stunt",
+          "frequency": "once per scene",
+          "mechanics": "Once per scene, use Lore to Create an Advantage representing a mirrored self-reflection or illusionary duplicate of yourself. On success, create the situational aspect 'Glass Double' with 1 free invoke; on Success with Style, gain 2 free invokes. The Glass Double can be invoked to redirect an attack, create confusion about your position, or allow you to appear in two places at once within the same zone. If you take Physical stress or a consequence while the Glass Double is active, it shatters and the aspect is removed (but invokes already spent remain spent). The double cannot take independent actions but responds to your movements as a perfect mirror."
         }
       ],
 
@@ -261,11 +269,6 @@
           "spell_id": "mirror_trial_dread",
           "name": "Mirror Trial: Dread (Locked)",
           "unlock_condition": "Complete a Quagmire Mirror Trial focused on fear, panic, and the cost of mercy."
-        },
-        {
-          "spell_id": "mirror_trial_glass",
-          "name": "Mirror Trial: Glass (Locked)",
-          "unlock_condition": "Complete a Quagmire Mirror Trial focused on reflection, truth, and self-betrayal."
         }
       ]
     }
