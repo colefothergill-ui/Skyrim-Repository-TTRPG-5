@@ -87,7 +87,7 @@ The party successfully transitioned from securing Whiterun operations to establi
   - Major setback from Whiterun defeat and Galmar's death
 - **Thalmor Civil War Manipulation**: 1/8
   - Whiterun Thalmor node neutralization reduced their influence
-- **Civilian War Weariness**: 6/8
+- **Civilian War Weariness**: 6/10
   - Battle of Whiterun casualties and disruption increased weariness
 
 ### Civil War State
@@ -123,7 +123,7 @@ The party successfully transitioned from securing Whiterun operations to establi
 - **Aringoth**: Identified as Loud and Clear target
 
 ## PC Updates
-- **Fate Points**: 5 (gained 1 from Dream-Mirror Descent compel, now at refresh +4)
+- **Fate Points**: 5 (gained 1 from Dream-Mirror Descent compel; total 5 = refresh 1 + 4 bonus Fate Points)
 - **Stunts Added**: Spell of Veils
 - **Mirror Trials Completed**: Phantoms, Veils
 - **Current Stress**: Physical [false, false], Mental [false, false]
