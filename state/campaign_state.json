@@ -10,7 +10,7 @@
   "last_updated": "2026-02-09",
   "starting_location": "Whiterun",
   "current_scene_id": "A1-S11",
-  "current_location": "Whiterun Hold — Honningbrew Meadery (Basement entry)",
+  "current_location": "Whiterun Hold — Honningbrew Meadery (Upper Office / Seizure Imminent)",
   "active_hold": "Whiterun Hold",
   "current_objective": "Travel to Whiterun; execute 'Dampened Spirits' at Honningbrew Meadery (decide: expose or protect Mallus) while avoiding Thalmor attention.",
   "current_npcs": [],
@@ -67,7 +67,10 @@
     "honningbrew_veiled_identity_active": true,
     "compel_justiciar_checkpoint_accepted": true,
     "eyes_of_the_dominion_present": true,
-    "mallus_escorting_to_basement": true
+    "mallus_escorting_to_basement": true,
+    "honningbrew_sabjorn_poison_kit_planted": true,
+    "honningbrew_seizure_imminent": true,
+    "phantom_weaponry_active_this_scene": true
   },
   "scene_last_major_update": "2026-02-09",
   "civil_war_state": {
