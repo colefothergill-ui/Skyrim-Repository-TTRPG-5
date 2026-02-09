@@ -96,10 +96,10 @@
           "Dragon threat forces cooperation (-2)"
         ],
         "story_hooks": [
-          "At 5/10: Refugees begin appearing in cities",
-          "At 7/10: Food prices skyrocket, black markets flourish",
-          "At 9/10: Civil disobedience and protests",
-          "At 10/10: Riots and complete breakdown of order"
+          "At 4/8: Refugees begin appearing in cities",
+          "At 6/8: Food prices skyrocket, black markets flourish",
+          "At 7/8: Civil disobedience and protests",
+          "At 8/8: Riots and complete breakdown of order"
         ]
       }
     },
@@ -108,8 +108,7 @@
         "status": "completed_imperial_victory",
         "description": "The pivotal battle that will determine Whiterun's allegiance",
         "importance": "Critical - Forces neutral parties to choose sides",
-        "outcome": "Imperial victory; Stormcloak chain-of-command broken (Galmar killed) and Whiterun Thalmor node neutralized.",
-        "outcome_note": "Galmar Stone-Fist taken out; Stormcloak lines broke; Whiterun held for the Empire.",
+        "outcome": "Imperial victory; Stormcloak chain-of-command broken (Galmar killed) and Whiterun Thalmor node neutralized. Galmar Stone-Fist taken out; Stormcloak lines broke; Whiterun held for the Empire.",
         "possible_outcomes": [
           "Imperial victory - Whiterun remains neutral/Imperial",
           "Stormcloak victory - Whiterun falls to Stormcloaks",
