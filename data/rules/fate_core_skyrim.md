@@ -94,7 +94,7 @@ The Thu'um (Dragon Shouts) is an ancient Nordic tradition that can be learned th
   - Purchase a new stunt or +1 skill (if refresh/skill cap allows)
   
 - **Significant Milestones**: After completing story arc
-  - Gain one skill point
+  - Gain one skill point (This campaign uses Skill Column advancement: you may raise any one skill by +1 without reshaping other skills; the only limit is the current skill cap.)
   - Gain new stunt or increase refresh
   - Rename aspects to reflect growth
   

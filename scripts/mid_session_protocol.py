@@ -277,7 +277,13 @@ def latest_log(repo: Path) -> Optional[Path]:
     logs_dir = repo / "logs"
     if not logs_dir.exists():
         return None
-    return newest_file(sorted(logs_dir.glob("*.md")))
+    # Prefer canonical session logs
+    latest = newest_file(sorted(logs_dir.glob("*_LATEST.md")))
+    if latest:
+        return latest
+    # Fallback to any md except dragonbreak_log
+    candidates = [p for p in logs_dir.glob("*.md") if p.name != "dragonbreak_log.md"]
+    return newest_file(sorted(candidates)) if candidates else None
 
 def checkpoint_append(log_path: Path, text: str) -> None:
     stamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
