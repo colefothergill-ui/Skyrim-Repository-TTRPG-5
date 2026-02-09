@@ -65,7 +65,9 @@
     "compel_informants_everywhere_accepted": true,
     "mirror_trial_glass_completed": true,
     "thieves_guild_dampened_spirits_active": true,
-    "honningbrew_entry_veil_active": true
+    "honningbrew_entry_veil_active": true,
+    "honningbrew_justiciar_removed_from_basement": true,
+    "scene_aspect_justiciar_paper_trail_active": true
   },
   "scene_last_major_update": "2026-02-09",
   "civil_war_state": {
