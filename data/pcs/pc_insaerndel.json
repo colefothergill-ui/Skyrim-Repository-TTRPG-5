@@ -225,8 +225,8 @@
           "reward": "On completing the Mirror Trial, you unlock a spell from the tome and tick the tome clock."
         },
         "mirror_trials": {
-          "completed": ["Phantoms"],
-          "available": ["Veils", "Dread", "Glass"],
+          "completed": ["Phantoms", "Veils"],
+          "available": ["Dread", "Glass"],
           "gm_note": "Unlocks should feel like dream logic: symbolic locations, warped NPC reflections, and moral pressure."
         },
         "trial_resolution": {
@@ -244,15 +244,18 @@
           "type": "stunt",
           "frequency": "once per scene",
           "mechanics": "Once per scene, conjure an illusionary weapon of any form for the scene's duration. While it persists, you may use Lore to Attack or Defend in place of Fight or Shoot with that weapon. Phantom Weapon attacks are Weapon:1. If a target takes a Mild Physical Consequence due to stress from your Phantom Weapon attack, immediately create a Boost on them: 'Waking Nightmare' (1 free invoke). While that Boost exists, your Phantom Weapon attacks against that target are Weapon:2."
+        },
+        {
+          "spell_id": "spell_of_veils",
+          "name": "Spell of Veils",
+          "status": "unlocked",
+          "type": "stunt",
+          "frequency": "once per scene",
+          "mechanics": "Once per scene, Create an Advantage with Lore to project a mundane disguise (face, voice, and clothing) that holds up under casual scrutiny. On success, place the situational aspect 'Veiled Identity' with 1 free invoke; on Success with Style, gain 2 free invokes. Anyone actively trying to pierce the Veil must Overcome with Notice or Will against your Lore result. If you take Physical stress or a consequence while Veiled, the disguise flickers and you lose the remaining free invokes (the aspect may remain, but without free invokes)."
         }
       ],
 
       "locked_spells": [
-        {
-          "spell_id": "mirror_trial_veils",
-          "name": "Mirror Trial: Veils (Locked)",
-          "unlock_condition": "Complete a Quagmire Mirror Trial focused on concealment, masks, and false identities."
-        },
         {
           "spell_id": "mirror_trial_dread",
           "name": "Mirror Trial: Dread (Locked)",
