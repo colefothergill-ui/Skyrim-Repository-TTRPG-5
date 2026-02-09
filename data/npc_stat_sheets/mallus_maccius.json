@@ -2,7 +2,8 @@
   "name": "Mallus Maccius",
   "id": "npc_stat_mallus_maccius",
   "type": "Imperial Saboteur",
-  "category": "Spy/Saboteur",
+  "category": "Hostile NPC",
+  "role": "Spy/Saboteur",
   "location": "Whiterun (Honningbrew Meadery)",
   "faction": "Maven Black-Briar (secretly)",
   "aspects": {

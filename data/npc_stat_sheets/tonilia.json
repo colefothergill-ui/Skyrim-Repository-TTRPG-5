@@ -2,7 +2,8 @@
   "name": "Tonilia",
   "id": "npc_stat_tonilia",
   "type": "Nord Thief",
-  "category": "Fence",
+  "category": "Friendly NPC",
+  "role": "Fence",
   "location": "Riften (Ragged Flagon - Cistern)",
   "faction": "Thieves Guild",
   "aspects": {

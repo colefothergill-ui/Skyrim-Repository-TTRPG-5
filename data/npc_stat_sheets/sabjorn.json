@@ -2,7 +2,8 @@
   "name": "Sabjorn",
   "id": "npc_stat_sabjorn",
   "type": "Nord Merchant",
-  "category": "Business Owner",
+  "category": "Friendly NPC",
+  "role": "Business Owner",
   "location": "Whiterun (Honningbrew Meadery)",
   "faction": "None (Independent Merchant)",
   "aspects": {

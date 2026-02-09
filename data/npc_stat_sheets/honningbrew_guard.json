@@ -2,7 +2,8 @@
   "name": "Honningbrew Guard",
   "id": "npc_stat_honningbrew_guard",
   "type": "Nord Guard",
-  "category": "Security",
+  "category": "Friendly NPC",
+  "role": "Security",
   "location": "Whiterun (Honningbrew Meadery)",
   "faction": "Whiterun Guard",
   "aspects": {
