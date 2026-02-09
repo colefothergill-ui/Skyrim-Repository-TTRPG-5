@@ -530,7 +530,7 @@ Schemes Discovered: {len(state['thalmor_arc']['thalmor_schemes_discovered'])}
                     npc_id = npc.get("id") or npc.get("npc_id")
                     if not npc_id:
                         continue
-                    
+
                     # Normalize stat-sheet ids (e.g., 'npc_stat_mallus_maccius' -> 'mallus_maccius')
                     if isinstance(npc_id, str) and npc_id.startswith("npc_stat_"):
                         npc_id = npc_id.replace("npc_stat_", "", 1)
