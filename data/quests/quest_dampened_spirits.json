@@ -1,0 +1,24 @@
+{
+  "quest_id": "quest_dampened_spirits",
+  "name": "Dampened Spirits",
+  "type": "Thieves Guild Job",
+  "status": "Active",
+  "giver": "Mercer Frey (for Maven Black-Briar)",
+  "location": "Whiterun",
+  "description": "Maven Black-Briar wants Honningbrew Meadery crippled from the inside. Contact her plant, Mallus Maccius, secure proof, and collapse Sabjorn's operation—cleanly.",
+  "objectives": [
+    { "id": "meet_maven", "description": "Meet Maven at the Bee and Barb and receive terms.", "status": "Completed" },
+    { "id": "reach_whiterun", "description": "Travel to Whiterun and approach Honningbrew Meadery without spiking heat.", "status": "Active" },
+    { "id": "contact_mallus", "description": "Find Mallus Maccius and coordinate the sabotage plan.", "status": "Pending" },
+    { "id": "secure_proof", "description": "Acquire ledger/contracts/shipment schedule tying Sabjorn to vulnerabilities or wrongdoing.", "status": "Pending" },
+    { "id": "collapse_operation", "description": "Cripple Honningbrew's output (pests, supplies, reputation, or product sabotage).", "status": "Pending" },
+    { "id": "report_back", "description": "Return to Maven/Mercer with proof and results; collect payout and leverage Pale info.", "status": "Pending" }
+  ],
+  "rewards": {
+    "gold": 0,
+    "items": [],
+    "reputation": "+? Thieves Guild / Maven favor"
+  },
+  "related_npcs": ["Maven Black-Briar", "Mercer Frey", "Mallus Maccius", "Sabjorn"],
+  "notes": "Maven has implied the Pale-linked shipping note intersects with her networks. Completing this job cleanly may yield a concrete name/route toward Arisann."
+}

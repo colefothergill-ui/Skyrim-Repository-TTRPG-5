@@ -277,10 +277,30 @@ def latest_log(repo: Path) -> Optional[Path]:
     logs_dir = repo / "logs"
     if not logs_dir.exists():
         return None
-    # Prefer canonical session logs
-    latest = newest_file(sorted(logs_dir.glob("*_LATEST.md")))
-    if latest:
+    
+    # Prefer canonical session logs ending with _LATEST.md
+    latest_logs = sorted(logs_dir.glob("*_LATEST.md"))
+    
+    if latest_logs:
+        # Parse filenames to extract date (YYYY-MM-DD) and session number
+        def parse_log_key(path: Path):
+            name = path.name
+            # Try to extract date in format YYYY-MM-DD
+            date_match = re.match(r'(\d{4}-\d{2}-\d{2})', name)
+            date_str = date_match.group(1) if date_match else "0000-00-00"
+            
+            # Try to extract session number (e.g., session-03, session-02)
+            session_match = re.search(r'session-(\d+)', name)
+            session_num = int(session_match.group(1)) if session_match else 0
+            
+            # Return tuple: (date, session_number, mtime) for sorting
+            # Newest date first, then newest session number, then newest mtime
+            return (date_str, session_num, path.stat().st_mtime)
+        
+        # Sort by date (desc), session number (desc), then mtime (desc)
+        latest = max(latest_logs, key=parse_log_key)
         return latest
+    
     # Fallback to any md except dragonbreak_log
     candidates = [p for p in logs_dir.glob("*.md") if p.name != "dragonbreak_log.md"]
     return newest_file(sorted(candidates)) if candidates else None

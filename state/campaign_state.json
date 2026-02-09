@@ -6,14 +6,14 @@
   "active_pc": "pc_insaerndel",
   "active_pc_id": "pc_insaerndel",
   "session_zero_completed": true,
-  "session_count": 2,
-  "last_updated": "2026-02-08",
+  "session_count": 3,
+  "last_updated": "2026-02-09",
   "starting_location": "Whiterun",
-  "current_scene_id": "A1-S10",
-  "current_location": "Riften — Ragged Flagon (Cistern)",
+  "current_scene_id": "A1-S12",
+  "current_location": "Riften — Bee and Barb",
   "active_hold": "The Rift",
-  "current_objective": "Thieves Guild: Fence Goldenglow loot with the Guild fence, then accept Mercer's next mainline job (Honningbrew / 'Dampened Spirits').",
-  "current_npcs": [],
+  "current_objective": "Thieves Guild: Meet Maven, secure terms for Honningbrew ('Dampened Spirits'), then travel to Whiterun to contact Mallus Maccius and cripple Sabjorn's operation. Use the job to leverage the Pale-linked paper trail toward Arisann.",
+  "current_npcs": ["maven_black_briar"],
   "scene_flags": {
     "battle_of_whiterun_active": false,
     "battle_of_whiterun_resolved": true,
@@ -60,7 +60,9 @@
     "goldenglow_safe_cleared": true,
     "goldenglow_beehives_burned": true,
     "goldenglow_alarm_full": false,
-    "scene_last_major_update": "2026-02-08"
+    "dampened_spirits_accepted": true,
+    "met_maven_bee_and_barb": true,
+    "scene_last_major_update": "2026-02-09"
   },
   "scene_last_major_update": "2026-02-08",
   "civil_war_state": {

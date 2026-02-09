@@ -151,7 +151,7 @@
       false
     ],
     "mental": [
-      false,
+      true,
       false
     ]
   },
@@ -168,7 +168,7 @@
     "Spell of Veils: Because Insaerndel completed the Quagmire Mirror Trial 'Veils' and learned to wear illusion like a second skin, once per scene he may Create an Advantage with Lore to project a mundane disguise (face, voice, and clothing) that holds up under casual scrutiny. On success, place the situational aspect 'Veiled Identity' with 1 free invoke; on Success with Style, gain 2 free invokes. Anyone actively trying to pierce the Veil must Overcome with Notice or Will against your Lore result. If you take Physical stress or a consequence while Veiled, the disguise flickers and you lose the remaining free invokes (the aspect may remain, but without free invokes)."
   ],
   "refresh": 1,
-  "fate_points": 5,
+  "fate_points": 7,
   "equipment": {
     "weapons": [],
     "armor": [],
