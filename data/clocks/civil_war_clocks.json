@@ -1,7 +1,7 @@
 {
   "civil_war_clocks": {
     "description": "Track the progression of the civil war between Imperials and Stormcloaks",
-    "last_updated": "2026-02-05",
+    "last_updated": "2026-02-08",
     "clocks": {
       "imperial_military_dominance": {
         "name": "Imperial Military Dominance",
@@ -82,7 +82,7 @@
         "name": "Civilian War Weariness",
         "description": "The toll of civil war on Skyrim's common people",
         "current_progress": 6,
-        "total_segments": 10,
+        "total_segments": 8,
         "completion_effect": "Mass civilian unrest, refugees flood major cities, economy collapses",
         "advancement_triggers": [
           "Major battle affects civilian areas (+2)",
@@ -96,19 +96,19 @@
           "Dragon threat forces cooperation (-2)"
         ],
         "story_hooks": [
-          "At 5/10: Refugees begin appearing in cities",
-          "At 7/10: Food prices skyrocket, black markets flourish",
-          "At 9/10: Civil disobedience and protests",
-          "At 10/10: Riots and complete breakdown of order"
+          "At 4/8: Refugees begin appearing in cities",
+          "At 6/8: Food prices skyrocket, black markets flourish",
+          "At 7/8: Civil disobedience and protests",
+          "At 8/8: Riots and complete breakdown of order"
         ]
       }
     },
     "major_battles": {
       "battle_of_whiterun": {
         "status": "completed_imperial_victory",
-        "description": "The pivotal battle that determined Whiterun's allegiance",
-        "importance": "Critical - Forced neutral parties to choose sides",
-        "outcome": "Imperial victory; Stormcloak chain-of-command broken (Galmar killed) and Whiterun Thalmor node neutralized.",
+        "description": "The pivotal battle that will determine Whiterun's allegiance",
+        "importance": "Critical - Forces neutral parties to choose sides",
+        "outcome": "Imperial victory; Galmar Stone-Fist killed, Stormcloak chain-of-command and lines broken, Whiterun's Thalmor node neutralized, and the city held firmly for the Empire.",
         "possible_outcomes": [
           "Imperial victory - Whiterun remains neutral/Imperial",
           "Stormcloak victory - Whiterun falls to Stormcloaks",

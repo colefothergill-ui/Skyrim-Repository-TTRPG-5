@@ -1,98 +1,14 @@
 {
-  "patch_id": "2026-02-08_riften_return_thieves_guild_pivot",
-  "created_at": "2026-02-08",
-  "scope": "session_02_protocol",
   "date": "2026-02-08",
-  "summary": {
-    "scene_from": "A1-S6",
-    "scene_to": "A1-S8",
-    "location": "Riften — Ragged Flagon (Cistern)",
-    "highlights": [
-      "Riften return: Veils disguise tested successfully at the city gate.",
-      "Brynjolf briefed on Whiterun foothold success.",
-      "Pivoting into 'Loud and Clear' (Goldenglow Estate job).",
-      "Spell of Veils stunt unlocked from Quagmire Mirror Trial.",
-      "Trust and clocks updated for Thieves Guild and Imperial Legion."
-    ]
-  },
+  "scope": "Mid-session protocol update: Riften arrival, Veils stunt, trust/clocks, thieves guild quest pivot",
   "changes": [
     {"file": "state/campaign_state.json", "change": "Advance to A1-S8; location set to Riften — Ragged Flagon (Cistern); objective set to Thieves Guild 'Loud and Clear' prep; add current_npcs and scene_flags."},
     {"file": "data/pcs/pc_insaerndel.json", "change": "Add Stunt: Spell of Veils; set fate_points to 5 (includes Dream-Mirror Descent compel)."},
     {"file": "data/quests/quest_thieves_guild.json", "change": "Mark Brynjolf test + debt collections as Completed; set Goldenglow/Honningbrew and Footholds to In Progress; add progress notes for Whiterun and Goldenglow pivot."},
     {"file": "data/clocks/faction_trust_clocks.json", "change": "Thieves Guild trust set to 6/10; Imperial Legion trust set to 6/10."},
-    {"file": "data/clocks/civil_war_clocks.json", "change": "Imperial dominance set to 5/10; Stormcloak momentum set to 3/10; Thalmor manipulation set to 1/8; Civilian weariness set to 6/10; mark Battle of Whiterun as completed_imperial_victory."},
+    {"file": "data/clocks/civil_war_clocks.json", "change": "Imperial dominance set to 5/10; Stormcloak momentum set to 3/10; Thalmor manipulation set to 1/8; Civilian weariness set to 6/8; mark Battle of Whiterun as completed_imperial_victory."},
     {"file": "data/clocks/pc_extras_clocks.json", "change": "Search for Arisann set to 2/8."},
     {"file": "data/npc_stat_sheets/*.json", "change": "Add stat sheets for Mercer Frey, Vex, Delvin Mallory, Maven Black-Briar, Aringoth, Karliah for upcoming Thieves Guild arc scenes."},
     {"file": "logs/2026-02-08_session-02_LATEST.md", "change": "New session log covering Riften return + Thieves Guild pivot."}
-  ],
-  "state_updates": {
-    "campaign_state": {
-      "last_updated": "2026-02-08",
-      "session_count": 2,
-      "current_scene_id": "A1-S8",
-      "current_location": "Riften — Ragged Flagon (Cistern)",
-      "active_hold": "The Rift",
-      "current_objective": "Thieves Guild: 'Loud and Clear' — plan and execute the Goldenglow Estate job; keep your Veils disguise ready; keep pressure on Arisann lead.",
-      "current_npcs": ["brynjolf", "mercer_frey", "vex", "delvin_mallory"],
-      "scene_flags_added": {
-        "arrived_in_riften": true,
-        "spell_of_veils_tested_in_public": true,
-        "met_brynjolf_ragged_flagon": true,
-        "thieves_guild_main_questline_pivot": true,
-        "thieves_guild_loud_and_clear_active": true,
-        "scene_last_major_update": "2026-02-08"
-      },
-      "civil_war_state": {
-        "battle_of_whiterun_status": "completed_imperial_victory"
-      }
-    }
-  },
-  "clock_updates": {
-    "data/clocks/civil_war_clocks.json": {
-      "imperial_military_dominance": 5,
-      "stormcloak_rebellion_momentum": 3,
-      "thalmor_civil_war_manipulation": 1,
-      "civilian_war_weariness": 6,
-      "major_battles.battle_of_whiterun.status": "completed_imperial_victory",
-      "major_battles.battle_of_whiterun.outcome": "Imperial victory; Stormcloak chain-of-command broken (Galmar killed) and Whiterun Thalmor node neutralized."
-    },
-    "data/clocks/faction_trust_clocks.json": {
-      "thieves_guild_trust.current_trust": 6,
-      "imperial_legion_trust.current_trust": 6
-    },
-    "data/clocks/pc_extras_clocks.json": {
-      "insaerndel_search_for_arisann.current_progress": 2
-    }
-  },
-  "pc_updates": {
-    "data/pcs/pc_insaerndel.json": {
-      "fate_points": 5,
-      "stunts_added": [
-        "Spell of Veils: Because Insaerndel completed the Quagmire Mirror Trial 'Veils' and learned to wear illusion like a second skin, once per scene he may Create an Advantage with Lore to project a mundane disguise (face, voice, and clothing) that holds up under casual scrutiny. On success, place the situational aspect 'Veiled Identity' with 1 free invoke; on Success with Style, gain 2 free invokes. Anyone actively trying to pierce the Veil must Overcome with Notice or Will against your Lore result. If you take Physical stress or a consequence while Veiled, the disguise flickers and you lose the remaining free invokes (the aspect may remain, but without free invokes)."
-      ]
-    }
-  },
-  "quest_updates": {
-    "data/quests/quest_thieves_guild.json": {
-      "status": "Active",
-      "objectives": {
-        "0": "Completed",
-        "1": "Completed",
-        "2": "In Progress",
-        "3": "In Progress"
-      },
-      "notes_added": [
-        "Whiterun foothold established: Battle-Born Arcana secured as a sanctioned Guild front/safehouse (20% revenue cut to Olfrid Battle-Born).",
-        "Riften return: Veils disguise tested successfully at the city gate; Brynjolf briefed; pivoting into 'Loud and Clear' (Goldenglow Estate)."
-      ]
-    }
-  },
-  "npc_stat_sheets_added": [
-    "mercer_frey",
-    "vex",
-    "delvin_mallory",
-    "maven_black_briar",
-    "aringoth",
-    "karliah"
   ]
 }

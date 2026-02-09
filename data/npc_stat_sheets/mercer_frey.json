@@ -3,31 +3,31 @@
   "id": "npc_stat_mercer_frey",
   "type": "Breton Thief",
   "category": "Faction Leader",
-  "location": "Riften (Ragged Flagon)",
+  "location": "Riften (Ragged Flagon - Cistern)",
   "faction": "Thieves Guild",
   "aspects": {
-    "high_concept": "Guild Master of the Thieves Guild (Secret Traitor)",
-    "trouble": "Corrupted by the Skeleton Key's Power",
+    "high_concept": "Guild Master with a Dark Secret",
+    "trouble": "Greed Corrupts Even the Greatest Thieves",
     "other_aspects": [
+      "Master of the Skeleton Key",
       "Cold, Calculating, and Ruthless",
-      "Master of Deception and Infiltration",
-      "Betrayed Gallus and Karliah"
+      "Betrayer Wearing a Trusted Mask"
     ]
   },
   "skills": {
-    "Superb": ["Burglary"],
-    "Great": ["Stealth", "Deceive"],
+    "Superb": ["Deceive"],
+    "Great": ["Stealth", "Burglary"],
     "Good": ["Notice", "Fight", "Will"],
-    "Fair": ["Athletics", "Resources", "Contacts"],
-    "Average": ["Lore", "Shoot"]
+    "Fair": ["Athletics", "Lore", "Contacts"],
+    "Average": ["Shoot", "Resources"]
   },
   "stunts": [
-    "Skeleton Key Mastery: +2 to Burglary when opening any lock (bypasses magical locks)",
-    "Master Infiltrator: Once per scene, automatically succeed at a Stealth roll to enter a location undetected",
-    "Betrayer's Strike: +2 to Attack when target is unaware or trusts Mercer"
+    "Shadow Vault: +2 to Burglary when dealing with complex locks or traps",
+    "Master Deceiver: May use Deceive to defend against Empathy or Notice attempts to read intentions",
+    "Skeleton Key's Blessing: Once per session, automatically succeed at any Burglary roll to open a lock"
   ],
   "stress": {
-    "physical": [false, false, false, false],
+    "physical": [false, false, false],
     "mental": [false, false, false, false]
   },
   "consequences": {
@@ -37,42 +37,42 @@
   },
   "refresh": 3,
   "armor": 1,
-  "notes": "Mercer Frey is the current Guild Master of the Thieves Guild, a Breton master thief with unparalleled skill. Unknown to the guild, he murdered his predecessor Gallus and framed Karliah, stealing the Skeleton Key from the Twilight Sepulcher. He has been embezzling from the guild's treasury for years, using the Skeleton Key to rob the guild blind. His betrayal has caused the guild's decline and the loss of Nocturnal's favor. He is cunning, ruthless, and will stop at nothing to protect his secrets.",
-  "combat_tactics": "Mercer fights dirty, using ambush tactics, poison, and the environment to his advantage. He prefers to strike from shadows and retreat when outmatched. In his final confrontation, he uses the Skeleton Key's power to manipulate locks and traps.",
-  "scene_triggers": ["Thieves Guild questline", "Karliah investigation", "Snow Veil Sanctum", "Irkngthand"],
+  "notes": "Mercer Frey is the Guild Master of the Thieves Guild in Riften. Outwardly professional and dedicated to the guild's success, he secretly embezzled vast sums using the Skeleton Key. He betrayed and murdered his former partner Gallus, then framed Karliah for the crime. Mercer is cold, calculating, and utterly ruthless when his secrets are threatened. He maintains an air of authority and control, but his paranoia grows as the truth begins to surface.",
+  "combat_tactics": "Mercer fights dirty, using poisons, sneak attacks, and environmental hazards. He prioritizes escape over direct confrontation but will not hesitate to kill witnesses. In his final confrontation, he uses the Skeleton Key's power and the environment of Irkngthand to his advantage.",
+  "scene_triggers": ["Thieves Guild headquarters", "Guild briefings", "Loud and Clear planning", "Snow Veil Sanctum betrayal", "Irkngthand final confrontation"],
   "act_context": ["Act 1", "Act 2"],
   "starting_equipment": {
     "armor": "Guild Master's Armor (Armor:1, +1 to Stealth)",
-    "weapon": "Chillrend (Weapon:3, frost damage)",
-    "other": ["Skeleton Key (bypasses all locks)", "Poison vials x3", "Smoke bombs x2", "100 gold"]
+    "weapon": "Chillrend (Weapon:2, frost damage)",
+    "other": ["Skeleton Key (Daedric Artifact)", "Lockpicks", "Poison vials", "500 gold"]
   },
-  "social_interaction": "Mercer is cold, professional, and maintains strict control over guild operations. He speaks with authority and expects immediate obedience. While outwardly loyal to the guild, he subtly manipulates members and information to serve his own interests. He is suspicious of outsiders and watches new recruits closely.",
+  "social_interaction": "Mercer presents himself as stern but fair, a leader who demands excellence. He speaks with authority and doesn't waste words. He's dismissive of sentiment and focuses on results. Beneath this facade, he's paranoid and will eliminate threats without hesitation.",
   "relationships": {
-    "Brynjolf": "Trusted lieutenant (unaware of betrayal)",
-    "Karliah": "Framed for murder, hunted as traitor",
-    "Gallus": "Former Guild Master (murdered by Mercer)",
-    "Vex": "Guild member, professional respect",
-    "Delvin Mallory": "Longtime colleague",
-    "Maven Black-Briar": "Business arrangement, mutual respect"
+    "Brynjolf": "Second-in-command, trusts Mercer completely (unaware of betrayal)",
+    "Karliah": "Former guild member, framed for Gallus's murder",
+    "Gallus": "Former partner, murdered by Mercer",
+    "Nocturnal": "Patron of the guild, betrayed by keeping the Skeleton Key",
+    "Maven Black-Briar": "Business associate and patron"
   },
   "personality_notes": {
-    "speaking_style": "Clipped, authoritative, businesslike. No warmth or humor.",
-    "motivations": ["Maintain power and wealth", "Protect his betrayal secret", "Exploit Skeleton Key's power", "Control guild operations"],
-    "fears": ["Discovery of his betrayal", "Nocturnal's wrath", "Loss of the Skeleton Key", "Karliah's evidence"],
-    "quirks": ["Always watching exits", "Suspicious of everyone", "Obsessed with control"],
-    "character_growth": "N/A - Mercer is committed to his betrayal and cannot be redeemed"
+    "speaking_style": "Direct, authoritative, no-nonsense, dismissive of emotions",
+    "motivations": ["Accumulate personal wealth", "Maintain control of the guild", "Protect his secret betrayal", "Exploit the Skeleton Key's power"],
+    "fears": ["Being exposed as traitor", "Losing the Skeleton Key", "Nocturnal's wrath", "Loss of control"],
+    "quirks": ["Always calculating exits", "Paranoid about loyalty", "Obsessed with the Eyes of the Falmer"],
+    "character_growth": "Mercer's arc is one of falling - his greed and betrayal spiral into desperation as the player uncovers his crimes. His final stand shows a man who chose power over honor and paid the ultimate price."
   },
   "story_hooks": [
-    "Assigns major heists to prove loyalty and test capabilities",
-    "Secretly investigates anyone who questions him",
-    "Eventually sends party into trap at Snow Veil Sanctum",
-    "Final confrontation at Irkngthand as truth is revealed",
-    "Possesses Skeleton Key - ultimate guild betrayal"
+    "Plans the Goldenglow Estate job as Guild Master",
+    "Assigns player to investigate Honningbrew Meadery",
+    "Becomes suspicious of player's success and growing influence",
+    "Betrays player and Karliah at Snow Veil Sanctum",
+    "Final confrontation at Irkngthand where truth is revealed"
   ],
   "dialogue_samples": {
-    "greeting": "You must be the new recruit Brynjolf mentioned. We'll see if you're worth the trouble.",
-    "assignment": "I need this handled quietly and professionally. No mistakes, no witnesses, no questions.",
-    "suspicion": "I don't trust easily, and I don't tolerate failure. Remember that.",
-    "final_confrontation": "You should have stayed out of this. The guild was mine to control, and now you've ruined everything!"
+    "greeting": "You're the new recruit Brynjolf keeps going on about. Let's see if you're worth the trouble.",
+    "briefing": "The job is simple. Get in, handle the problem, get out. No witnesses, no mistakes. Understood?",
+    "suspicious": "You've been asking a lot of questions lately. I hope you remember where your loyalties lie.",
+    "betrayal": "You should have stayed out of this. The guild is mine, and I won't let anyone take it from me.",
+    "final_words": "Everything I did, I did for myself. And I'd do it all again."
   }
 }

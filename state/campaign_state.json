@@ -50,13 +50,17 @@
     "west_wall_secured": true,
     "compel_famous_wrong_circles_accepted": true,
     "battleborn_quiet_inquiry_completed": true,
+    "guild_foothold_whiterun_completed": true,
+    "olfrid_contract_paid": true,
+    "greymane_arrest_in_motion": true,
+    "insaerndel_alias_orinthelo_shared_with_hadvar": true,
     "arrived_in_riften": true,
     "spell_of_veils_tested_in_public": true,
     "met_brynjolf_ragged_flagon": true,
     "thieves_guild_main_questline_pivot": true,
-    "thieves_guild_loud_and_clear_active": true,
-    "scene_last_major_update": "2026-02-08"
+    "thieves_guild_loud_and_clear_active": true
   },
+  "scene_last_major_update": "2026-02-08",
   "civil_war_state": {
     "player_alliance": "imperial",
     "whiterun_control": "imperial",

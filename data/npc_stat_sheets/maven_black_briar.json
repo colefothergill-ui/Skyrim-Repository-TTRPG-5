@@ -3,32 +3,32 @@
   "id": "npc_stat_maven_black_briar",
   "type": "Nord Noble",
   "category": "Power Broker",
-  "location": "Riften (Black-Briar Manor)",
-  "faction": "Black-Briar Family / Thieves Guild Patron",
+  "location": "Riften (Black-Briar Manor / Bee and Barb)",
+  "faction": "Black-Briar Family",
   "aspects": {
-    "high_concept": "Ruthless Matriarch of the Black-Briar Family",
-    "trouble": "Too Many Enemies, Too Many Secrets",
+    "high_concept": "Ruthless Matriarch of Riften's Criminal Empire",
+    "trouble": "Everyone Is Either an Asset or a Threat",
     "other_aspects": [
-      "Controls Riften's Criminal Underworld",
-      "Dark Brotherhood and Thieves Guild Connections",
-      "Will Become Jarl if Imperials Win"
+      "Puppetmaster of the Rift",
+      "Dark Brotherhood Connections",
+      "Untouchable by Law"
     ]
   },
   "skills": {
     "Superb": ["Resources"],
-    "Great": ["Rapport", "Will"],
-    "Good": ["Deceive", "Contacts", "Notice"],
-    "Fair": ["Lore", "Provoke"],
-    "Average": ["Fight"]
+    "Great": ["Contacts", "Deceive"],
+    "Good": ["Will", "Rapport", "Notice"],
+    "Fair": ["Lore", "Empathy", "Fight"],
+    "Average": ["Stealth", "Physique"]
   },
   "stunts": [
-    "Power Broker: +2 to Rapport when making deals or calling in favors from powerful individuals",
-    "Untouchable: Once per session, automatically negate legal consequences through connections",
-    "Criminal Empire: Has access to Thieves Guild, Dark Brotherhood, and extensive merchant network"
+    "Web of Influence: +2 to Contacts when leveraging political or criminal connections in the Rift",
+    "Untouchable: Once per session, automatically avoid legal consequences for a crime through connections",
+    "Power Broker: May use Resources in place of Rapport or Deceive when dealing with nobles or officials"
   ],
   "stress": {
     "physical": [false, false],
-    "mental": [false, false, false, false, false]
+    "mental": [false, false, false, false]
   },
   "consequences": {
     "mild": null,
@@ -37,43 +37,50 @@
   },
   "refresh": 3,
   "armor": 0,
-  "notes": "Maven Black-Briar is the matriarch of the Black-Briar family and one of the most powerful people in Riften. She owns the Black-Briar Meadery, controls much of Riften's criminal activity, and has connections to both the Thieves Guild and Dark Brotherhood. Maven is ruthless, manipulative, and absolutely intolerant of threats to her power. She uses blackmail, intimidation, and violence to maintain control. If the Empire wins the civil war, she becomes Jarl of Riften. The Thieves Guild operates with her blessing and protection in exchange for favors and a cut of major scores.",
-  "combat_tactics": "Maven never fights directly. She has guards, assassins, and guild members to handle threats. If personally threatened, she uses blackmail and political power to destroy enemies.",
-  "scene_triggers": ["Thieves Guild questline", "Riften politics", "Black-Briar Meadery", "Civil war consequences"],
+  "notes": "Maven Black-Briar is the most powerful person in Riften, controlling both legitimate business (Black-Briar Meadery) and criminal enterprises through her connections to the Thieves Guild and Dark Brotherhood. She's calculating, ruthless, and utterly devoid of mercy for those who cross her. Maven sees everyone as tools to be used or threats to be eliminated. If the Imperials take Riften during the civil war, she becomes Jarl. Her influence extends far beyond the Rift.",
+  "combat_tactics": "Maven never fights her own battles. She has bodyguards, the Thieves Guild, the Dark Brotherhood, and the law at her disposal. Cross her, and you'll face an army of consequences long before you see her again.",
+  "scene_triggers": ["Black-Briar Manor", "Bee and Barb", "Guild negotiations", "Political maneuvering", "Civil war shifts"],
   "act_context": ["Act 1", "Act 2", "Act 3"],
   "starting_equipment": {
     "armor": "Fine Clothes (Armor:0)",
-    "weapon": "None (has bodyguards)",
-    "other": ["Blackmail files", "Thieves Guild favor tokens", "Dark Brotherhood contact", "Considerable wealth"]
+    "weapon": "None (relies on others)",
+    "other": ["Business ledgers", "Contracts and deeds", "Dark Brotherhood token", "1000+ gold"]
   },
-  "social_interaction": "Maven is imperious, condescending, and makes it clear she's in control. She speaks with authority and expects immediate compliance. She's shrewd in negotiations and always looking for leverage. While she can be cordial to those useful to her, she's quick to threaten those who oppose her. She respects power and competence but has no loyalty to anyone.",
+  "social_interaction": "Maven is cold, direct, and intimidating. She speaks with absolute confidence and expects obedience. She makes no attempt to be likeable - she doesn't need to be. Every word is calculated, and she's always assessing how people can serve her interests. Cross her, and her tone becomes arctic.",
   "relationships": {
-    "Brynjolf": "Uses guild for her purposes, patron relationship",
-    "Mercer Frey": "Business arrangement, mutual benefit",
-    "Thieves Guild": "Patron and protector (for a price)",
-    "Dark Brotherhood": "Has contract with them for eliminations",
-    "Jarl Laila Law-Giver": "Manipulates through influence",
-    "Hemming Black-Briar": "Son, disappointing",
-    "Ingun Black-Briar": "Daughter, alchemist"
+    "Thieves Guild": "Primary patron and beneficiary of guild operations",
+    "Dark Brotherhood": "Has contract connections, can call in assassinations",
+    "Jarl Laila Law-Giver": "Controls through influence and blackmail",
+    "Hemming Black-Briar": "Son, disappointing but still family",
+    "Ingun Black-Briar": "Daughter, shows more promise",
+    "Sibbi Black-Briar": "Son, currently in prison",
+    "Imperial Legion": "Allied if Imperials take Riften, becomes Jarl"
   },
   "personality_notes": {
-    "speaking_style": "Imperious, threatening, condescending. Makes veiled and direct threats.",
-    "motivations": ["Maintain and expand power", "Control Riften", "Become Jarl", "Protect family interests", "Eliminate threats"],
-    "fears": ["Loss of control", "Exposure of secrets", "Threats to family empire"],
-    "quirks": ["Always speaks from position of power", "Uses threats casually", "Collects leverage on everyone"],
-    "character_growth": "N/A - Maven is consistent in her ruthless pursuit of power"
+    "speaking_style": "Cold, direct, commanding, makes statements not requests, threats veiled as facts",
+    "motivations": ["Maintain absolute control over Riften", "Expand Black-Briar business empire", "Eliminate threats to her power", "Secure political position"],
+    "fears": ["Loss of control", "Being outmaneuvered", "Family weakness exposing her", "Someone immune to her influence"],
+    "quirks": ["Never raises her voice", "Always has contingencies", "Keeps detailed records on everyone", "Never forgets a slight"],
+    "character_growth": "Maven doesn't change - she's the immovable force in Riften politics. Others orbit around her power."
   },
   "story_hooks": [
-    "Provides protection and resources to Thieves Guild",
-    "Can become Jarl if Empire wins civil war",
-    "May request favors from guild members",
-    "Has information on major Riften figures",
-    "Can be powerful ally or dangerous enemy"
+    "Patron of the Thieves Guild, expects loyalty and results",
+    "Can become Jarl of Riften if Imperials win civil war",
+    "Provides protection and resources to guild in exchange for services",
+    "May offer quests involving eliminating business rivals",
+    "Potential antagonist if player crosses her interests",
+    "Dark Brotherhood connection can lead to assassination contracts"
   ],
   "dialogue_samples": {
-    "greeting": "What do you want? Make it quick - my time is valuable.",
-    "threat": "Cross me and you'll find there's nowhere in Skyrim you can hide. I have friends in very dark places.",
-    "business": "I respect competence. Serve my interests well and you'll be rewarded. Fail me and... well, don't fail me.",
-    "power_display": "I own this city. The Jarl may sit in Mistveil Keep, but I hold the real power here. Remember that."
+    "greeting": "You work for the guild, which means you work for me. Remember that.",
+    "business": "I have interests that need protecting. The guild will handle it, and you'll ensure it's done correctly. Do I make myself clear?",
+    "threat": "You should know that I have connections. Very powerful connections. Cross me, and you'll discover just how far they reach.",
+    "approval": "Efficient. Professional. This is why the guild remains useful to me. Keep it up.",
+    "as_jarl": "Jarl Maven Black-Briar. Has a nice ring to it, doesn't it? Now, the Rift will finally be run properly."
+  },
+  "civil_war_notes": {
+    "imperial_victory": "Becomes Jarl of Riften, openly consolidates power",
+    "stormcloak_victory": "Remains power behind throne, controls Jarl Laila",
+    "relationship_with_player": "Depends on guild loyalty and whether player aids her ambitions"
   }
 }

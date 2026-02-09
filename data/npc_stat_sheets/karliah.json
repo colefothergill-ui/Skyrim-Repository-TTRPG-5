@@ -2,29 +2,29 @@
   "name": "Karliah",
   "id": "npc_stat_karliah",
   "type": "Dunmer Nightingale",
-  "category": "Former Guild Member",
-  "location": "Snow Veil Sanctum (hiding)",
-  "faction": "Nightingales / Former Thieves Guild",
+  "category": "Key Ally",
+  "location": "Snow Veil Sanctum / Nightingale Hall",
+  "faction": "Nightingales / Thieves Guild (formerly)",
   "aspects": {
-    "high_concept": "Dunmer Nightingale and Gallus's Avenger",
-    "trouble": "Framed for Murder, Hunted by the Guild",
+    "high_concept": "Nightingale Seeking Justice for Gallus",
+    "trouble": "Branded Traitor by Those She Once Called Family",
     "other_aspects": [
-      "Master of Shadow and Stealth",
-      "Nocturnal's Champion",
-      "Knows the Truth About Mercer Frey"
+      "Descendant of Barenziah",
+      "Master of Patience and Stealth",
+      "Sworn to Nocturnal's Service"
     ]
   },
   "skills": {
     "Superb": ["Stealth"],
     "Great": ["Shoot", "Notice"],
-    "Good": ["Athletics", "Will", "Deceive"],
-    "Fair": ["Burglary", "Survival", "Lore"],
+    "Good": ["Athletics", "Burglary", "Will"],
+    "Fair": ["Deceive", "Lore", "Survival"],
     "Average": ["Fight", "Contacts"]
   },
   "stunts": [
-    "Nightingale Training: +2 to Stealth when in darkness or shadows",
-    "Expert Archer: +2 to Shoot with bows, can make Called Shots",
-    "Shadow Cloak: Once per scene, become completely invisible for one exchange"
+    "Nightingale's Grace: +2 to Stealth when in darkness or shadows",
+    "Master Archer: May use Shoot to attack targets up to three zones away with no penalty",
+    "Nocturnal's Blessing: Once per session, automatically succeed at a Stealth roll to remain hidden"
   ],
   "stress": {
     "physical": [false, false, false],
@@ -37,43 +37,52 @@
   },
   "refresh": 3,
   "armor": 1,
-  "notes": "Karliah is a Dunmer master thief and member of the Nightingales, an ancient order sworn to protect the Twilight Sepulcher and serve Nocturnal. She was the lover of Gallus, the previous Guild Master, and witnessed Mercer Frey murder him and steal the Skeleton Key. Mercer framed her for the murder, forcing her into hiding for 25 years. She's been gathering evidence and waiting for the right moment to expose Mercer's betrayal. Karliah is skilled, patient, and deeply committed to restoring Nocturnal's favor to the guild and avenging Gallus. She eventually becomes a key ally in stopping Mercer and restoring the guild.",
-  "combat_tactics": "Karliah fights from range with her bow, using stealth and mobility to stay out of direct combat. She uses poison-tipped arrows and shadow magic to disable enemies. She prefers ambush tactics and always has an escape route planned.",
-  "scene_triggers": ["Snow Veil Sanctum", "Thieves Guild questline", "Gallus investigation", "Nightingale revival"],
+  "notes": "Karliah is a Dunmer Nightingale and former member of the Thieves Guild. She was Gallus's partner in both the guild and the Nightingales. When Mercer Frey murdered Gallus and stole the Skeleton Key, he framed Karliah for the crime. She's spent years in exile, gathering evidence to prove her innocence and expose Mercer's betrayal. Karliah is patient, calculating, and utterly dedicated to seeing justice done and Nocturnal's oath fulfilled. She's the key to uncovering the truth about the guild's misfortunes.",
+  "combat_tactics": "Karliah is a master of stealth and archery. She strikes from shadows with poisoned arrows, using hit-and-run tactics. She avoids direct confrontation and uses environmental advantages. Her Nightingale training makes her exceptionally dangerous in darkness.",
+  "scene_triggers": ["Snow Veil Sanctum revelation", "Proof of innocence", "Nightingale Hall", "Return to guild", "Twilight Sepulcher"],
   "act_context": ["Act 1", "Act 2"],
   "starting_equipment": {
-    "armor": "Nightingale Armor (Armor:1, +2 to Stealth)",
-    "weapon": "Nightingale Bow (Weapon:2, frost and shock damage)",
-    "other": ["Paralysis arrows x10", "Gallus's journal", "Evidence against Mercer", "Nocturnal's amulet", "40 gold"]
+    "armor": "Nightingale Armor (Armor:1, +2 to Stealth in darkness)",
+    "weapon": "Nightingale Bow (Weapon:2, range 3 zones, frost damage)",
+    "other": ["Gallus's journal (evidence)", "Paralysis poison arrows", "Lockpicks", "150 gold"]
   },
-  "social_interaction": "Karliah is cautious, measured, and speaks with the patience of someone who has waited 25 years for justice. She's intelligent and observant, carefully vetting anyone before trusting them. While she can be cold initially, she shows warmth to those who earn her trust. She speaks with deep respect for Gallus and Nocturnal, and carries the weight of her long exile.",
+  "social_interaction": "Karliah is cautious, measured, and serious. Years of isolation and pursuit have made her wary, but she's not cold - just careful. She speaks with quiet intensity and chooses words precisely. Once she trusts someone, she's loyal and supportive. She carries the weight of her exile and Gallus's death with visible grief.",
   "relationships": {
-    "Gallus": "Former Guild Master and lover (murdered by Mercer)",
-    "Mercer Frey": "Murdered Gallus, framed Karliah, stole Skeleton Key (hated)",
-    "Brynjolf": "Former colleague (once trusted, now hunted by)",
-    "Nocturnal": "Sworn to serve as Nightingale",
-    "Thieves Guild": "Former member, wants to help restore"
+    "Gallus": "Former partner and love, murdered by Mercer, seeks to honor his memory",
+    "Mercer Frey": "Betrayer and murderer, primary target of her quest for justice",
+    "Brynjolf": "Former guild brother, branded her traitor, seeks to restore relationship",
+    "Thieves Guild": "Former family, wrongly turned against her, wants to save them",
+    "Nocturnal": "Patron Daedric Prince, bound by Nightingale oath",
+    "Player": "Key ally in exposing truth and stopping Mercer"
   },
   "personality_notes": {
-    "speaking_style": "Measured, cautious, thoughtful. Speaks with quiet intensity about Mercer.",
-    "motivations": ["Avenge Gallus's murder", "Expose Mercer's betrayal", "Restore Skeleton Key to Nocturnal", "Clear her name", "Help restore guild"],
-    "fears": ["Mercer escaping justice", "Guild being destroyed", "Failing Gallus's memory", "Nocturnal's continued disfavor"],
-    "quirks": ["Always watches surroundings", "Mentions Gallus with reverence", "Patient to a fault"],
-    "character_growth": "Finally gets justice for Gallus, clears her name, restores Nightingales, finds peace"
+    "speaking_style": "Measured, careful, intense when discussing Mercer, grief-touched regarding Gallus",
+    "motivations": ["Prove her innocence", "Expose Mercer's betrayal", "Avenge Gallus", "Return Skeleton Key to Nocturnal", "Save the guild from Mercer"],
+    "fears": ["Failing Gallus's memory", "Guild being destroyed before truth revealed", "Nocturnal's wrath", "Never clearing her name"],
+    "quirks": ["Keeps Gallus's journal close", "Quotes Gallus", "Obsessively plans", "Shows grief when alone"],
+    "character_growth": "Karliah moves from isolated hunter to accepted guild member again, finding closure for Gallus's death and peace with her past"
   },
   "story_hooks": [
-    "Ambushes party at Snow Veil Sanctum to warn them",
-    "Provides evidence of Mercer's betrayal",
-    "Leads investigation into Mercer's activities",
-    "Helps restore Nightingale order",
-    "Aids in recovering Skeleton Key",
-    "Returns key to Twilight Sepulcher"
+    "Appears at Snow Veil Sanctum to stop player and reveal Mercer's betrayal",
+    "Provides evidence via Gallus's journal and trip to Twilight Sepulcher",
+    "Leads player through becoming a Nightingale",
+    "Crucial ally in hunting down Mercer at Irkngthand",
+    "Helps return Skeleton Key to Nocturnal",
+    "May become permanent guild member after quest completion"
   ],
   "dialogue_samples": {
-    "first_meeting": "I'm not your enemy. Mercer Frey is a traitor and murderer, and I have proof.",
-    "about_gallus": "Gallus was a good man, a true Guild Master. Mercer murdered him in cold blood for the Skeleton Key.",
-    "about_evidence": "I've waited 25 years for this moment. I have Gallus's journal - it proves everything.",
-    "mission": "We must stop Mercer before he escapes with the Skeleton Key. The guild's very soul depends on it.",
-    "nightingales": "The Nightingales are sworn to Nocturnal. It's time to restore that sacred oath."
+    "first_meeting": "Stop! I'm not your enemy, though you've been told otherwise. Mercer Frey is the real traitor, and I can prove it.",
+    "about_gallus": "Gallus was more than my partner. He was the best of us, and Mercer killed him for discovering the truth about the Skeleton Key.",
+    "evidence": "Read this journal. Gallus documented everything - Mercer's theft, his betrayal, all of it. This is why he had to die.",
+    "nightingale_oath": "The Nightingales serve Nocturnal directly. It's an honor and a burden. Are you prepared to take the oath?",
+    "about_mercer": "Mercer is desperate now. He'll stop at nothing to keep his secrets. We must move quickly.",
+    "resolution": "It's done. Gallus can rest now, and the guild is free of Mercer's poison. Thank you for believing in me."
+  },
+  "nightingale_lore": {
+    "role": "Guardian of the Twilight Sepulcher and servants of Nocturnal",
+    "oath": "Sworn to protect the Skeleton Key and serve Nocturnal",
+    "powers": "Enhanced stealth abilities and Nocturnal's blessings",
+    "duty": "Return Skeleton Key when stolen, guard Twilight Sepulcher",
+    "trinity": "Karliah, Player, and Brynjolf can reform the Nightingale trinity"
   }
 }

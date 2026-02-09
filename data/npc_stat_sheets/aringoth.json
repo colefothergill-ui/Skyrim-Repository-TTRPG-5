@@ -2,26 +2,28 @@
   "name": "Aringoth",
   "id": "npc_stat_aringoth",
   "type": "Altmer Steward",
-  "category": "Target",
-  "location": "Goldenglow Estate (near Riften)",
-  "faction": "Independent (serves Aringoth)",
+  "category": "Target NPC",
+  "location": "Goldenglow Estate (Riften Outskirts)",
+  "faction": "Independent (serves estate owner)",
   "aspects": {
-    "high_concept": "Wealthy Steward of Goldenglow Estate",
-    "trouble": "Refused Maven Black-Briar's 'Business Proposal'",
+    "high_concept": "Prideful Estate Steward with Secrets",
+    "trouble": "Owes Debts to Dangerous People",
     "other_aspects": [
-      "Overconfident in His Security",
-      "Profitable Bee Farm and Meadery Operation",
-      "About to Learn Why You Don't Cross Maven"
+      "Lives Beyond His Station",
+      "Paranoid About Security",
+      "Underestimates Nord Thieves"
     ]
   },
   "skills": {
-    "Good": ["Resources", "Will"],
-    "Fair": ["Notice", "Rapport", "Deceive"],
-    "Average": ["Lore", "Contacts", "Fight"]
+    "Good": ["Resources", "Deceive", "Will"],
+    "Fair": ["Notice", "Rapport", "Lore"],
+    "Average": ["Fight", "Contacts", "Empathy"],
+    "Mediocre": ["Stealth", "Athletics"]
   },
   "stunts": [
-    "Business Acumen: +2 to Resources when managing or negotiating business deals",
-    "Security Minded: +2 to Notice when detecting intrusions or threats to his estate"
+    "Estate Management: +2 to Resources when dealing with property and business matters",
+    "Altmer Pride: +2 to Will when resisting intimidation from those he considers beneath him",
+    "Keeper of Secrets: +2 to Deceive when hiding his financial dealings"
   ],
   "stress": {
     "physical": [false, false],
@@ -34,39 +36,48 @@
   },
   "refresh": 2,
   "armor": 0,
-  "notes": "Aringoth is a High Elf who manages Goldenglow Estate, a highly profitable bee farm and meadery operation near Riften. He made the mistake of refusing Maven Black-Briar's 'offer' to buy into his business, not understanding that it wasn't actually a request. Maven has contracted the Thieves Guild to teach him a lesson by burning three of his beehives and clearing out his safe. Aringoth employs mercenary guards to protect the estate but is overconfident in his security measures.",
-  "combat_tactics": "Aringoth is not a fighter. If threatened, he attempts to negotiate or flee, calling for his guards. He carries minimal self-defense capability.",
-  "scene_triggers": ["Loud and Clear quest", "Goldenglow Estate heist", "Maven's retribution"],
+  "notes": "Aringoth is the Altmer steward of Goldenglow Estate, a honey farm on an island near Riften. He's been secretly selling honey to competitors, cutting Maven Black-Briar out of her rightful profits. This has made him a target for the Thieves Guild in their 'Loud and Clear' operation. Aringoth is prideful, paranoid, and underestimates the guild's capabilities. He's hired mercenaries to protect the estate but doesn't realize how outmatched he is.",
+  "combat_tactics": "Aringoth is not a fighter. If confronted, he'll try to flee or surrender. He relies entirely on his hired mercenaries for protection and will attempt to bargain or bribe his way out of trouble.",
+  "scene_triggers": ["Goldenglow Estate heist", "Interrogation about honey sales", "Estate security planning"],
   "act_context": ["Act 1"],
   "starting_equipment": {
     "armor": "Fine Clothes (Armor:0)",
-    "weapon": "Dagger (Weapon:1)",
-    "other": ["Goldenglow Estate key", "Safe combination", "Business ledgers", "Considerable wealth in safe"]
+    "weapon": "None",
+    "other": ["Estate ledgers", "Key to safe", "Business correspondence", "200 gold"]
   },
-  "social_interaction": "Aringoth is confident, businesslike, and proud of his success. He's dismissive of threats and believes his wealth and security can protect him. He's polite in business dealings but arrogant when he feels he has the upper hand. The Thieves Guild's attack on his estate will shatter this confidence.",
+  "social_interaction": "Aringoth is haughty and dismissive, especially toward Nords. He believes his Altmer heritage and position make him superior. When threatened, his pride crumbles quickly into desperation and bargaining. He's the type to beg for his life while still trying to appear dignified.",
   "relationships": {
-    "Maven Black-Briar": "Refused her business proposal (huge mistake)",
-    "Thieves Guild": "Target of guild's next major job",
-    "Mercenary Guards": "Employs several to protect estate"
+    "Maven Black-Briar": "Enemy (unknowingly crossed her)",
+    "Thieves Guild": "Unaware of threat until too late",
+    "Goldenglow Mercenaries": "Hired protection, not loyal",
+    "Competitors": "Secret business partners in honey trade"
   },
   "personality_notes": {
-    "speaking_style": "Confident, businesslike, slightly arrogant. Formal and proper.",
-    "motivations": ["Maintain independence", "Maximize profits", "Protect his business"],
-    "fears": ["Loss of estate", "Maven's retaliation (should have feared this more)", "Business failure"],
-    "quirks": ["Overly proud of his beehives", "Underestimates Maven's reach", "Trusts his security too much"],
-    "character_growth": "Will learn hard lesson about crossing Maven Black-Briar"
+    "speaking_style": "Haughty, dismissive, uses Altmer superiority, becomes desperate when threatened",
+    "motivations": ["Maintain lifestyle beyond his means", "Keep illegal dealings secret", "Protect his position", "Accumulate personal wealth"],
+    "fears": ["Maven discovering his betrayal", "Losing his position", "Violence", "Being humiliated"],
+    "quirks": ["Constantly adjusts fine clothes", "Dismissive of Nords", "Overestimates mercenaries", "Caves quickly under pressure"],
+    "character_growth": "None - he's a one-note antagonist for the heist"
   },
   "story_hooks": [
-    "Target of 'Loud and Clear' quest",
-    "Estate must be infiltrated and safe robbed",
-    "Three beehives must be burned as message",
-    "Guards must be avoided or dealt with",
-    "Maven wants him taught a lesson, not killed"
+    "Primary target of 'Loud and Clear' Thieves Guild quest",
+    "Must be confronted or intimidated during Goldenglow heist",
+    "Can be killed, intimidated, or left alive depending on player choice",
+    "His ledgers contain evidence of honey scheme",
+    "Serves as example of crossing Maven Black-Briar"
   ],
   "dialogue_samples": {
-    "business": "Goldenglow Estate is the finest meadery operation in the Rift. I built this myself.",
-    "refusal": "I don't need Maven Black-Briar's 'partnership.' I'm quite successful on my own, thank you.",
-    "during_heist": "Guards! Intruders! Protect the estate!",
-    "after_heist": "I... I understand now. Tell Maven I'll accept her terms."
+    "arrogant": "I don't know what you think you're doing here, but I have mercenaries. You Nord thugs don't frighten me.",
+    "desperate": "Wait, wait! We can make a deal! I have gold, contacts, whatever you want!",
+    "begging": "Please, I'll tell you everything! Just don't hurt me! It was only business!",
+    "confession": "Yes, yes, I was selling to others! Maven's prices were too low! I needed the gold!",
+    "final_words": "You have no idea what you've done. Maven will destroy everything!"
+  },
+  "heist_notes": {
+    "location": "Goldenglow Estate - main house, second floor bedroom",
+    "security": "Mercenaries patrolling grounds, locked doors, safe with ledgers",
+    "objectives": "Burn beehives (but no more than 3), clear mercenaries, obtain ledgers, confront Aringoth",
+    "complications": "Multiple mercenaries, island location, alert level if detected",
+    "outcomes": "Success intimidates competitors and sends message for Maven"
   }
 }

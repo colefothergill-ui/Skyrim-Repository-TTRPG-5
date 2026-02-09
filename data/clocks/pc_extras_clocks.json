@@ -1,7 +1,7 @@
 {
   "pc_extras_clocks": {
     "description": "Clocks tied to PC extras, artifact awakening, and persistent consequences created mid-session.",
-    "last_updated": "2026-02-05",
+    "last_updated": "2026-02-08",
     "clocks": {
       "insaerndel_search_for_arisann": {
         "name": "Search for Arisann (Sister)",
