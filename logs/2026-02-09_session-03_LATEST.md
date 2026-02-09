@@ -188,4 +188,14 @@ This maneuver bought the operational space needed but came at a cost: the Thalmo
 
 ---
 
+**Honningbrew Basement Operations**
+
+- Honningbrew (Basement): Destroyed the primary skeever nest behind the left cask-stack false slat.
+- Used both free invokes from scene aspect "Ghost-Map of Honningbrew" on a Notice Overcome; Success with Style; kept the action silent (Basement Sweep remains 0/2).
+- Gained Boost: "Contamination Packet" (physical proof useful for staging discovery/shutdown).
+- Honningbrew (Basement): Staged the Contamination Packet as a discoverable evidence point; Create Advantage (Deceive) SWS → Scene Aspect "Evidence That Finds You" (2 free invokes). Justiciar Returns clock now 1/2.
+- Swept and secured the secondary drain run quietly; Overcome (Notice) SWS → Boost "No Loose Ends". Basement Sweep remains 0/2.
+
+---
+
 **End of Session 03**

@@ -73,6 +73,18 @@
     "phantom_weaponry_active_this_scene": true
   },
   "scene_last_major_update": "2026-02-09",
+  "scene_aspects": {
+    "ghost_map_of_honningbrew": {
+      "free_invokes": 2,
+      "source": "Clairvoyance (Lore magic) SWS"
+    }
+  },
+  "scene_clocks": {
+    "basement_sweep_clock": {
+      "current": 0,
+      "max": 2
+    }
+  },
   "civil_war_state": {
     "player_alliance": "imperial",
     "whiterun_control": "imperial",
