@@ -1,7 +1,7 @@
 {
   "civil_war_clocks": {
     "description": "Track the progression of the civil war between Imperials and Stormcloaks",
-    "last_updated": "2026-02-05",
+    "last_updated": "2026-02-08",
     "clocks": {
       "imperial_military_dominance": {
         "name": "Imperial Military Dominance",
@@ -81,8 +81,8 @@
       "civilian_war_weariness": {
         "name": "Civilian War Weariness",
         "description": "The toll of civil war on Skyrim's common people",
-        "current_progress": 7,
-        "total_segments": 10,
+        "current_progress": 6,
+        "total_segments": 8,
         "completion_effect": "Mass civilian unrest, refugees flood major cities, economy collapses",
         "advancement_triggers": [
           "Major battle affects civilian areas (+2)",
@@ -108,6 +108,7 @@
         "status": "completed_imperial_victory",
         "description": "The pivotal battle that will determine Whiterun's allegiance",
         "importance": "Critical - Forces neutral parties to choose sides",
+        "outcome": "Imperial victory; Stormcloak chain-of-command broken (Galmar killed) and Whiterun Thalmor node neutralized.",
         "outcome_note": "Galmar Stone-Fist taken out; Stormcloak lines broke; Whiterun held for the Empire.",
         "possible_outcomes": [
           "Imperial victory - Whiterun remains neutral/Imperial",
