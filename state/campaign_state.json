@@ -58,9 +58,9 @@
     "spell_of_veils_tested_in_public": true,
     "met_brynjolf_ragged_flagon": true,
     "thieves_guild_main_questline_pivot": true,
-    "thieves_guild_loud_and_clear_active": true,
-    "scene_last_major_update": "2026-02-08"
+    "thieves_guild_loud_and_clear_active": true
   },
+  "scene_last_major_update": "2026-02-08",
   "civil_war_state": {
     "player_alliance": "imperial",
     "whiterun_control": "imperial",

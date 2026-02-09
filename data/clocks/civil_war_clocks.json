@@ -108,7 +108,7 @@
         "status": "completed_imperial_victory",
         "description": "The pivotal battle that will determine Whiterun's allegiance",
         "importance": "Critical - Forces neutral parties to choose sides",
-        "outcome": "Imperial victory; Stormcloak chain-of-command broken (Galmar killed) and Whiterun Thalmor node neutralized. Galmar Stone-Fist taken out; Stormcloak lines broke; Whiterun held for the Empire.",
+        "outcome": "Imperial victory; Galmar Stone-Fist killed, Stormcloak chain-of-command and lines broken, Whiterun's Thalmor node neutralized, and the city held firmly for the Empire.",
         "possible_outcomes": [
           "Imperial victory - Whiterun remains neutral/Imperial",
           "Stormcloak victory - Whiterun falls to Stormcloaks",

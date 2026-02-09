@@ -19,12 +19,12 @@
     },
     {
       "description": "Help the Guild regain a foothold in Skyrim's major cities. (Complete a series of jobs for Delvin and Vex in Whiterun, Markarth, Solitude, and Windhelm to restore the Guild's influence there.)",
-      "status": "In Progress",
+      "status": "Active",
       "optional": true
     },
     {
       "description": "Investigate the Guild's recent misfortunes. Follow Karliah's clues to uncover the truth about Gallus's murder and Mercer Frey's activities.",
-      "status": "In Progress",
+      "status": "Active",
       "optional": false
     },
     {

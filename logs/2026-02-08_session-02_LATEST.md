@@ -130,7 +130,7 @@ Following the Battle of Whiterun and securing the Battle-Born Arcana foothold, I
 
 **Dialogue: Brynjolf's Greeting**
 
-> **Brynjolf:** "There you are, lad. Was starting to wonder if you'd gotten yourself thrown in a Imperial cell. How'd it go in Whiterun?"
+> **Brynjolf:** "There you are, lad. Was starting to wonder if you'd gotten yourself thrown in an Imperial cell. How'd it go in Whiterun?"
 
 > **Insaerndel:** "Battle-Born Arcana is ours. Twenty percent cut to Olfrid, full safehouse access, writ of privilege included. Olfrid sends his regards." *(hands over sealed reply)*
 
