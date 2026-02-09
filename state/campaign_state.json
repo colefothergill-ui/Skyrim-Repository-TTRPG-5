@@ -9,10 +9,10 @@
   "session_count": 2,
   "last_updated": "2026-02-08",
   "starting_location": "Whiterun",
-  "current_scene_id": "A1-S9",
+  "current_scene_id": "A1-S10",
   "current_location": "Riften — Ragged Flagon (Cistern)",
   "active_hold": "The Rift",
-  "current_objective": "Thieves Guild: Debrief Mercer on the Goldenglow job and brace for Maven's next demand. Keep pursuing Arisann's Pale lead from the safe papers.",
+  "current_objective": "Thieves Guild: Fence Goldenglow loot with the Guild fence, then accept Mercer's next mainline job (Honningbrew / 'Dampened Spirits').",
   "current_npcs": [],
   "scene_flags": {
     "battle_of_whiterun_active": false,
