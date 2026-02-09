@@ -3,9 +3,9 @@
 ## A1-S11 — Mirror Trial: Glass & Honningbrew Meadery Prep
 
 ### Scene Overview
-**Location:** Riften — Ragged Flagon (Cistern)  
-**Objective:** Complete Mirror Trial (Glass); receive Dampened Spirits assignment from Delvin; prepare for Honningbrew infiltration  
-**Outcome:** Mirror Trial completed successfully; Spell of Glass unlocked; Thalmor heat increases
+**Location:** Riften — Ragged Flagon (Cistern) → Whiterun Hold — Honningbrew Meadery (Exterior)  
+**Objective:** Complete Mirror Trial (Glass); receive Dampened Spirits assignment from Delvin; prepare for Honningbrew infiltration; initiate meadery operation  
+**Outcome:** Mirror Trial completed successfully; Spell of Glass unlocked; Thalmor heat increases; Thalmor Justiciar neutralized via protocol pressure; basement access secured
 
 ---
 
@@ -48,6 +48,23 @@ Upon waking, Insaerndel found Delvin Mallory waiting with a new opportunity:
 
 **Complications Accepted:**
 - **Compel: "Informants Everywhere"** — Insaerndel's inquiries about Whiterun and Honningbrew in the Ratway did not go unnoticed. Someone will report the Altmer asking pointed questions, advancing the Thalmor search clock.
+
+---
+
+**Honningbrew Meadery Infiltration**
+
+Armed with Delvin's intelligence and the necessary tools, Insaerndel traveled to Whiterun and approached the Honningbrew Meadery. Upon arrival, an unexpected complication presented itself: a Thalmor Justiciar was present, observing the meadery's operations.
+
+**Confronting the Justiciar:**
+
+Rather than risk exposure or violence, Insaerndel employed the Spell of Veils to disguise himself as a Whiterun Guard and used bureaucratic protocol pressure to handle the situation. Invoking guard authority and inspection procedures, Insaerndel successfully forced the Justiciar to observe from the upper level rather than interfere directly in the basement area.
+
+**Outcome:**
+- **Success with Style** — The Justiciar complied, securing private access to the basement for conversation with Mallus Maccius
+- **New Complication** — The Justiciar began documenting the "inspector's" activities, creating a paper trail that could tie back to the investigation
+- **Basement Secured** — Cleared the way for the critical conversation with the inside man without witnesses
+
+This maneuver bought the operational space needed but came at a cost: the Thalmor now have documentation of a "Whiterun Guard inspector" taking unusual interest in Honningbrew's basement operations.
 
 ---
 
@@ -162,6 +179,7 @@ Upon waking, Insaerndel found Delvin Mallory waiting with a new opportunity:
 - "Glass Double Mastery" (boost from Mirror Trial success)
 - "Maven's Eyes on Honningbrew" (situation)
 - "Ratway Whispers" (complication from compel)
+- "Justiciar's Paper Trail" (complication — Thalmor documentation of the "inspector")
 
 **Active:**
 - "Thieves Guild Rising Star"
