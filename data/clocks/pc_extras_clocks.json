@@ -1,7 +1,7 @@
 {
   "pc_extras_clocks": {
     "description": "Clocks tied to PC extras, artifact awakening, and persistent consequences created mid-session.",
-    "last_updated": "2026-02-08",
+    "last_updated": "2026-02-09",
     "clocks": {
       "insaerndel_search_for_arisann": {
         "name": "Search for Arisann (Sister)",
@@ -43,7 +43,7 @@
       "insaerndel_thalmor_search_clock": {
         "name": "Dream Catcher's Identity & Location Uncovered",
         "description": "The Thalmor tighten the net around the Dream Catcher of Dusk.",
-        "current_progress": 0,
+        "current_progress": 2,
         "total_segments": 8,
         "completion_effect": "The Thalmor confirm your identity and location—launching an overwhelming response and long-term consequences.",
         "advancement_triggers": [
@@ -67,7 +67,7 @@
       "insaerndel_spell_tome_of_quagmire_trials": {
         "name": "Spell Tome of Quagmire — Mirror Trials",
         "description": "Progress toward awakening deeper spells in the Spell Tome of Quagmire through dream-mirror trials.",
-        "current_progress": 1,
+        "current_progress": 4,
         "total_segments": 8,
         "completion_effect": "The tome awakens fully; you can pursue major Vaermina-grade illusions and artifact evolutions.",
         "advancement_triggers": [

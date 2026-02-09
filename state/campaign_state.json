@@ -6,13 +6,13 @@
   "active_pc": "pc_insaerndel",
   "active_pc_id": "pc_insaerndel",
   "session_zero_completed": true,
-  "session_count": 2,
-  "last_updated": "2026-02-08",
+  "session_count": 3,
+  "last_updated": "2026-02-09",
   "starting_location": "Whiterun",
-  "current_scene_id": "A1-S10",
+  "current_scene_id": "A1-S11",
   "current_location": "Riften — Ragged Flagon (Cistern)",
   "active_hold": "The Rift",
-  "current_objective": "Thieves Guild: Fence Goldenglow loot with the Guild fence, then accept Mercer's next mainline job (Honningbrew / 'Dampened Spirits').",
+  "current_objective": "Travel to Whiterun; execute 'Dampened Spirits' at Honningbrew Meadery (decide: expose or protect Mallus) while avoiding Thalmor attention.",
   "current_npcs": [],
   "scene_flags": {
     "battle_of_whiterun_active": false,
@@ -60,9 +60,12 @@
     "goldenglow_safe_cleared": true,
     "goldenglow_beehives_burned": true,
     "goldenglow_alarm_full": false,
-    "scene_last_major_update": "2026-02-08"
+    "dampened_spirits_accepted": true,
+    "delvin_dossier_honningbrew_obtained": true,
+    "compel_informants_everywhere_accepted": true,
+    "mirror_trial_glass_completed": true
   },
-  "scene_last_major_update": "2026-02-08",
+  "scene_last_major_update": "2026-02-09",
   "civil_war_state": {
     "player_alliance": "imperial",
     "whiterun_control": "imperial",
