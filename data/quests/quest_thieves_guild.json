@@ -9,22 +9,22 @@
   "objectives": [
     {
       "description": "Pass Brynjolf's test by stealing Madesi's ring and planting it without getting caught (Brynjolf's initial trial).",
-      "status": "Pending",
+      "status": "Completed",
       "optional": false
     },
     {
       "description": "Meet Brynjolf in the Ragged Flagon and officially join the Thieves Guild. Collect the overdue debts from Riften business owners (Keerava, Bersi, etc.) to prove your loyalty and bring wealth to the guild.",
-      "status": "Pending",
+      "status": "Completed",
       "optional": false
     },
     {
       "description": "Help the Guild regain a foothold in Skyrim's major cities. (Complete a series of jobs for Delvin and Vex in Whiterun, Markarth, Solitude, and Windhelm to restore the Guild's influence there.)",
-      "status": "Pending",
+      "status": "Active",
       "optional": true
     },
     {
       "description": "Investigate the Guild's recent misfortunes. Follow Karliah's clues to uncover the truth about Gallus's murder and Mercer Frey's activities.",
-      "status": "Pending",
+      "status": "Active",
       "optional": false
     },
     {
@@ -59,7 +59,7 @@
     "Civil War Shifts: If the civil war's outcome changes Riften's leadership during the quest (e.g., Maven becomes Jarl), the Guild's environment changes. An allied Jarl Maven might openly shelter the Guild, boosting resources but also pulling the Guild into her political schemes. This could alter how you operate but ultimately can strengthen the Guild if navigated carefully.",
     "Nightingale Oath: After returning the Skeleton Key, you (alongside Brynjolf, if he agrees) may swear the Nightingale oath with Karliah. This grants you special boons from Nocturnal (and a measure of responsibility to maintain the luck of the Guild). While beneficial (e.g., shadow powers), it also ties your fate to the Daedric Prince of Darkness."
   ],
-  "notes": "Completing this questline will likely involve multiple play sessions, as it contains several sub-quests. Track incremental reputation gains for each major objective: e.g., +10 with Thieves Guild for completing the debt jobs, +10 for restoring influence in each city, etc., so that by the final objective the player's faction reputation reaches 100 (Guild Master level). After the quest, update the Thieves Guild faction status to reflect the new leadership and prosperity. Brynjolf, Delvin, and Vex will offer congratulations and discuss plans for the Guild's future. Karliah may depart after the Nightingale oath is fulfilled, or stay on as a mentor for spiritual matters. The Ragged Flagon bustles with new recruits and business, showing the tangible effect of your success.",
+  "notes": "Completing this questline will likely involve multiple play sessions, as it contains several sub-quests. Track incremental reputation gains for each major objective: e.g., +10 with Thieves Guild for completing the debt jobs, +10 for restoring influence in each city, etc., so that by the final objective the player's faction reputation reaches 100 (Guild Master level). After the quest, update the Thieves Guild faction status to reflect the new leadership and prosperity. Brynjolf, Delvin, and Vex will offer congratulations and discuss plans for the Guild's future. Karliah may depart after the Nightingale oath is fulfilled, or stay on as a mentor for spiritual matters. The Ragged Flagon bustles with new recruits and business, showing the tangible effect of your success.\n\nWhiterun foothold established: Battle-Born Arcana secured as a sanctioned Guild front/safehouse (20% revenue cut to Olfrid Battle-Born).\n\nRiften return: Veils disguise tested successfully at the city gate; Brynjolf briefed; pivoting into 'Loud and Clear' (Goldenglow Estate).",
   "related_npcs": ["Brynjolf", "Mercer Frey", "Karliah", "Maven Black-Briar"],
   "related_locations": ["Riften", "Twilight Sepulcher", "Irkngthand (Mercer's Hideout)"]
 }
