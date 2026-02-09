@@ -9,11 +9,11 @@
   "session_count": 2,
   "last_updated": "2026-02-08",
   "starting_location": "Whiterun",
-  "current_scene_id": "A1-S8",
+  "current_scene_id": "A1-S9",
   "current_location": "Riften — Ragged Flagon (Cistern)",
   "active_hold": "The Rift",
-  "current_objective": "Thieves Guild: 'Loud and Clear' — plan and execute the Goldenglow Estate job; keep your Veils disguise ready; keep pressure on Arisann lead.",
-  "current_npcs": ["brynjolf", "mercer_frey", "vex", "delvin_mallory"],
+  "current_objective": "Thieves Guild: Debrief Mercer on the Goldenglow job and brace for Maven's next demand. Keep pursuing Arisann's Pale lead from the safe papers.",
+  "current_npcs": [],
   "scene_flags": {
     "battle_of_whiterun_active": false,
     "battle_of_whiterun_resolved": true,
@@ -54,11 +54,13 @@
     "olfrid_contract_paid": true,
     "greymane_arrest_in_motion": true,
     "insaerndel_alias_orinthelo_shared_with_hadvar": true,
-    "arrived_in_riften": true,
-    "spell_of_veils_tested_in_public": true,
-    "met_brynjolf_ragged_flagon": true,
-    "thieves_guild_main_questline_pivot": true,
-    "thieves_guild_loud_and_clear_active": true
+    "thieves_guild_loud_and_clear_active": false,
+    "thieves_guild_loud_and_clear_completed": true,
+    "goldenglow_estate_infiltrated": true,
+    "goldenglow_safe_cleared": true,
+    "goldenglow_beehives_burned": true,
+    "goldenglow_alarm_full": false,
+    "scene_last_major_update": "2026-02-08"
   },
   "scene_last_major_update": "2026-02-08",
   "civil_war_state": {
@@ -144,7 +146,10 @@
       "Used dream-magic + battlefield deception to break Stormcloak cohesion; forced a retreat/surrender cascade.",
       "Assassinated Galmar Stone-Fist during the Battle of Whiterun, crippling Stormcloak command.",
       "Revealed the alias 'Orinthelo' (Penitus Oculatus) to Hadvar and secured his discretion.",
-      "Collected battlefield evidence (Galmar's signet/weapon, maps) to leverage future Imperial/Thalmor moves."
+      "Collected battlefield evidence (Galmar's signet/weapon, maps) to leverage future Imperial/Thalmor moves.",
+      "Executed the Goldenglow Estate heist for the Thieves Guild: infiltrated silently, cleared Aringoth's safe, and delivered the take to Mercer.",
+      "Left Maven a message in smoke: three beehives burned at Goldenglow, pinning blame on 'unseen hands' rather than witnesses.",
+      "Recovered a Pale-linked paper trail from the safe that may intersect with Arisann's disappearance."
     ]
   },
   "active_story_arcs": [

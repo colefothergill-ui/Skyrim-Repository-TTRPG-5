@@ -7,7 +7,8 @@
     "High King Torygg was killed by Ulfric Stormcloak",
     "Thalmor influence in Skyrim grows stronger",
     "Battle of Whiterun underway (West Wall breach attempt repelled)",
-    "Galmar Stone-Fist slain during the Battle of Whiterun (witnessed)"
+    "Galmar Stone-Fist slain during the Battle of Whiterun (witnessed)",
+    "Goldenglow Estate sabotaged: beehives burned; Aringoth's safe robbed"
   ],
   "political_situation": {
     "skyrim_status": "Civil War in progress",
@@ -52,6 +53,8 @@
   },
   "weather_and_season": "Late summer, generally pleasant weather",
   "rumors_and_news": [
+    "Goldenglow's beehives went up in flames — the Black-Briars are furious and quietly asking who did it.",
+    "Someone cleaned out Aringoth's safe without breaking the lock; whispers say 'mage-thief' work.",
     "Word spreads: Galmar Stone-Fist fell in the west-wall fog—some claim an 'Altmer witch' struck him down.",
     "Stormcloaks retreat from the west approach after chain-of-command collapse.",
     "Battle-Born whispers intensify about the hooded Altmer tied to the Arcana front.",
@@ -68,5 +71,5 @@
     "Bandit activity on trade routes",
     "Political instability in neutral holds"
   ],
-  "notes": "Campaign Focus: The civil war between Imperials and Stormcloaks dominates Skyrim. The Thalmor work behind the scenes to keep both sides weak. Jarls are being forced to choose sides, and the common people are caught in the middle. The Battle of Whiterun will be a pivotal moment."
+  "notes": "Campaign Focus: The civil war between Imperials and Stormcloaks dominates Skyrim. The Thalmor work behind the scenes to keep both sides weak. Jarls are being forced to choose sides, and the common people are caught in the middle. The Battle of Whiterun will be a pivotal moment.\n[2026-02-08] Goldenglow Estate hit: safe cleared; beehives burned; Mercer paid out; a Pale-linked paper trail recovered."
 }

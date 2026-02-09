@@ -173,7 +173,7 @@
       },
       "thieves_guild_trust": {
         "faction": "Thieves Guild",
-        "current_trust": 6,
+        "current_trust": 7,
         "max_trust": 10,
         "trust_level": "Champion",
         "advancement_triggers": {
