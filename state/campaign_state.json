@@ -10,7 +10,7 @@
   "last_updated": "2026-02-09",
   "starting_location": "Whiterun",
   "current_scene_id": "A1-S11",
-  "current_location": "Riften — Ragged Flagon (Cistern)",
+  "current_location": "Whiterun Hold — Honningbrew Meadery (Basement entry)",
   "active_hold": "The Rift",
   "current_objective": "Travel to Whiterun; execute 'Dampened Spirits' at Honningbrew Meadery (decide: expose or protect Mallus) while avoiding Thalmor attention.",
   "current_npcs": [],
@@ -63,7 +63,12 @@
     "dampened_spirits_accepted": true,
     "delvin_dossier_honningbrew_obtained": true,
     "compel_informants_everywhere_accepted": true,
-    "mirror_trial_glass_completed": true
+    "mirror_trial_glass_completed": true,
+    "honningbrew_veiled_identity_active": true,
+    "honningbrew_veiled_identity_free_invokes": 0,
+    "compel_justiciar_checkpoint_accepted": true,
+    "eyes_of_the_dominion_present": true,
+    "mallus_escorting_to_basement": true
   },
   "scene_last_major_update": "2026-02-09",
   "civil_war_state": {
