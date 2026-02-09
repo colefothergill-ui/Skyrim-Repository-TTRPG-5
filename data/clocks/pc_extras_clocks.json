@@ -1,12 +1,13 @@
 {
   "pc_extras_clocks": {
     "description": "Clocks tied to PC extras, artifact awakening, and persistent consequences created mid-session.",
-    "last_updated": "2026-02-05",
+    "last_updated": "2026-02-08",
     "clocks": {
       "insaerndel_search_for_arisann": {
         "name": "Search for Arisann (Sister)",
         "description": "Tracking Arisann's trail through rumors, dream-signs, and the Rift wilds.",
-        "current_progress": 0,
+        "current_progress": 3,
+        "current": 3,
         "total_segments": 8,
         "completion_effect": "You locate Arisann (or her confirmed trail) and trigger the next arc step.",
         "advancement_triggers": [
@@ -25,7 +26,8 @@
       "insaerndel_respect_in_the_rift": {
         "name": "Building Respect within the Rift",
         "description": "Your local reputation grows—useful for status, protection, and the path toward Thane-level regard.",
-        "current_progress": 0,
+        "current_progress": 1,
+        "current": 1,
         "total_segments": 8,
         "completion_effect": "You achieve major standing in the Rift (formal recognition or power-broker status).",
         "advancement_triggers": [
