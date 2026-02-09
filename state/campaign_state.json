@@ -10,9 +10,9 @@
   "last_updated": "2026-02-09",
   "starting_location": "Whiterun",
   "current_scene_id": "A1-S11",
-  "current_location": "Riften — Ragged Flagon (Cistern)",
-  "active_hold": "The Rift",
-  "current_objective": "Travel to Whiterun; execute 'Dampened Spirits' at Honningbrew Meadery (decide: expose or protect Mallus) while avoiding Thalmor attention.",
+  "current_location": "Whiterun Hold — Honningbrew Meadery (Exterior)",
+  "active_hold": "Whiterun Hold",
+  "current_objective": "Thieves Guild: Dampened Spirits — sabotage Honningbrew Meadery via Mallus Maccius to secure Maven's advantage and the Whiterun guard mead contract.",
   "current_npcs": [],
   "scene_flags": {
     "battle_of_whiterun_active": false,
@@ -63,7 +63,9 @@
     "dampened_spirits_accepted": true,
     "delvin_dossier_honningbrew_obtained": true,
     "compel_informants_everywhere_accepted": true,
-    "mirror_trial_glass_completed": true
+    "mirror_trial_glass_completed": true,
+    "thieves_guild_dampened_spirits_active": true,
+    "honningbrew_entry_veil_active": true
   },
   "scene_last_major_update": "2026-02-09",
   "civil_war_state": {
