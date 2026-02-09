@@ -1,0 +1,33 @@
+{
+  "date": "2026-02-09",
+  "scope": "Session 03 continuation: Option 2 research, Dream-Mirror Descent compels accepted, Sapphire social beat, Maven meeting at Bee and Barb",
+  "player_confirmed_facts": [
+    "Insaerndel accepted Mercer's Honningbrew job but pursued Option 2 prep first",
+    "Accepted two compels before rest (Dream-Mirror Descent + Informants Everywhere)",
+    "Quagmire dream occurred; waking rest did not clear stress",
+    "Sapphire flirt/social play succeeded; she shows intrigue",
+    "Met Maven at Bee and Barb and negotiated from a position of competence using a free invoke"
+  ],
+  "changes": [
+    {
+      "file": "state/campaign_state.json",
+      "change": "Advance to A1-S12; set location to Riften — Bee and Barb; objective updated to Dampened Spirits (Whiterun/Honningbrew) + Pale lead leverage; set current_npcs to include Maven; add scene flags for dampened_spirits_accepted + met_maven_bee_and_barb"
+    },
+    {
+      "file": "data/pcs/pc_insaerndel.json",
+      "change": "Apply compel rewards/costs: fate_points +2; mark mental stress (box 1) used; sync Spell Tome of Quagmire progression clock consistency; (optional) if Glass trial is considered completed, move it from locked->unlocked and update mirror_trials lists accordingly"
+    },
+    {
+      "file": "data/clocks/pc_extras_clocks.json",
+      "change": "Tick Arisann search and Thalmor search clock per accepted compel consequences; sync tome-trials clock to match completed mirror trials"
+    },
+    {
+      "file": "data/quests/quest_dampened_spirits.json",
+      "change": "Add a dedicated quest file for Dampened Spirits tracking"
+    },
+    {
+      "file": "logs/2026-02-09_session-03_LATEST.md",
+      "change": "Create new session log covering A1-S11 (Cistern rest + Quagmire + Sapphire) and A1-S12 (Maven terms at Bee and Barb)"
+    }
+  ]
+}
