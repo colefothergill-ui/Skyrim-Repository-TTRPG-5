@@ -9,10 +9,10 @@
   "session_count": 3,
   "last_updated": "2026-02-09",
   "starting_location": "Whiterun",
-  "current_scene_id": "A1-S11",
-  "current_location": "Whiterun Hold — Honningbrew Meadery (Upper Office / Seizure Imminent)",
-  "active_hold": "Whiterun Hold",
-  "current_objective": "Travel to Whiterun; execute 'Dampened Spirits' at Honningbrew Meadery (decide: expose or protect Mallus) while avoiding Thalmor attention.",
+  "current_scene_id": "A1-S13",
+  "current_location": "Riften — Bee and Barb",
+  "active_hold": "The Rift",
+  "current_objective": "Follow Maven's Pale-route intel: contact Ivory Thread via Nightgate Pass; pursue Arisann lead (Hroldar 'Whitefin').",
   "current_npcs": [],
   "scene_flags": {
     "battle_of_whiterun_active": false,
@@ -75,21 +75,16 @@
     "honningbrew_justiciar_failed_to_trace_magic": true,
     "honningbrew_seizure_in_motion": true,
     "honningbrew_mallus_led_discovery": true,
-    "honningbrew_boost_surgical_silence_consumed": true
+    "honningbrew_boost_surgical_silence_consumed": true,
+    "dampened_spirits_turned_in": true,
+    "mallus_asset_insulated_by_maven": true,
+    "ivory_thread_lead_acquired": true,
+    "arisann_lead_contact_hroldar_whitefin": true,
+    "arisann_meet_point_nightgate_pass": true
   },
   "scene_last_major_update": "2026-02-09",
-  "scene_aspects": {
-    "ghost_map_of_honningbrew": {
-      "free_invokes": 2,
-      "source": "Clairvoyance (Lore magic) SWS"
-    }
-  },
-  "scene_clocks": {
-    "basement_sweep_clock": {
-      "current": 0,
-      "max": 2
-    }
-  },
+  "scene_aspects": {},
+  "scene_clocks": {},
   "civil_war_state": {
     "player_alliance": "imperial",
     "whiterun_control": "imperial",

@@ -3,9 +3,9 @@
 ## A1-S11 — Mirror Trial: Glass & Honningbrew Meadery Prep
 
 ### Scene Overview
-**Location:** Riften — Ragged Flagon (Cistern) → Whiterun Hold — Honningbrew Meadery (Exterior)  
-**Objective:** Complete Mirror Trial (Glass); receive Dampened Spirits assignment from Delvin; prepare for Honningbrew infiltration; initiate meadery operation  
-**Outcome:** Mirror Trial completed successfully; Spell of Glass unlocked; Thalmor heat increases; Thalmor Justiciar neutralized via protocol pressure; basement access secured
+**Location:** Riften — Ragged Flagon (Cistern) → Whiterun Hold — Honningbrew Meadery (Exterior) → Riften — Bee and Barb  
+**Objective:** Complete Mirror Trial (Glass); receive Dampened Spirits assignment from Delvin; prepare for Honningbrew infiltration; initiate meadery operation; complete turn-in to Maven  
+**Outcome:** Mirror Trial completed successfully; Spell of Glass unlocked; Thalmor heat increases; Thalmor Justiciar neutralized via protocol pressure; basement access secured; Dampened Spirits completed; Maven provided Arisann lead
 
 ---
 
@@ -85,7 +85,9 @@ This maneuver bought the operational space needed but came at a cost: the Thalmo
 - Gained from compel "Informants Everywhere": +1 FP
 - Spent on Mirror Trial Notice roll: -1 FP
 - Gained from completing Mirror Trial: +2 FP (GM award for trial completion)
-- Ended session: 7 FP
+- Spent on Bee and Barb negotiation (invoking High Concept): -1 FP
+- Ended session: 6 FP
+  - Note: Additional FP spends during Honningbrew infiltration (earlier in session) documented in PC notes
 
 **Stress & Consequences:**
 - No stress cleared from rest (due to Mirror Trial compel)
@@ -104,20 +106,31 @@ This maneuver bought the operational space needed but came at a cost: the Thalmo
 **Heat & Clocks:**
 - Thalmor search clock: 0 → 2/8 (from "Famous in Wrong Circles" + "Informants Everywhere" compels)
 - Spell Tome awakening clock: 1 → 4/8 (Mirror Trial completion + progression)
+- Thieves Guild trust: Advanced (Dampened Spirits completion)
+
+---
+
+### Currency & Rewards
+
+**Session Total:**
+- Quest payout (Dampened Spirits): +600 septims
+- **New Total:** 6,650 septims
 
 ---
 
 ### Story Hooks & Consequences
 
 **Immediate:**
-- Travel to Whiterun required — must navigate post-Battle politics and potential Thalmor presence
-- Honningbrew infiltration looms: sabotage vs. investigation balance needed
-- Mallus Maccius decision will have faction/leverage consequences
+- **Arisann Lead Acquired:** Maven's intel provides the first solid connection to Arisann's disappearance
+- Nightgate Pass in The Pale: Travel required to contact Hroldar 'Whitefin'
+- Passphrase protocol established: "salt survives the mirror" / "then don't blink"
+- Ivory Thread courier lattice: Potential broader conspiracy beyond a single missing person
 
 **Ongoing:**
 - Thalmor net continues tightening (search clock at 2/8)
 - Maven Black-Briar's increasing involvement with Guild operations
-- The Pale connection from Goldenglow papers remains unexplored
+- Mallus Maccius now a protected Black-Briar asset — potential future leverage
+- The Pale connection from Goldenglow papers now confirmed through Maven's intel
 - Arisann's trail grows colder with each passing day
 
 **Character Development:**
@@ -136,10 +149,10 @@ This maneuver bought the operational space needed but came at a cost: the Thalmo
 - Accepted heat/consequence compels without hesitation — mature risk assessment
 
 **Next Session Prep:**
-- Frame Whiterun travel with Thalmor tension/checkpoint possibilities
-- Prepare Honningbrew Meadery layout and NPC interactions
-- Consider Mallus exposure vs. protection consequences
-- Track how Thalmor search clock advancement manifests in-world
+- Frame The Pale travel: Nightgate Pass contact with Hroldar 'Whitefin'
+- Consider Thalmor presence along northern routes
+- Develop Ivory Thread courier lattice lore and conspiracy implications
+- Arisann trail heats up — what did she discover that led her to The Pale?
 
 ---
 
@@ -150,6 +163,13 @@ This maneuver bought the operational space needed but came at a cost: the Thalmo
 - Delivered Honningbrew assignment with thorough intelligence
 - Emphasized Maven's personal interest in the job's success
 - Noted Whiterun's current instability as both opportunity and risk
+
+**Maven Black-Briar (Bee and Barb Turn-In):**
+- Disposition: Satisfied, impressed
+- Received Dampened Spirits completion report with approval
+- Confirmed Mallus extraction under Black-Briar protection
+- Provided critical Arisann lead: Ivory Thread lattice intel and Nightgate Pass contact
+- Recognized Insaerndel's unique value through skilled negotiation
 
 **Mirror Reflections (Trial NPCs):**
 - The Dream Catcher: Vengeful, hunted
@@ -166,6 +186,10 @@ This maneuver bought the operational space needed but came at a cost: the Thalmo
 - Delvin's Honningbrew Dossier (intelligence package)
 - Vial of "special ingredient" for meadery sabotage (alchemical poison)
 - Knowledge: Honningbrew layout and guard patterns
+- Quest reward: 600 septims from Maven
+- Arisann lead: Ivory Thread courier lattice intel
+- Contact protocol: Hroldar 'Whitefin' at Nightgate Pass
+- Passphrase: "salt survives the mirror" / "then don't blink"
 
 **Spent:**
 - Rest opportunity (traded for Mirror Trial)
@@ -180,6 +204,8 @@ This maneuver bought the operational space needed but came at a cost: the Thalmo
 - "Maven's Eyes on Honningbrew" (situation)
 - "Ratway Whispers" (complication from compel)
 - "Justiciar's Paper Trail" (complication — Thalmor documentation of the "inspector")
+- "Ivory Thread Connection" (situation — new lead on Arisann)
+- "Mallus Under Black-Briar Wing" (situation — preserved asset)
 
 **Active:**
 - "Thieves Guild Rising Star"
@@ -195,6 +221,40 @@ This maneuver bought the operational space needed but came at a cost: the Thalmo
 - Gained Boost: "Contamination Packet" (physical proof useful for staging discovery/shutdown).
 - Honningbrew (Basement): Staged the Contamination Packet as a discoverable evidence point; Create Advantage (Deceive) SWS → Scene Aspect "Evidence That Finds You" (2 free invokes). Justiciar Returns clock now 1/2.
 - Swept and secured the secondary drain run quietly; Overcome (Notice) SWS → Boost "No Loose Ends". Basement Sweep remains 0/2.
+
+---
+
+**Quest Turn-In at the Bee and Barb**
+
+With the Honningbrew operation completed successfully and Mallus secured, Insaerndel returned to Riften to deliver the results to Maven Black-Briar at the Bee and Barb.
+
+**Meeting with Maven:**
+
+Maven received the report with evident satisfaction:
+- The Honningbrew Meadery's reputation was in ruins following the official seizure
+- Mallus Maccius remained unexposed as her asset
+- The operation was clean, with no trail leading back to Black-Briar interests
+- Sabjorn faced official consequences while Maven's hand remained hidden
+
+**Maven's Payment and Intel:**
+
+Impressed by the surgical precision of the operation, Maven provided:
+- **Payment:** 600 septims (above standard Guild rates)
+- **Critical Lead:** Information about the Ivory Thread courier lattice
+  - The network operates through The Pale
+  - Contact point: Hroldar 'Whitefin' at Nightgate Pass
+  - Passphrase protocol: "salt survives the mirror" / reply "then don't blink"
+  - Direct connection to Arisann's disappearance
+
+**Negotiation:**
+
+During the conversation, Insaerndel invoked his High Concept ("EX Vaermina Cultist - Turned Daedrologist, Illusionist Extraordinaire, and Cunning Thief") to demonstrate the value of his unique skillset and secure Maven's trust for future intelligence sharing. This expenditure of fate proved worthwhile — Maven confirmed that Mallus would be extracted and placed under Black-Briar protection, preserving him as a long-term asset.
+
+**Outcome:**
+- Dampened Spirits quest completed
+- Mallus preserved as Maven's insulated asset
+- Ivory Thread lead acquired — first solid connection to Arisann's trail
+- Maven's disposition toward Insaerndel: Impressed and willing to share actionable intelligence
 
 ---
 
