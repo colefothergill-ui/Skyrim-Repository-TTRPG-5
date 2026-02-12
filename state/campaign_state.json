@@ -7,16 +7,12 @@
   "active_pc_id": "pc_insaerndel",
   "session_zero_completed": true,
   "session_count": 3,
-  "last_updated": "2026-02-09",
+  "last_updated": "2026-02-12",
   "starting_location": "Whiterun",
   "current_scene_id": "A1-S13",
   "current_location": "Riften — Bee and Barb",
   "active_hold": "The Rift",
-<<<<<<< copilot/edit-campaign-and-quest-data-again
-  "current_objective": "Follow Maven's Pale-route intel: contact Ivory Thread via Nightgate Pass; pursue Arisann lead (Hroldar 'Whitefin').",
-=======
-  "current_objective": "Turn in 'Dampened Spirits' to Maven Black-Briar. Use seized Honningbrew evidence to negotiate a Pale-route lead toward Arisann.",
->>>>>>> main
+  "current_objective": "Follow Maven's lead: contact the Ivory Thread (Hroldar 'Whitefin') and travel to Nightgate Pass (The Pale) to pursue Arisann's trail.",
   "current_npcs": [],
   "scene_flags": {
     "battle_of_whiterun_active": false,
@@ -84,9 +80,15 @@
     "mallus_asset_insulated_by_maven": true,
     "ivory_thread_lead_acquired": true,
     "arisann_lead_contact_hroldar_whitefin": true,
-    "arisann_meet_point_nightgate_pass": true
+    "arisann_meet_point_nightgate_pass": true,
+    "thieves_guild_dampened_spirits_completed": true,
+    "honningbrew_vats_poisoned": true,
+    "honningbrew_evidence_staged": true,
+    "mallus_asset_preserved": true,
+    "maven_turnin_completed": true,
+    "compel_justiciar_paper_trail_accepted": true
   },
-  "scene_last_major_update": "2026-02-09",
+  "scene_last_major_update": "2026-02-12",
   "scene_aspects": {},
   "scene_clocks": {},
   "civil_war_state": {
@@ -116,7 +118,7 @@
     "timeline_notes": "Campaign occurs after Alduin's defeat. Dragon crisis has ended, focus is on civil war and Thalmor conspiracy."
   },
   "thalmor_arc": {
-    "thalmor_awareness_of_party": "none",
+    "thalmor_awareness_of_party": "low",
     "embassy_infiltrated": false,
     "elenwen_disposition": "neutral",
     "thalmor_schemes_discovered": [],
@@ -175,7 +177,10 @@
       "Collected battlefield evidence (Galmar's signet/weapon, maps) to leverage future Imperial/Thalmor moves.",
       "Executed the Goldenglow Estate heist for the Thieves Guild: infiltrated silently, cleared Aringoth's safe, and delivered the take to Mercer.",
       "Left Maven a message in smoke: three beehives burned at Goldenglow, pinning blame on 'unseen hands' rather than witnesses.",
-      "Recovered a Pale-linked paper trail from the safe that may intersect with Arisann's disappearance."
+      "Recovered a Pale-linked paper trail from the safe that may intersect with Arisann's disappearance.",
+      "Completed 'Dampened Spirits': infiltrated Honningbrew under Veils, secured Mallus's cooperation, stole incriminating documents, staged skeever evidence, and poisoned the vats to collapse Sabjorn.",
+      "Turned in to Maven with documents; earned deeper leverage and extracted a concrete Arisann lead tied to the Ivory Thread courier lattice.",
+      "Accepted Compel: 'Justiciar's Paper Trail' — Dominion bureaucracy begins cross-referencing anomalies; Thalmor net tightens on the Dream Catcher."
     ]
   },
   "active_story_arcs": [
