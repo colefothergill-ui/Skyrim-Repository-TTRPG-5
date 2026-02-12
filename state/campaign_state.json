@@ -70,7 +70,12 @@
     "mallus_escorting_to_basement": true,
     "honningbrew_sabjorn_poison_kit_planted": true,
     "honningbrew_seizure_imminent": true,
-    "phantom_weaponry_active_this_scene": true
+    "phantom_weaponry_active_this_scene": true,
+    "honningbrew_shadow_ward_used": true,
+    "honningbrew_justiciar_failed_to_trace_magic": true,
+    "honningbrew_seizure_in_motion": true,
+    "honningbrew_mallus_led_discovery": true,
+    "honningbrew_boost_surgical_silence_consumed": true
   },
   "scene_last_major_update": "2026-02-09",
   "scene_aspects": {
