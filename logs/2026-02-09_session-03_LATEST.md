@@ -219,7 +219,7 @@ With the basement sabotage complete and evidence meticulously staged, Insaerndel
 - Maven Black-Briar's interests protected; no trail leading to the Guild or Black-Briar operations
 
 **Return to Riften:**
-- Departed Whiterun Hold via carriage (10 septims fare)
+- Departed Whiterun Hold via carriage (10 Septims fare)
 - Traveled to Riften to report mission success to Maven Black-Briar
 - Secured Pale-route intelligence material for potential lead toward Arisann's location
 
