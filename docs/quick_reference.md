@@ -9,6 +9,8 @@
 ## Active Quests
 - **Before the Storm** (Main Quest)
   Alvor has asked you to bring news of the civil war escalation to the Jarl of Whiterun. Tensions are rising and the neutral hold needs to be warned.
+- **Dampened Spirits** (Thieves Guild Mainline)
+  Maven wants Honningbrew Meadery ruined so Black-Briar Mead can dominate. Mallus Maccius is her plant inside the business. Your job: make the meadery fail publicly while keeping the trail away from Maven and the Guild.
 - **The Skooma Trade** (Side Quest)
   Jarl Laila has noticed a surge in skooma use and crime in The Rift. She has tasked you with rooting out the source of the skooma entering her hold. You must investigate the rumors in Riften, track down the smugglers or dealers responsible, and shut down their operation. By putting an end to the skooma trade, you will help the people of The Rift and earn favor with Riften's leadership (perhaps even the title of Thane). Be wary – those behind the skooma operation could be dangerous, and there might be powerful figures silently pulling the strings.
 - **Thieves Guild Reborn** (Faction Quest)
