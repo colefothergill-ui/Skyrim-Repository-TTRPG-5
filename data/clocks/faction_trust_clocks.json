@@ -1,7 +1,7 @@
 {
   "faction_trust_clocks": {
     "description": "Track party standing and trust with all major factions in Skyrim",
-    "last_updated": "2026-02-08",
+    "last_updated": "2026-02-09",
     "trust_scale": {
       "0-2": {
         "level": "Stranger",
@@ -173,7 +173,7 @@
       },
       "thieves_guild_trust": {
         "faction": "Thieves Guild",
-        "current_trust": 7,
+        "current_trust": 8,
         "max_trust": 10,
         "trust_level": "Champion",
         "advancement_triggers": {

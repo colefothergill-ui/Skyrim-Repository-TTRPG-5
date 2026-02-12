@@ -12,7 +12,11 @@
   "current_scene_id": "A1-S13",
   "current_location": "Riften — Bee and Barb",
   "active_hold": "The Rift",
+<<<<<<< copilot/edit-campaign-and-quest-data-again
   "current_objective": "Follow Maven's Pale-route intel: contact Ivory Thread via Nightgate Pass; pursue Arisann lead (Hroldar 'Whitefin').",
+=======
+  "current_objective": "Turn in 'Dampened Spirits' to Maven Black-Briar. Use seized Honningbrew evidence to negotiate a Pale-route lead toward Arisann.",
+>>>>>>> main
   "current_npcs": [],
   "scene_flags": {
     "battle_of_whiterun_active": false,
