@@ -43,7 +43,7 @@
       "insaerndel_thalmor_search_clock": {
         "name": "Dream Catcher's Identity & Location Uncovered",
         "description": "The Thalmor tighten the net around the Dream Catcher of Dusk.",
-        "current_progress": 2,
+        "current_progress": 3,
         "total_segments": 8,
         "completion_effect": "The Thalmor confirm your identity and location—launching an overwhelming response and long-term consequences.",
         "advancement_triggers": [

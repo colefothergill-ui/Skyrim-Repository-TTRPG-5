@@ -198,4 +198,36 @@ This maneuver bought the operational space needed but came at a cost: the Thalmo
 
 ---
 
+**Honningbrew Operation Conclusion & Exfiltration**
+
+With the basement sabotage complete and evidence meticulously staged, Insaerndel executed the final phase of the operation:
+
+**Operation Wrap-Up:**
+- Skeever nest destroyed, preventing future contamination while ensuring current vats were tainted
+- Poison kit and Sabjorn's incriminating notes staged for Thalmor Justiciar discovery
+- Mallus Maccius preserved as a Guild asset by directing Justiciar attention to Sabjorn's mismanagement
+- Seized "Sabjorn's Ledger of Losses," "Whiterun Guard Contract Notes," and "Coded Shipment Schedule" as leverage
+
+**Exfiltration:**
+- Used Shadow Ward to vanish from the upper office before Justiciar investigation concluded
+- Magical exit confounded Thalmor tracking attempts; Justiciar failed to trace arcane residue
+- Successfully avoided leaving magical signature that could be traced back to specific identity
+
+**Justiciar Seizure Initiated:**
+- Thalmor oversight of Honningbrew Meadery officially triggered
+- Investigation focused on Sabjorn's business practices and poison contamination
+- Maven Black-Briar's interests protected; no trail leading to the Guild or Black-Briar operations
+
+**Return to Riften:**
+- Departed Whiterun Hold via carriage (10 Septims fare)
+- Traveled to Riften to report mission success to Maven Black-Briar
+- Secured Pale-route intelligence material for potential lead toward Arisann's location
+
+**Consequences:**
+- Thalmor search clock +1 (paperwork and oversight fallout from Justiciar involvement)
+- Thieves Guild trust +1 (successful major operation with no exposure)
+- Ready to negotiate with Maven for Pale-route information using seized evidence
+
+---
+
 **End of Session 03**
