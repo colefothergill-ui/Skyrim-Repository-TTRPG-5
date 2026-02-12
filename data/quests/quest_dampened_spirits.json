@@ -2,7 +2,7 @@
   "quest_id": "quest_dampened_spirits",
   "name": "Dampened Spirits",
   "type": "Thieves Guild Mainline",
-  "status": "Ready to Turn In",
+  "status": "Completed",
   "giver": "Maven Black-Briar (via Mercer Frey / Thieves Guild patronage)",
   "location": "Whiterun Hold — Honningbrew Meadery",
   "description": "Maven wants Honningbrew Meadery ruined so Black-Briar Mead can dominate. Mallus Maccius is her plant inside the business. Your job: make the meadery fail publicly while keeping the trail away from Maven and the Guild.",
@@ -24,7 +24,7 @@
     },
     {
       "description": "Report back to Maven / the Guild with proof of completion and keep Maven unexposed.",
-      "status": "Active",
+      "status": "Completed",
       "optional": false
     }
   ],
@@ -35,9 +35,9 @@
     "Honningbrew Guard"
   ],
   "rewards": {
-    "gold": 0,
+    "gold": 600,
     "items": [],
     "reputation": "+? with Thieves Guild / Maven (GM set on completion)"
   },
-  "notes": "This quest is adapted to the campaign's civil-war timeline; keep sabotage discreet to avoid Thalmor attention. Honningbrew seized/investigated under Thalmor oversight; Sabjorn dirt acquired; Mallus preserved."
+  "notes": "This quest is adapted to the campaign's civil-war timeline; keep sabotage discreet to avoid Thalmor attention. Maven received ledger/contract/schedule; paid bonus; Mallus extracted under Black-Briar cover."
 }

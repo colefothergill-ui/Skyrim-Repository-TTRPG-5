@@ -1,11 +1,11 @@
 # Session 03 Log — 2026-02-09
 
-## A1-S11 — Mirror Trial: Glass & Honningbrew Meadery Prep
+## A1-S11 — Mirror Trial: Glass & Honningbrew Meadery Infiltration
 
 ### Scene Overview
 **Location:** Riften — Ragged Flagon (Cistern) → Whiterun Hold — Honningbrew Meadery (Exterior)  
-**Objective:** Complete Mirror Trial (Glass); receive Dampened Spirits assignment from Delvin; prepare for Honningbrew infiltration; initiate meadery operation  
-**Outcome:** Mirror Trial completed successfully; Spell of Glass unlocked; Thalmor heat increases; Thalmor Justiciar neutralized via protocol pressure; basement access secured
+**Objective:** Complete Mirror Trial (Glass); receive Dampened Spirits assignment from Delvin; prepare for Honningbrew infiltration; initiate and execute meadery operation  
+**Outcome:** Mirror Trial completed successfully; Spell of Glass unlocked; Thalmor heat increases; Thalmor Justiciar neutralized via protocol pressure; basement access secured; meadery sabotage completed cleanly
 
 ---
 
@@ -80,12 +80,14 @@ This maneuver bought the operational space needed but came at a cost: the Thalmo
 3. **Notice (Spot Truth)** (+3): Success with Style
    - Gained insight: "All Masks, One Shadow" (boost used immediately to solidify the lesson)
 
-**Fate Points:**
+**Fate Points (A1-S11):**
 - Started session: 5 FP
-- Gained from compel "Informants Everywhere": +1 FP
-- Spent on Mirror Trial Notice roll: -1 FP
-- Gained from completing Mirror Trial: +2 FP (GM award for trial completion)
-- Ended session: 7 FP
+- Gained from compel "Informants Everywhere": +1 FP (= 6 FP)
+- Spent on Mirror Trial Notice roll: -1 FP (= 5 FP)
+- Gained from completing Mirror Trial: +2 FP (= 7 FP)
+- Spent at Honningbrew upgrading tie to clean success: -1 FP (= 6 FP)
+- Spent at Honningbrew invoking Phantom Blade aspect: -1 FP (= 5 FP)
+- Spent at Honningbrew to mask arcane residue: -1 FP (= 4 FP)
 
 **Stress & Consequences:**
 - No stress cleared from rest (due to Mirror Trial compel)
@@ -104,20 +106,31 @@ This maneuver bought the operational space needed but came at a cost: the Thalmo
 **Heat & Clocks:**
 - Thalmor search clock: 0 → 2/8 (from "Famous in Wrong Circles" + "Informants Everywhere" compels)
 - Spell Tome awakening clock: 1 → 4/8 (Mirror Trial completion + progression)
+- Thieves Guild trust: Advanced (Dampened Spirits completion)
+
+---
+
+### Currency & Rewards
+
+**Session Total:**
+- Quest payout (Dampened Spirits): +600 septims
+- **New Total:** 6,650 septims
 
 ---
 
 ### Story Hooks & Consequences
 
 **Immediate:**
-- Travel to Whiterun required — must navigate post-Battle politics and potential Thalmor presence
-- Honningbrew infiltration looms: sabotage vs. investigation balance needed
-- Mallus Maccius decision will have faction/leverage consequences
+- **Arisann Lead Acquired:** Maven's intel provides the first solid connection to Arisann's disappearance
+- Nightgate Pass in The Pale: Travel required to contact Hroldar 'Whitefin'
+- Passphrase protocol established: "salt survives the mirror" / "then don't blink"
+- Ivory Thread courier lattice: Potential broader conspiracy beyond a single missing person
 
 **Ongoing:**
 - Thalmor net continues tightening (search clock at 2/8)
 - Maven Black-Briar's increasing involvement with Guild operations
-- The Pale connection from Goldenglow papers remains unexplored
+- Mallus Maccius now a protected Black-Briar asset — potential future leverage
+- The Pale connection from Goldenglow papers now confirmed through Maven's intel
 - Arisann's trail grows colder with each passing day
 
 **Character Development:**
@@ -136,10 +149,10 @@ This maneuver bought the operational space needed but came at a cost: the Thalmo
 - Accepted heat/consequence compels without hesitation — mature risk assessment
 
 **Next Session Prep:**
-- Frame Whiterun travel with Thalmor tension/checkpoint possibilities
-- Prepare Honningbrew Meadery layout and NPC interactions
-- Consider Mallus exposure vs. protection consequences
-- Track how Thalmor search clock advancement manifests in-world
+- Frame The Pale travel: Nightgate Pass contact with Hroldar 'Whitefin'
+- Consider Thalmor presence along northern routes
+- Develop Ivory Thread courier lattice lore and conspiracy implications
+- Arisann trail heats up — what did she discover that led her to The Pale?
 
 ---
 
@@ -150,6 +163,13 @@ This maneuver bought the operational space needed but came at a cost: the Thalmo
 - Delivered Honningbrew assignment with thorough intelligence
 - Emphasized Maven's personal interest in the job's success
 - Noted Whiterun's current instability as both opportunity and risk
+
+**Maven Black-Briar (Bee and Barb Turn-In):**
+- Disposition: Satisfied, impressed
+- Received Dampened Spirits completion report with approval
+- Confirmed Mallus extraction under Black-Briar protection
+- Provided critical Arisann lead: Ivory Thread lattice intel and Nightgate Pass contact
+- Recognized Insaerndel's unique value through skilled negotiation
 
 **Mirror Reflections (Trial NPCs):**
 - The Dream Catcher: Vengeful, hunted
@@ -166,6 +186,10 @@ This maneuver bought the operational space needed but came at a cost: the Thalmo
 - Delvin's Honningbrew Dossier (intelligence package)
 - Vial of "special ingredient" for meadery sabotage (alchemical poison)
 - Knowledge: Honningbrew layout and guard patterns
+- Quest reward: 600 septims from Maven
+- Arisann lead: Ivory Thread courier lattice intel
+- Contact protocol: Hroldar 'Whitefin' at Nightgate Pass
+- Passphrase: "salt survives the mirror" / "then don't blink"
 
 **Spent:**
 - Rest opportunity (traded for Mirror Trial)
@@ -180,6 +204,8 @@ This maneuver bought the operational space needed but came at a cost: the Thalmo
 - "Maven's Eyes on Honningbrew" (situation)
 - "Ratway Whispers" (complication from compel)
 - "Justiciar's Paper Trail" (complication — Thalmor documentation of the "inspector")
+- "Ivory Thread Connection" (situation — new lead on Arisann)
+- "Mallus Under Black-Briar Wing" (situation — preserved asset)
 
 **Active:**
 - "Thieves Guild Rising Star"
@@ -198,35 +224,59 @@ This maneuver bought the operational space needed but came at a cost: the Thalmo
 
 ---
 
-**Honningbrew Operation Conclusion & Exfiltration**
+**End of A1-S11**
 
-With the basement sabotage complete and evidence meticulously staged, Insaerndel executed the final phase of the operation:
+---
 
-**Operation Wrap-Up:**
-- Skeever nest destroyed, preventing future contamination while ensuring current vats were tainted
-- Poison kit and Sabjorn's incriminating notes staged for Thalmor Justiciar discovery
-- Mallus Maccius preserved as a Guild asset by directing Justiciar attention to Sabjorn's mismanagement
-- Seized "Sabjorn's Ledger of Losses," "Whiterun Guard Contract Notes," and "Coded Shipment Schedule" as leverage
+## A1-S13 — Quest Turn-In at the Bee and Barb
 
-**Exfiltration:**
-- Used Shadow Ward to vanish from the upper office before Justiciar investigation concluded
-- Magical exit confounded Thalmor tracking attempts; Justiciar failed to trace arcane residue
-- Successfully avoided leaving magical signature that could be traced back to specific identity
+### Scene Overview
+**Location:** Riften — Bee and Barb  
+**Objective:** Report Dampened Spirits completion to Maven Black-Briar; receive payment and any additional intelligence  
+**Outcome:** Maven satisfied with clean execution; 600 septim payout awarded; critical Arisann lead acquired (Ivory Thread lattice, Hroldar 'Whitefin' contact, Nightgate Pass)
 
-**Justiciar Seizure Initiated:**
-- Thalmor oversight of Honningbrew Meadery officially triggered
-- Investigation focused on Sabjorn's business practices and poison contamination
-- Maven Black-Briar's interests protected; no trail leading to the Guild or Black-Briar operations
+---
 
-**Return to Riften:**
-- Departed Whiterun Hold via carriage (10 Septims fare)
-- Traveled to Riften to report mission success to Maven Black-Briar
-- Secured Pale-route intelligence material for potential lead toward Arisann's location
+### Narrative Summary
 
-**Consequences:**
-- Thalmor search clock +1 (paperwork and oversight fallout from Justiciar involvement)
-- Thieves Guild trust +1 (successful major operation with no exposure)
-- Ready to negotiate with Maven for Pale-route information using seized evidence
+With the Honningbrew operation completed successfully and Mallus secured, Insaerndel returned to Riften to deliver the results to Maven Black-Briar at the Bee and Barb.
+
+**Meeting with Maven:**
+
+Maven received the report with evident satisfaction:
+- The Honningbrew Meadery's reputation was in ruins following the official seizure
+- Mallus Maccius remained unexposed as her asset
+- The operation was clean, with no trail leading back to Black-Briar interests
+- Sabjorn faced official consequences while Maven's hand remained hidden
+
+**Maven's Payment and Intel:**
+
+Impressed by the surgical precision of the operation, Maven provided:
+- **Payment:** 600 septims (above standard Guild rates)
+- **Critical Lead:** Information about the Ivory Thread courier lattice
+  - The network operates through The Pale
+  - Contact point: Hroldar 'Whitefin' at Nightgate Pass
+  - Passphrase protocol: "salt survives the mirror" / reply "then don't blink"
+  - Direct connection to Arisann's disappearance
+
+**Negotiation:**
+
+During the conversation, Insaerndel invoked his High Concept ("EX Vaermina Cultist - Turned Daedrologist, Illusionist Extraordinaire, and Cunning Thief") to demonstrate the value of his unique skillset and secure Maven's trust for future intelligence sharing. This expenditure of fate proved worthwhile — Maven confirmed that Mallus would be extracted and placed under Black-Briar protection, preserving him as a long-term asset.
+
+**Outcome:**
+- Dampened Spirits quest completed
+- Mallus preserved as Maven's insulated asset
+- Ivory Thread lead acquired — first solid connection to Arisann's trail
+- Maven's disposition toward Insaerndel: Impressed and willing to share actionable intelligence
+
+---
+
+### Mechanics & Rolls
+
+**Fate Points (A1-S13):**
+- Started scene: 4 FP (carried from A1-S11)
+- Spent invoking High Concept during negotiation: -1 FP
+- Ended session: 3 FP
 
 ---
 

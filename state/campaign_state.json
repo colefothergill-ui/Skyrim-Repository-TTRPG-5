@@ -12,7 +12,11 @@
   "current_scene_id": "A1-S13",
   "current_location": "Riften — Bee and Barb",
   "active_hold": "The Rift",
+<<<<<<< copilot/edit-campaign-and-quest-data-again
+  "current_objective": "Follow Maven's Pale-route intel: contact Ivory Thread via Nightgate Pass; pursue Arisann lead (Hroldar 'Whitefin').",
+=======
   "current_objective": "Turn in 'Dampened Spirits' to Maven Black-Briar. Use seized Honningbrew evidence to negotiate a Pale-route lead toward Arisann.",
+>>>>>>> main
   "current_npcs": [],
   "scene_flags": {
     "battle_of_whiterun_active": false,
@@ -76,25 +80,15 @@
     "honningbrew_seizure_in_motion": true,
     "honningbrew_mallus_led_discovery": true,
     "honningbrew_boost_surgical_silence_consumed": true,
-    "dampened_spirits_ready_to_turn_in": true,
-    "honningbrew_sabotage_complete": true,
-    "honningbrew_justiciar_seizure_triggered": true,
-    "mallus_asset_preserved": true,
-    "returned_to_riften_by_carriage": true
+    "dampened_spirits_turned_in": true,
+    "mallus_asset_insulated_by_maven": true,
+    "ivory_thread_lead_acquired": true,
+    "arisann_lead_contact_hroldar_whitefin": true,
+    "arisann_meet_point_nightgate_pass": true
   },
   "scene_last_major_update": "2026-02-09",
-  "scene_aspects": {
-    "ghost_map_of_honningbrew": {
-      "free_invokes": 2,
-      "source": "Clairvoyance (Lore magic) SWS"
-    }
-  },
-  "scene_clocks": {
-    "basement_sweep_clock": {
-      "current": 0,
-      "max": 2
-    }
-  },
+  "scene_aspects": {},
+  "scene_clocks": {},
   "civil_war_state": {
     "player_alliance": "imperial",
     "whiterun_control": "imperial",
