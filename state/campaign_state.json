@@ -9,10 +9,10 @@
   "session_count": 3,
   "last_updated": "2026-02-09",
   "starting_location": "Whiterun",
-  "current_scene_id": "A1-S11",
-  "current_location": "Whiterun Hold — Honningbrew Meadery (Upper Office / Seizure Imminent)",
-  "active_hold": "Whiterun Hold",
-  "current_objective": "Travel to Whiterun; execute 'Dampened Spirits' at Honningbrew Meadery (decide: expose or protect Mallus) while avoiding Thalmor attention.",
+  "current_scene_id": "A1-S13",
+  "current_location": "Riften — Bee and Barb",
+  "active_hold": "The Rift",
+  "current_objective": "Turn in 'Dampened Spirits' to Maven Black-Briar. Use seized Honningbrew evidence to negotiate a Pale-route lead toward Arisann.",
   "current_npcs": [],
   "scene_flags": {
     "battle_of_whiterun_active": false,
@@ -75,7 +75,12 @@
     "honningbrew_justiciar_failed_to_trace_magic": true,
     "honningbrew_seizure_in_motion": true,
     "honningbrew_mallus_led_discovery": true,
-    "honningbrew_boost_surgical_silence_consumed": true
+    "honningbrew_boost_surgical_silence_consumed": true,
+    "dampened_spirits_ready_to_turn_in": true,
+    "honningbrew_sabotage_complete": true,
+    "honningbrew_justiciar_seizure_triggered": true,
+    "mallus_asset_preserved": true,
+    "returned_to_riften_by_carriage": true
   },
   "scene_last_major_update": "2026-02-09",
   "scene_aspects": {
