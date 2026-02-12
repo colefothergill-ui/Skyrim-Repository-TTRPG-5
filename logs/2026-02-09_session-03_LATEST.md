@@ -1,11 +1,11 @@
 # Session 03 Log — 2026-02-09
 
-## A1-S11 — Mirror Trial: Glass & Honningbrew Meadery Prep
+## A1-S11 — Mirror Trial: Glass & Honningbrew Meadery Infiltration
 
 ### Scene Overview
-**Location:** Riften — Ragged Flagon (Cistern) → Whiterun Hold — Honningbrew Meadery (Exterior) → Riften — Bee and Barb  
-**Objective:** Complete Mirror Trial (Glass); receive Dampened Spirits assignment from Delvin; prepare for Honningbrew infiltration; initiate meadery operation; complete turn-in to Maven  
-**Outcome:** Mirror Trial completed successfully; Spell of Glass unlocked; Thalmor heat increases; Thalmor Justiciar neutralized via protocol pressure; basement access secured; Dampened Spirits completed; Maven provided Arisann lead
+**Location:** Riften — Ragged Flagon (Cistern) → Whiterun Hold — Honningbrew Meadery (Exterior)  
+**Objective:** Complete Mirror Trial (Glass); receive Dampened Spirits assignment from Delvin; prepare for Honningbrew infiltration; initiate and execute meadery operation  
+**Outcome:** Mirror Trial completed successfully; Spell of Glass unlocked; Thalmor heat increases; Thalmor Justiciar neutralized via protocol pressure; basement access secured; meadery sabotage completed cleanly
 
 ---
 
@@ -80,13 +80,14 @@ This maneuver bought the operational space needed but came at a cost: the Thalmo
 3. **Notice (Spot Truth)** (+3): Success with Style
    - Gained insight: "All Masks, One Shadow" (boost used immediately to solidify the lesson)
 
-**Fate Points:**
+**Fate Points (A1-S11):**
 - Started session: 5 FP
-- Gained from compel "Informants Everywhere": +1 FP
-- Spent on Mirror Trial Notice roll: -1 FP
-- Gained from completing Mirror Trial: +2 FP (GM award for trial completion)
-- Spent on Bee and Barb negotiation (invoking High Concept): -1 FP
-- Ended session: 6 FP (arithmetic total; see PC notes for additional Honningbrew infiltration FP spends earlier in session)
+- Gained from compel "Informants Everywhere": +1 FP (= 6 FP)
+- Spent on Mirror Trial Notice roll: -1 FP (= 5 FP)
+- Gained from completing Mirror Trial: +2 FP (= 7 FP)
+- Spent at Honningbrew upgrading tie to clean success: -1 FP (= 6 FP)
+- Spent at Honningbrew invoking Phantom Blade aspect: -1 FP (= 5 FP)
+- Spent at Honningbrew to mask arcane residue: -1 FP (= 4 FP)
 
 **Stress & Consequences:**
 - No stress cleared from rest (due to Mirror Trial compel)
@@ -223,7 +224,20 @@ This maneuver bought the operational space needed but came at a cost: the Thalmo
 
 ---
 
-**Quest Turn-In at the Bee and Barb**
+**End of A1-S11**
+
+---
+
+## A1-S13 — Quest Turn-In at the Bee and Barb
+
+### Scene Overview
+**Location:** Riften — Bee and Barb  
+**Objective:** Report Dampened Spirits completion to Maven Black-Briar; receive payment and any additional intelligence  
+**Outcome:** Maven satisfied with clean execution; 600 septim payout awarded; critical Arisann lead acquired (Ivory Thread lattice, Hroldar 'Whitefin' contact, Nightgate Pass)
+
+---
+
+### Narrative Summary
 
 With the Honningbrew operation completed successfully and Mallus secured, Insaerndel returned to Riften to deliver the results to Maven Black-Briar at the Bee and Barb.
 
@@ -254,6 +268,15 @@ During the conversation, Insaerndel invoked his High Concept ("EX Vaermina Culti
 - Mallus preserved as Maven's insulated asset
 - Ivory Thread lead acquired — first solid connection to Arisann's trail
 - Maven's disposition toward Insaerndel: Impressed and willing to share actionable intelligence
+
+---
+
+### Mechanics & Rolls
+
+**Fate Points (A1-S13):**
+- Started scene: 4 FP (carried from A1-S11)
+- Spent invoking High Concept during negotiation: -1 FP
+- Ended session: 3 FP
 
 ---
 
