@@ -86,8 +86,7 @@ This maneuver bought the operational space needed but came at a cost: the Thalmo
 - Spent on Mirror Trial Notice roll: -1 FP
 - Gained from completing Mirror Trial: +2 FP (GM award for trial completion)
 - Spent on Bee and Barb negotiation (invoking High Concept): -1 FP
-- Ended session: 6 FP
-  - Note: Additional FP spends during Honningbrew infiltration (earlier in session) documented in PC notes
+- Ended session: 6 FP (arithmetic total; see PC notes for additional Honningbrew infiltration FP spends earlier in session)
 
 **Stress & Consequences:**
 - No stress cleared from rest (due to Mirror Trial compel)
