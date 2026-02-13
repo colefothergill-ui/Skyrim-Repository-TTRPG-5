@@ -1,43 +1,30 @@
 {
   "quest_id": "quest_dampened_spirits",
   "name": "Dampened Spirits",
-  "type": "Thieves Guild Mainline",
+  "type": "Faction Quest",
   "status": "Completed",
-  "giver": "Maven Black-Briar (via Mercer Frey / Thieves Guild patronage)",
-  "location": "Whiterun Hold — Honningbrew Meadery",
-  "description": "Maven wants Honningbrew Meadery ruined so Black-Briar Mead can dominate. Mallus Maccius is her plant inside the business. Your job: make the meadery fail publicly while keeping the trail away from Maven and the Guild.",
+  "giver": "Maven Black-Briar",
+  "location": "Whiterun — Honningbrew Meadery / Riften — Bee and Barb",
+  "description": "Maven Black-Briar orders the collapse of Honningbrew Meadery by exposing Sabjorn's corruption and ensuring the brew is ruined. The job must stay deniable while preserving Maven's inside contact, Mallus.",
   "objectives": [
-    {
-      "description": "Reach Honningbrew Meadery and make contact with the situation on-site (guards, Sabjorn, staff).",
-      "status": "Completed",
-      "optional": false
-    },
-    {
-      "description": "Identify and secure leverage regarding the sabotage (Mallus's role, the skeever breeding, poison supplies, or ledgers).",
-      "status": "Completed",
-      "optional": false
-    },
-    {
-      "description": "Sabotage Honningbrew's product or operations in a way that forces an official failure event (contract loss, arrest, shutdown, etc.).",
-      "status": "Completed",
-      "optional": false
-    },
-    {
-      "description": "Report back to Maven / the Guild with proof of completion and keep Maven unexposed.",
-      "status": "Completed",
-      "optional": false
-    }
-  ],
-  "related_npcs": [
-    "Maven Black-Briar",
-    "Sabjorn",
-    "Mallus Maccius",
-    "Honningbrew Guard"
+    { "description": "Infiltrate Honningbrew and reach Mallus without exposing the Guild.", "status": "Completed", "optional": false },
+    { "description": "Secure Sabjorn's incriminating documents and the poison vial.", "status": "Completed", "optional": false },
+    { "description": "Stage evidence to ensure Sabjorn is blamed (skeever infestation framing).", "status": "Completed", "optional": false },
+    { "description": "Poison the vats to destroy Honningbrew's product and reputation.", "status": "Completed", "optional": false },
+    { "description": "Preserve Mallus as a viable asset and return to Maven with receipts.", "status": "Completed", "optional": false }
   ],
   "rewards": {
+    "experience": 250,
     "gold": 600,
-    "items": [],
-    "reputation": "+? with Thieves Guild / Maven (GM set on completion)"
+    "items": ["Coded Shipment Schedule (Ivory Thread mark)", "Honningbrew Office Packet (evidence)"],
+    "reputation": "+1 Thieves Guild Trust"
   },
-  "notes": "This quest is adapted to the campaign's civil-war timeline; keep sabotage discreet to avoid Thalmor attention. Maven received ledger/contract/schedule; paid bonus; Mallus extracted under Black-Briar cover."
+  "notes": "Turn-in to Maven produced a concrete Arisann lead tied to a courier lattice ('Ivory Thread'). Contact: Hroldar 'Whitefin'. Meet: Nightgate Pass (The Pale). Passphrase exchange established.",
+  "related_npcs": ["Maven Black-Briar", "Mallus Maccius", "Sabjorn", "Mercer Frey", "Brynjolf"],
+  "related_locations": ["Honningbrew Meadery", "Riften — Bee and Barb", "Nightgate Pass"],
+  "fate_core_notes": {
+    "aspects": ["Rot in the Casks", "Black-Briar Leverage", "Dominion Eyes Nearby"],
+    "compels": ["A Justiciar insists on 'procedure' at the worst possible moment", "Evidence is good—but paper trails are dangerous"],
+    "scene_aspects": ["Sour Mash Stench", "Rattling Barrels", "Office Door Half-Latched"]
+  }
 }

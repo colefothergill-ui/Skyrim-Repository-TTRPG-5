@@ -1140,6 +1140,9 @@ crossfire.
         
         log_content += narrative
         
+        default_hooks = "- The Battle of Whiterun approaches\n- Choose your role in the civil war\n- Protect or challenge Jarl Balgruuf"
+        hooks_text = campaign_info.get("hooks", default_hooks)
+        
         log_content += f"""
 ## Campaign Setup
 
@@ -1150,7 +1153,7 @@ crossfire.
 Whiterun - The heart of Skyrim, about to become a battlefield.
 
 ### Initial Hooks
-{campaign_info.get('hooks', "- The Battle of Whiterun approaches\n- Choose your role in the civil war\n- Protect or challenge Jarl Balgruuf")}
+{hooks_text}
 
 ### House Rules Discussed
 - Standing Stones MUST be selected during Session Zero (cannot be skipped)
