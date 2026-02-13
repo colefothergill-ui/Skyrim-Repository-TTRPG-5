@@ -5,6 +5,24 @@ This script defines location-based scene descriptors and quest triggers for The 
 It covers arrival ambiance, the nightmare plague quest hook, local bounty quests, environmental hazards, and integrates with the broader narrative trigger system.
 """
 
+def pale_get_next_scene(campaign_state):
+    """
+    Main scene assembly function for The Pale.
+    Checks for triggered events and returns a scene descriptor if one fires.
+    
+    Args:
+        campaign_state: Dictionary containing campaign state
+        
+    Returns:
+        Dictionary with scene information if a trigger fires, None otherwise
+    """
+    # Check for Erandur intersect trigger
+    evt = trigger_erandur_intersect(campaign_state)
+    if evt:
+        return evt
+    
+    return None
+
 def scene_dawnstar_arrival(party_state=None):
     """
     Scene trigger: Party arrives in Dawnstar for the first time.
@@ -99,6 +117,28 @@ def trigger_pale_blizzard(campaign_state=None):
     if campaign_state is not None:
         # Mark that a blizzard event is happening (could be used to apply penalties or require survival checks)
         campaign_state['blizzard_active'] = True
+
+def trigger_erandur_intersect(campaign_state):
+    """
+    Fires once when the PC approaches Nightcaller Temple directly (esp. via Clairvoyance),
+    allowing Erandur to intersect on the road/sleeper camp rather than at Windpeak Inn.
+    """
+    flags = campaign_state.setdefault("scene_flags", {})
+    if flags.get("erandur_introduced"):
+        return None
+
+    if flags.get("session04_whitefin_location_divined") or flags.get("session04_nightcaller_temple_targeted"):
+        flags["erandur_introduced"] = True
+        flags["erandur_intersection_method"] = "sleeper_camp_roadside"
+        return {
+            "scene_id": "A1-S15-ERANDUR",
+            "title": "Roadside Sleeper Camp — Erandur Intersects",
+            "type": "social",
+            "location": "The Pale — Roadside camp below Nightcaller Temple",
+            "tags": ["erandur", "vaermina", "waking_nightmare", "arisann_hook"]
+        }
+
+    return None
 
 # (Optional) Additional triggers for Dawnstar Sanctuary or Civil War changes can be added when relevant.
 # These functions are designed to integrate with the existing narrative engine, 
