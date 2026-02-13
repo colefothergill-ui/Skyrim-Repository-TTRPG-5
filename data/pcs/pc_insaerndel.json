@@ -9,9 +9,9 @@
     "high_concept": "EX Vaermina Cultist - Turned Daedrologist, Illusionist Extraordinaire, and Cunning Thief (Identity).",
     "trouble": "WANTED: DEAD OR ALIVE - The Dream Catcher of Dusk (Traitor of the Aldmeri Dominion).",
     "other_aspects": [
-      "Wizard Consultant of Mistveil Keep (Job/Title).",
+      "Blackbriar Consultant &amp; Mistveil Keep Master Wizard (Job/Title).",
       "Great War Veteran - Former Penitus Oculatus. CODE NAME: Phantom Blade Insaerndel. ALIAS: Orinthelo. (Past Acts of Infamy).",
-      "Nightblade Footpad of the Thieves Guild - Brynjolf's Magician (Bond)."
+      "Nightblade Senior Member of the Thieves Guild - Brynjolf's Champion (Bond)."
     ],
     "compel_library": {
       "source_aspect": "WANTED: DEAD OR ALIVE - The Dream Catcher of Dusk (Traitor of the Aldmeri Dominion).",
@@ -279,8 +279,9 @@
     }
   ],
   "milestones": [
-    "Minor Milestone earned — End of Whiterun battle sequence (banked; spend when convenient)",
-    "Significant Milestone earned — Battle of Whiterun resolved + Thalmor handler neutralized + Whiterun guild foothold secured (banked; spend when convenient)"
+    "Minor Milestone earned — End of Whiterun battle sequence (SPENT: Aspect rewrite → 'Wizard Consultant of Mistveil Keep' → 'Blackbriar Consultant &amp; Mistveil Keep Master Wizard')",
+    "Minor Milestone earned — End of Session 03 (SPENT: Aspect rewrite → 'Nightblade Footpad of the Thieves Guild - Brynjolf's Magician' → 'Nightblade Senior Member of the Thieves Guild - Brynjolf's Champion')",
+    "Significant Milestone earned — Battle of Whiterun resolved + Thalmor handler neutralized + Whiterun guild foothold secured (SPENT: Skill column advancement → Contacts raised to Fair (+2))"
   ],
   "gold": 6640,
   "experience": 0,
