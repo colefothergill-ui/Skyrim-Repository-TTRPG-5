@@ -18,7 +18,7 @@
     "items": [],
     "reputation": "Varies by choices"
   },
-  "notes": "This quest advances primarily via the clock 'Search for Arisann'. The Ivory Thread is not a faction—it's a lattice. Cutting one node rarely stops the flow; it just reroutes it.",
+  "notes": "This quest advances primarily via the clock insaerndel_search_for_arisann ('Search for Arisann (Sister)'). The Ivory Thread is not a faction—it's a lattice. Cutting one node rarely stops the flow; it just reroutes it.",
   "related_npcs": ["Hroldar \"Whitefin\"", "Maven Black-Briar"],
   "related_locations": ["Riften — Bee and Barb", "Nightgate Pass"],
   "fate_core_notes": {
