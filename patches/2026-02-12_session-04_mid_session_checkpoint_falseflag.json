@@ -15,10 +15,6 @@
       "change": "Append equipment items: Justiciar documentation, stamped travel writ, warhorse. Append note about Whitefin divination."
     },
     {
-      "file": "logs/2026-02-12_session-03_LATEST.md",
-      "change": "Add missing dated copy of Session 03 log to align with 2026-02-12 end-state patch naming (content matches 2026-02-09_session-03_LATEST.md)."
-    },
-    {
       "file": "logs/2026-02-12_session-04_LATEST.md",
       "change": "Create Session 04 log capturing checkpoint ambush, false-flag, mount acquisition, and clairvoyance target."
     }
