@@ -237,9 +237,9 @@
   "npc_first_impressions": {
     "brynjolf": {
       "pc_insaerndel": {
-        "timestamp": "2026-02-13T00:24:28.722255",
+        "timestamp": "2026-02-13T00:25:41.138752",
         "disposition": "neutral",
-        "line": "That buckle—old Nocturnal style. You're either Guild… or you stole the right symbol from the wrong person.",
+        "line": "Silver eye-knot at the waist, keyring at the hip. You're not subtle to the people who matter.",
         "source": "thieves_nocturnal_buckle",
         "recognition_tags": [
           "altmer",
@@ -348,7 +348,7 @@
     },
     "brother_verulus": {
       "pc_insaerndel": {
-        "timestamp": "2026-02-13T00:24:28.723516",
+        "timestamp": "2026-02-13T00:25:45.319838",
         "disposition": "neutral",
         "line": "That hip-tome… the embossed eye isn't decorative. Vaermina. Quagmire has fingerprints, even on leather.",
         "source": "occult_vaermina_tome",

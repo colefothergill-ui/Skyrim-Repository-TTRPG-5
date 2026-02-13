@@ -59,7 +59,7 @@
   "conditional_first_impression_lines": [
     {
       "id": "occult_vaermina_tome",
-      "if_npc_blob_any": ["daedrologist", "daedric", "occult", "cult", "vaermina", "quagmire", "mystic", "conjurer", "priest"],
+      "if_npc_blob_any": ["daedrologist", "daedric", "occult", "cult", "vaermina", "quagmire", "mystic", "conjurer", "priest of arkay", "vigilant"],
       "lines": {
         "neutral": [
           "That hip-tome… the embossed eye isn't decorative. Vaermina. Quagmire has fingerprints, even on leather.",
@@ -77,7 +77,7 @@
     },
     {
       "id": "thieves_nocturnal_buckle",
-      "if_npc_blob_any": ["thieves guild", "ragged flagon", "nocturnal", "nightingale", "fence", "pickpocket", "burglar", "guild"],
+      "if_npc_blob_any": ["thieves guild", "ragged flagon", "nocturnal", "nightingale", "fence", "pickpocket", "burglar"],
       "lines": {
         "neutral": [
           "That buckle—old Nocturnal style. You're either Guild… or you stole the right symbol from the wrong person.",
