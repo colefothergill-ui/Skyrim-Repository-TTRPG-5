@@ -123,11 +123,12 @@ def trigger_erandur_intersect(campaign_state):
     Fires once when the PC approaches Nightcaller Temple directly (esp. via Clairvoyance),
     allowing Erandur to intersect on the road/sleeper camp rather than at Windpeak Inn.
     """
-    flags = campaign_state.get("scene_flags") or {}
+    flags = campaign_state.get("scene_flags", {})
     
     # If the Waking Nightmare quest has already been given via another path
     # (e.g., Windpeak Inn), skip this alternate intersection to avoid a
     # duplicated introduction to Erandur.
+    # Check both campaign_state root (historical location) and scene_flags (newer location).
     if campaign_state.get("waking_nightmare_quest_given") or flags.get("waking_nightmare_quest_given"):
         return None
     
