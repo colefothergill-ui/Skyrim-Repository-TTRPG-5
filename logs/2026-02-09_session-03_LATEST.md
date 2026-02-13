@@ -275,8 +275,9 @@ During the conversation, Insaerndel invoked his High Concept ("EX Vaermina Culti
 
 **Fate Points (A1-S13):**
 - Started scene: 4 FP (carried from A1-S11)
-- Spent invoking High Concept during negotiation: -1 FP
-- Ended session: 3 FP
+- Spent invoking High Concept during negotiation: -1 FP (= 3 FP)
+- Compel accepted "Justiciar's Paper Trail": +1 FP (= 4 FP)
+- Ended session: 4 FP
 
 ---
 
