@@ -237,7 +237,7 @@
   "npc_first_impressions": {
     "brynjolf": {
       "pc_insaerndel": {
-        "timestamp": "2026-02-13T00:25:41.138752",
+        "timestamp": "2026-02-13T00:27:34.506975",
         "disposition": "neutral",
         "line": "Silver eye-knot at the waist, keyring at the hip. You're not subtle to the people who matter.",
         "source": "thieves_nocturnal_buckle",
@@ -348,9 +348,9 @@
     },
     "brother_verulus": {
       "pc_insaerndel": {
-        "timestamp": "2026-02-13T00:25:45.319838",
+        "timestamp": "2026-02-13T00:27:34.508221",
         "disposition": "neutral",
-        "line": "That hip-tome… the embossed eye isn't decorative. Vaermina. Quagmire has fingerprints, even on leather.",
+        "line": "Most would call it 'a strange grimoire.' I call it a warning: that sigil is Vaermina's, and it never shows up by accident.",
         "source": "occult_vaermina_tome",
         "recognition_tags": [
           "altmer",
@@ -384,9 +384,9 @@
     },
     "balgruuf_the_greater": {
       "pc_insaerndel": {
-        "timestamp": "2026-02-13T00:24:28.724647",
+        "timestamp": "2026-02-13T00:27:34.509316",
         "disposition": "neutral",
-        "line": "A hooded Altmer in Riften-cut violet and gold—handsome, composed, and far too calm for someone carrying that many keys.",
+        "line": "There's a dark tome at his hip stamped with an eye-like sigil. Probably just scholar business… probably.",
         "source": "default",
         "recognition_tags": [
           "altmer",
