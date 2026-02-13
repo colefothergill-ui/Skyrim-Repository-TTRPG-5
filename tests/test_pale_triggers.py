@@ -162,6 +162,24 @@ def test_trigger_erandur_intersect():
     assert result is not None, "Expected scene dict when nightcaller_temple_targeted is True"
     assert result["scene_id"] == "A1-S15-ERANDUR"
     print("✓ Triggers correctly with nightcaller_temple_targeted flag")
+    
+    # Test that trigger doesn't fire if waking_nightmare_quest_given is already set
+    campaign_state = {
+        "scene_flags": {
+            "session04_whitefin_location_divined": True
+        },
+        "waking_nightmare_quest_given": True
+    }
+    result = trigger_erandur_intersect(campaign_state)
+    assert result is None, "Expected None when waking_nightmare_quest_given is already True"
+    print("✓ Doesn't trigger if Erandur already met via Windpeak Inn path")
+    
+    # Test that scene_flags is not created when trigger doesn't fire
+    campaign_state = {}
+    result = trigger_erandur_intersect(campaign_state)
+    assert result is None, "Expected None when no flags set"
+    assert "scene_flags" not in campaign_state, "Expected scene_flags not to be created when trigger doesn't fire"
+    print("✓ Doesn't mutate campaign_state when trigger doesn't fire")
 
 
 def test_pale_get_next_scene():
