@@ -237,25 +237,37 @@
   "npc_first_impressions": {
     "brynjolf": {
       "pc_insaerndel": {
-        "timestamp": "2026-02-03T04:22:12.548569",
-        "disposition": "positive",
-        "line": "A clever sort, aren't you? Keep your eyes open and your voice down—Riften rewards that.",
+        "timestamp": "2026-02-13T00:37:44.554042",
+        "disposition": "neutral",
+        "line": "That buckle—old Nocturnal style. You're either Guild… or you stole the right symbol from the wrong person.",
+        "source": "thieves_nocturnal_buckle",
         "recognition_tags": [
           "altmer",
           "tall",
           "lean",
-          "sharp features",
+          "handsome",
+          "sharp cheekbones",
+          "amber eyes",
           "ember eyes",
-          "long black hair",
+          "long raven-black hair",
+          "wavy hair",
+          "trimmed goatee",
+          "trimmed mustache",
           "hooded",
           "violet hood",
-          "purple cloak",
+          "gold-trim hood",
+          "purple robe",
           "gold trim",
-          "leather bracers",
-          "satchel",
+          "riften local vibe",
+          "riften patriot",
+          "thieves guild tells",
           "keyring",
-          "bookish",
-          "thief vibe"
+          "leather pouches",
+          "silver belt buckle",
+          "eye-knot buckle motif",
+          "strange hip-tome",
+          "eye-sigil grimoire",
+          "illusion-magic vibe"
         ]
       }
     },
@@ -331,6 +343,114 @@
           "professional",
           "chain-of-command respect",
           "under siege composure"
+        ]
+      }
+    },
+    "brother_verulus": {
+      "pc_insaerndel": {
+        "timestamp": "2026-02-13T00:37:48.860465",
+        "disposition": "neutral",
+        "line": "Most would call it 'a strange grimoire.' I call it a warning: that sigil is Vaermina's, and it never shows up by accident.",
+        "source": "occult_vaermina_tome",
+        "recognition_tags": [
+          "altmer",
+          "tall",
+          "lean",
+          "handsome",
+          "sharp cheekbones",
+          "amber eyes",
+          "ember eyes",
+          "long raven-black hair",
+          "wavy hair",
+          "trimmed goatee",
+          "trimmed mustache",
+          "hooded",
+          "violet hood",
+          "gold-trim hood",
+          "purple robe",
+          "gold trim",
+          "riften local vibe",
+          "riften patriot",
+          "thieves guild tells",
+          "keyring",
+          "leather pouches",
+          "silver belt buckle",
+          "eye-knot buckle motif",
+          "strange hip-tome",
+          "eye-sigil grimoire",
+          "illusion-magic vibe"
+        ]
+      }
+    },
+    "balgruuf_the_greater": {
+      "pc_insaerndel": {
+        "timestamp": "2026-02-13T00:27:34.509316",
+        "disposition": "neutral",
+        "line": "There's a dark tome at his hip stamped with an eye-like sigil. Probably just scholar business… probably.",
+        "source": "default",
+        "recognition_tags": [
+          "altmer",
+          "tall",
+          "lean",
+          "handsome",
+          "sharp cheekbones",
+          "amber eyes",
+          "ember eyes",
+          "long raven-black hair",
+          "wavy hair",
+          "trimmed goatee",
+          "trimmed mustache",
+          "hooded",
+          "violet hood",
+          "gold-trim hood",
+          "purple robe",
+          "gold trim",
+          "riften local vibe",
+          "riften patriot",
+          "thieves guild tells",
+          "keyring",
+          "leather pouches",
+          "silver belt buckle",
+          "eye-knot buckle motif",
+          "strange hip-tome",
+          "eye-sigil grimoire",
+          "illusion-magic vibe"
+        ]
+      }
+    },
+    "general_tullius": {
+      "pc_insaerndel": {
+        "timestamp": "2026-02-13T00:37:53.809660",
+        "disposition": "positive",
+        "line": "You look like you belong here. Not as a tourist. As someone the city already decided to keep.",
+        "source": "default",
+        "recognition_tags": [
+          "altmer",
+          "tall",
+          "lean",
+          "handsome",
+          "sharp cheekbones",
+          "amber eyes",
+          "ember eyes",
+          "long raven-black hair",
+          "wavy hair",
+          "trimmed goatee",
+          "trimmed mustache",
+          "hooded",
+          "violet hood",
+          "gold-trim hood",
+          "purple robe",
+          "gold trim",
+          "riften local vibe",
+          "riften patriot",
+          "thieves guild tells",
+          "keyring",
+          "leather pouches",
+          "silver belt buckle",
+          "eye-knot buckle motif",
+          "strange hip-tome",
+          "eye-sigil grimoire",
+          "illusion-magic vibe"
         ]
       }
     }

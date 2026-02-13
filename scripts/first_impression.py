@@ -96,6 +96,71 @@ def infer_disposition(repo_root: Path, npc_id: str, state: dict) -> str:
     return "neutral"
 
 
+def build_npc_blob(npc: dict) -> str:
+    """
+    Build a lower-case text blob from NPC metadata for simple keyword matching.
+    We intentionally include notes/aspects because many NPC files don't have formal tags.
+    """
+    parts: list[str] = []
+
+    def add(v):
+        if v is None:
+            return
+        if isinstance(v, str):
+            parts.append(v)
+        elif isinstance(v, (int, float, bool)):
+            parts.append(str(v))
+        elif isinstance(v, list):
+            for x in v:
+                add(x)
+        elif isinstance(v, dict):
+            for _, x in v.items():
+                add(x)
+
+    # common identity fields
+    for k in ("id", "name", "type", "faction", "location", "tags", "keywords", "affiliation", "allegiance", "side", "notes"):
+        add(npc.get(k))
+
+    # aspects often contain telling words (Daedrologist, Nocturnal, etc.)
+    add(npc.get("aspects"))
+
+    return " ".join(parts).lower()
+
+
+def select_impression_lines(appearance: dict, disposition: str, npc_id: str, npc_blob: str) -> tuple[list, str]:
+    """
+    Pick impression lines from conditional rules if matched; otherwise fall back to first_impression_lines.
+    Returns: (lines, source_id)
+    """
+    conds = appearance.get("conditional_first_impression_lines") or []
+    for c in conds:
+        if not isinstance(c, dict):
+            continue
+
+        # optional id list
+        id_list = c.get("if_npc_id_in") or []
+        if id_list and npc_id not in id_list:
+            continue
+
+        any_kw = [str(x).lower() for x in (c.get("if_npc_blob_any") or [])]
+        all_kw = [str(x).lower() for x in (c.get("if_npc_blob_all") or [])]
+
+        if any_kw and not any(k in npc_blob for k in any_kw):
+            continue
+        if all_kw and not all(k in npc_blob for k in all_kw):
+            continue
+
+        lines_dict = c.get("lines") or {}
+        lines = lines_dict.get(disposition) or lines_dict.get("neutral") or []
+        if lines:
+            return lines, (c.get("id") or "conditional")
+
+    # default behavior (existing)
+    base = appearance.get("first_impression_lines", {}) or {}
+    lines = base.get(disposition, []) or base.get("neutral", []) or []
+    return lines, "default"
+
+
 def maybe_first_impression(state_path, appearance_path, npc_id, disposition="neutral", force=False):
     """
     Records first impressions so NPCs can comment once, then recognize later.
@@ -114,16 +179,19 @@ def maybe_first_impression(state_path, appearance_path, npc_id, disposition="neu
     if (pc_id in state["npc_first_impressions"][npc_id]) and not force:
         return None
 
-    lines = (appearance.get("first_impression_lines", {}) or {}).get(disposition, [])
-    if not lines:
-        lines = (appearance.get("first_impression_lines", {}) or {}).get("neutral", [])
+    # Load NPC metadata so we can do conditional first impressions (occult/Guild recognition, etc.)
+    repo_root = Path(state_path).resolve().parent.parent
+    npc_meta = load_npc_metadata(repo_root, npc_id)
+    npc_blob = build_npc_blob(npc_meta)
 
+    lines, source_id = select_impression_lines(appearance, disposition, npc_id, npc_blob)
     line = random.choice(lines) if lines else None
 
     state["npc_first_impressions"][npc_id][pc_id] = {
         "timestamp": datetime.now().isoformat(),
         "disposition": disposition,
         "line": line,
+        "source": source_id,
         "recognition_tags": appearance.get("recognition_tags", [])
     }
 
