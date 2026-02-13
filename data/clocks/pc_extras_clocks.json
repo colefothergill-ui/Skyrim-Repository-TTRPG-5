@@ -6,7 +6,7 @@
       "insaerndel_search_for_arisann": {
         "name": "Search for Arisann (Sister)",
         "description": "Tracking Arisann's trail through rumors, dream-signs, and the Rift wilds.",
-        "current_progress": 5,
+        "current_progress": 6,
         "total_segments": 8,
         "completion_effect": "You locate Arisann (or her confirmed trail) and trigger the next arc step.",
         "advancement_triggers": [
@@ -62,7 +62,8 @@
           "At 4/8: Coordinated ambushes and framed incidents begin",
           "At 6/8: A named Justiciar (recurring antagonist) takes personal interest",
           "At 8/8: Major strike operation / bounty escalation / faction-wide alert"
-        ]
+        ],
+        "notes": "Session 04: checkpoint survivor was memory-rewritten + false-flag staged; if the deception holds, Thalmor pursuit is delayed. If it collapses, jump +2."
       },
       "insaerndel_spell_tome_of_quagmire_trials": {
         "name": "Spell Tome of Quagmire — Mirror Trials",

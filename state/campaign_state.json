@@ -9,10 +9,10 @@
   "session_count": 4,
   "last_updated": "2026-02-12",
   "starting_location": "Whiterun",
-  "current_scene_id": "A1-S14",
-  "current_location": "Riften — Bee and Barb",
-  "active_hold": "The Rift",
-  "current_objective": "Follow Maven's lead: contact the Ivory Thread (Hroldar 'Whitefin') and travel to Nightgate Pass (The Pale) to pursue Arisann's trail.",
+  "current_scene_id": "A1-S15",
+  "current_location": "The Pale — Nightgate Pass Approach (snow road)",
+  "active_hold": "The Pale",
+  "current_objective": "Reach Nightcaller Temple (overlooking Dawnstar) to find Hroldar 'Whitefin' and advance Arisann's trail (Ivory Thread lead).",
   "current_npcs": [],
   "scene_flags": {
     "battle_of_whiterun_active": false,
@@ -84,8 +84,16 @@
     "arisann_lead_contact_hroldar_whitefin": true,
     "arisann_meet_point_nightgate_pass": true,
     "compel_justiciar_paper_trail_accepted": true,
-    "erandur_introduced": false,
-    "erandur_intersection_method": null
+    "session04_started": true,
+    "session04_departed_riften": true,
+    "session04_justiciar_checkpoint_ambushed": true,
+    "session04_justiciar_and_squad_eliminated": true,
+    "session04_checkpoint_false_flag_stormcloak": true,
+    "session04_checkpoint_survivor_memory_rewritten": true,
+    "session04_thalmor_documents_acquired": true,
+    "session04_warhorse_acquired": true,
+    "session04_whitefin_location_divined": true,
+    "session04_nightcaller_temple_targeted": true
   },
   "scene_last_major_update": "2026-02-12",
   "scene_aspects": {},
@@ -159,7 +167,11 @@
       "stormcloak_ice_mage",
       "stormcloak_huscarl_1",
       "stormcloak_huscarl_2",
-      "galmar_stonefist"
+      "galmar_stonefist",
+      "thalmor_justiciar_checkpoint_rift",
+      "thalmor_soldier_checkpoint_1",
+      "thalmor_soldier_checkpoint_2",
+      "thalmor_archer_checkpoint"
     ],
     "npcs_befriended": [],
     "major_choices": [
@@ -179,7 +191,8 @@
       "Recovered a Pale-linked paper trail from the safe that may intersect with Arisann's disappearance.",
       "Completed 'Dampened Spirits': infiltrated Honningbrew under Veils, secured Mallus's cooperation, stole incriminating documents, staged skeever evidence, and poisoned the vats to collapse Sabjorn.",
       "Turned in to Maven with documents; earned deeper leverage and extracted a concrete Arisann lead tied to the Ivory Thread courier lattice.",
-      "Accepted Compel: 'Justiciar's Paper Trail' — Dominion bureaucracy begins cross-referencing anomalies; Thalmor net tightens on the Dream Catcher."
+      "Accepted Compel: 'Justiciar's Paper Trail' — Dominion bureaucracy begins cross-referencing anomalies; Thalmor net tightens on the Dream Catcher.",
+      "Ambushed a Thalmor Justiciar checkpoint en route to the Pale; staged a Stormcloak false-flag scene, rewrote the lone survivor's memory, seized Justiciar documents, and took the cart-horse as a mount."
     ]
   },
   "active_story_arcs": [
