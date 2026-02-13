@@ -19,7 +19,9 @@ from triggers.pale_triggers import (
     trigger_erandur_waking_nightmare,
     trigger_skald_giant_bounty,
     trigger_wayfinder_void_salts,
-    trigger_pale_blizzard
+    trigger_pale_blizzard,
+    trigger_erandur_intersect,
+    pale_get_next_scene
 )
 
 
@@ -127,6 +129,53 @@ def demo_quest_idempotence():
     print("\n" + "=" * 70)
 
 
+def demo_erandur_intersect():
+    """Demonstrate the Erandur intersect trigger"""
+    
+    print("\n" + "=" * 70)
+    print("ERANDUR INTERSECT TRIGGER DEMO")
+    print("=" * 70)
+    print("\nThis demonstrates the new Erandur intersect trigger.\n")
+    
+    print("─" * 70)
+    print("Scenario: PC approaches Nightcaller Temple directly via Clairvoyance")
+    print("─" * 70)
+    
+    campaign_state = {
+        "scene_flags": {
+            "session04_nightcaller_temple_targeted": True
+        }
+    }
+    
+    print("\nCalling pale_get_next_scene()...\n")
+    result = pale_get_next_scene(campaign_state)
+    
+    if result:
+        print("Scene triggered!")
+        print(f"  Scene ID: {result['scene_id']}")
+        print(f"  Title: {result['title']}")
+        print(f"  Type: {result['type']}")
+        print(f"  Location: {result['location']}")
+        print(f"  Tags: {', '.join(result['tags'])}")
+        print(f"\nScene flags updated:")
+        print(f"  erandur_introduced: {campaign_state['scene_flags']['erandur_introduced']}")
+        print(f"  erandur_intersection_method: {campaign_state['scene_flags']['erandur_intersection_method']}")
+    else:
+        print("No scene triggered.")
+    
+    print("\n" + "─" * 70)
+    print("Calling pale_get_next_scene() again (should not trigger)...")
+    print("─" * 70)
+    result = pale_get_next_scene(campaign_state)
+    
+    if result:
+        print("Scene triggered!")
+    else:
+        print("No scene triggered. (Correct - trigger is idempotent)")
+    
+    print("\n" + "=" * 70)
+
+
 def main():
     """Main demo function"""
     print("\n")
@@ -138,20 +187,25 @@ def main():
     print("Choose a demo to run:")
     print("\n1. Full Dawnstar Campaign Flow")
     print("2. Quest Idempotence Demo")
-    print("3. Run Both")
-    print("4. Exit")
+    print("3. Erandur Intersect Trigger Demo")
+    print("4. Run All")
+    print("5. Exit")
     
-    choice = input("\nEnter your choice (1-4): ").strip()
+    choice = input("\nEnter your choice (1-5): ").strip()
     
     if choice == "1":
         demo_dawnstar_campaign()
     elif choice == "2":
         demo_quest_idempotence()
     elif choice == "3":
+        demo_erandur_intersect()
+    elif choice == "4":
         demo_dawnstar_campaign()
         input("\n[Press Enter to continue to next demo...]")
         demo_quest_idempotence()
-    elif choice == "4":
+        input("\n[Press Enter to continue to next demo...]")
+        demo_erandur_intersect()
+    elif choice == "5":
         print("\nExiting demo. Talos guide you!")
         return
     else:
